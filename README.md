@@ -7,15 +7,23 @@ Windows Subsystem for Linux is a compatibility layer for running Linux binary ex
 
 # FAQ
 
+### What is Linux?
+
+### What is Windows?
+
+### What is the Windows subsystem for Linux?
+
+### How does Windows subsystem for Linux work?
+
 # Supported Distributions
 
-## Ubuntu
+### Ubuntu
 
-## Debian
+### Debian
 
-## OpenSUSE
+### OpenSUSE
 
-## Kali Linux
+### Kali Linux
 
 # Unofficial Distributions
 
