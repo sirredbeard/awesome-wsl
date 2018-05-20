@@ -16,25 +16,29 @@ A collection of Windows Subsystem for Linux information, distributions, and tool
 
 ### 1. What is Linux?
 
-Linux is a [UNIX-like](https://github.com/sirredbeard/Awesome-UNIX#frequently-asked-questions) [open-source](https://opensource.org/osd) operating system. The core of Linux is a [kernel](https://www.howtogeek.com/howto/31632/what-is-the-linux-kernel-and-what-does-it-do/) (the piece of the operating system that lies between the hardware and the applications you choose to run) developed by Linus Torvalds. Linux also includes a wide array of applications, including web servers, compilers, and e-mail clients, developed and contributed by tens of thousands of programmers to the open-source ecosystem. These applications are then bundled together and maintained into [distributions](https://en.wikipedia.org/wiki/Linux_distribution) by communities, companies, and individuals.
+Linux is a [UNIX-like](https://github.com/sirredbeard/Awesome-UNIX#frequently-asked-questions) [open-source](https://opensource.org/osd) operating system. The core of Linux is a [kernel](https://www.howtogeek.com/howto/31632/what-is-the-linux-kernel-and-what-does-it-do/) developed by [Linus Torvalds](https://en.wikipedia.org/wiki/Linus_Torvalds). Linux also includes a wide array of applications built on top of the kernel, including [web servers](https://www.linux.com/learn/apache-ubuntu-linux-beginners), [compilers](https://gcc.gnu.org/), and [e-mail clients](https://wiki.gnome.org/Apps/Geary), developed and contributed to the Linux ecosystem by a worldwide community of programmers. These applications are then assembled together into Linux [distributions](https://en.wikipedia.org/wiki/Linux_distribution) by communities, companies, and individuals.
 
 ### 2. What is a Linux distribution?
 
-Unlike Windows there are many different Linux distributions, each of which is assembled with different approaches to software selection and implementation. For example, the goal of the non-profit volunteer [Debian Project](https://www.debian.org/devel/constitution) community is to produce a universal operating system. There are also Linux distributions based on other distributions. Ubuntu is a distribution based on Debian built by for-profit company Canonical for [paid use in the enterprise market](https://www.ubuntu.com/support). Kali is a distribution based on Debian built with an emphasis on tools for network security testing. You can see the most popular distributions at [DistroWatch](https://distrowatch.com/).
+Unlike Windows or macOS there are many different Linux distributions, each of which is assembled with different approaches to the software selection and implementation. For example, the goal of the non-profit volunteer [Debian Project](https://www.debian.org/devel/constitution) community is to produce a universal free operating system. The goal of the CentOS project is to provide a [stable enterprise platform](https://www.centos.org/about/) compatible with the Red Hat Enterprise Linux distribution. There are also Linux distributions based on other distributions. Ubuntu is a distribution based on Debian built by the company Canonical for [paid use in the enterprise market](https://www.ubuntu.com/support). Kali is a distribution based on Debian built with an emphasis on tools for network security testing. You can see the most popular distributions at [DistroWatch](https://distrowatch.com/).
 
 ### 3. What is Windows?
 
-Windows is a family of proprietary operating systems, all of which are developed, marketed, and sold by Microsoft. Windows Subsystem for Linux first shipped in Windows 10 Anniversary Update, version number 1607, in August 2016. WSL can be enabled on all versions of Windows after 1607, including Home, Professional, Enterprise, Server, LTSB, and Education.
+Windows is a family of proprietary operating systems, all of which are developed, marketed, and sold by Microsoft. Currently Windows is available for Intel x86-based and ARM-based PCs. The Windows Subsystem for Linux first shipped in Windows 10 Anniversary Update, version number 1607, in August 2016. WSL can be enabled on all versions of Windows after 1607, including Home, Professional, Enterprise, Server, LTSB, and Education.
 
 ### 4. What is the Windows Subsystem for Linux?
 
-Windows Subsystem for Linux is a compatibility layer for running Linux binary executables natively on Windows 10. WSL provides a Linux-compatible kernel interface developed by Microsoft, which can then run a Linux userland of the users choice on top of it. It is the successor to defunct [Windows Services for UNIX](https://en.wikipedia.org/wiki/Windows_Services_for_UNIX).
+Windows Subsystem for Linux is a compatibility layer for running Linux binary executables natively on Windows 10. WSL provides a Linux-compatible kernel interface developed by Microsoft, which can then run a Linux distribution of the user's choice on top of it. Linux applications run within the Linux distribution which provides application dependencies and package management. 
+
+It is the successor to defunct [Windows Services for UNIX](https://en.wikipedia.org/wiki/Windows_Services_for_UNIX), is available with all current versions of Windows 10 for no additional purchase, and is much more powerful. 
 
 ### 5. Is Windows Subsystem for Linux an emulator?
 
-No. Windows Subsystem for Linux is not an emulator, or like [Wine](https://www.winehq.org/), or [VirtualBox](https://www.virtualbox.org/). WSL executes unmodified Linux ELF64 binaries by emulating a Linux kernel interface on top of the Windows NT kernel.
+No. Windows Subsystem for Linux is not an emulator, or like [Wine](https://www.winehq.org/), or [VirtualBox](https://www.virtualbox.org/). WSL executes unmodified Linux ELF64 binaries by emulating a Linux kernel interface on top of the Windows kernel in Windows 10. The WSL kernel interface translates Linux system calls to Windows system calls which executes them at native speed.
 
-### 6. How does Windows Subsystem for Linux really work?
+### 6. How does Windows Subsystem for Linux *really* work?
+
+You want the details? Here they are:
 
 * [Windows Subsystem for Linux Overview](https://blogs.msdn.microsoft.com/wsl/2016/04/22/windows-subsystem-for-linux-overview/) at MSDN. 
 * [WSL File System Support](https://blogs.msdn.microsoft.com/wsl/2016/06/15/wsl-file-system-support/) at MSDN.
@@ -81,7 +85,7 @@ and restart WSL. The above commands point WSL to the X server you installed on W
 
 #### WSL Programming
 
-Every developer has a unique workflow. Windows and WSL enable developers to carefully customize their setup for their unique workflow. The following are different developers' approaches to creating their development environments using WSL:
+Every developer has a unique workflow. Windows and WSL enable developers to carefully customize their setup for their unique workflow. The following are different developers' approaches to creating their development environments using WSL and instructions on how to do the same:
 
 * [Epic Development Environment Using Windows Subsystem for Linux](https://medium.com/@johnwoodruff91/epic-dev-environment-with-wsl-dc81e234ae61) - One developer's approach to their development environment using WSL.
 * [Setting Up a Programming Environment via Windows 10 Bash](https://www.cs.odu.edu/~zeil/FAQs/Public/win10Bash/) - From the computer science department at Old Dominion University.
@@ -91,17 +95,21 @@ Every developer has a unique workflow. Windows and WSL enable developers to care
 * [ubuntu-win-boostrap](https://github.com/seapagan/ubuntu-win-bootstrap) - A very simple bootstrap script to install some development basic tools on Debian/Ubuntu on WSL. ![github project][githublogo]
 * [Castle-Winbuntu](https://github.com/rodtreweek/Castle-Winbuntu) - Another developer's progress on their development environment using WSL. ![github project][githublogo]
 
-For more about learning programming, visit [curated-programming-resources](https://github.com/Michael0x2a/curated-programming-resources/blob/master/resources.md).
+For more about learning programming generally, visit [curated-programming-resources](https://github.com/Michael0x2a/curated-programming-resources/blob/master/resources.md).
+
+Microsoft makes [free development tools](https://code.visualstudio.com/) available, publishes programming guides through [MSDN](https://msdn.microsoft.com/en-us/library/windows/desktop/ff381399(v=vs.85).aspx), and offers courses through [edX](https://www.edx.org/school/microsoft) and [Microsoft Virtual Academy](https://mva.microsoft.com).
 
 #### WSL Web Development
 
-Because WSL allows developers to run a variety of Linux server applications locally on their Windows machine, WSL is uniquely useful for web, cloud, and other server-side development tasks. The following are different developers' approaches to creating their web development environment using WSL:
+Because WSL allows developers to run a variety of Linux server applications locally on their Windows machine, WSL is uniquely useful for web, cloud, and other server-side development tasks. The following are different developers' approaches to creating their web development environment using WSL and instructions on how to do the same:
 
 * [We put Linux in your Windows](https://www.youtube.com/watch?v=JZCPYWrTLTg) - YouTube talk by Windows kernel team member Sarah Cooley on WSL for Windows.
 * [Setting Up Windows for Web Development](https://blog.cloudboost.io/setting-up-windows-for-web-development-28483d245a82).
 * [How to Install LAMP Stack Server on Windows Subsystem Linux](https://medium.com/@ssharizal/how-to-install-lamp-stack-server-on-windows-subsystem-linux-wsl-windows-10-133419c22473)
 
 For more about learning programming, visit [curated-programming-resources](https://github.com/Michael0x2a/curated-programming-resources/blob/master/resources.md).
+
+Microsoft makes [free development tools](https://code.visualstudio.com/) available, publishes programming guides through [MSDN](https://msdn.microsoft.com/en-us/library/windows/desktop/ff381399(v=vs.85).aspx), and offers courses through [edX](https://www.edx.org/school/microsoft) and [Microsoft Virtual Academy](https://mva.microsoft.com).
 
 #### Other WSL Uses
 
@@ -224,10 +232,14 @@ More [![Awesome][awesomelogo]](https://awesome.re) lists. ![github project][gith
 
 ------
 
-* Linux® is a registered trademark of Linus Torvalds in the United States and/or other countries.
-* Windows® and Microsoft® are trademarks or registered trademarks of Microsoft Corporation in the United States and/or other countries.
-* Ubuntu® and Canonical® are registered trademark of Canonical Limited in the United States and/or other countries.
-* SUSE® and SUSE Linux Enterprise® are registered trademarks of SUSE in the United States and/or other countries.
+* Linux® is a registered trademark of Linus Torvalds in the United States and/or other countries. [*](https://www.linuxfoundation.org/trademark-usage/)
+* Windows®, Microsoft®, Microsoft Virtual Academy®, and MSDN® are trademarks or registered trademarks of Microsoft Corporation in the United States and/or other countries. [*](https://www.microsoft.com/en-us/legal/intellectualproperty/trademarks/usage/general.aspx)
+* EdX® is a registered trademark of edX Inc. All Rights Reserved. [*](https://www.edx.org/trademarks)
+* Ubuntu® and Canonical® are registered  trademark of Canonical Limited in the United States and/or other countries. [*](https://www.ubuntu.com/legal/terms-and-policies/intellectual-property-policy)
+* SUSE® and SUSE Linux Enterprise® are registered trademarks of SUSE in the United States and/or other countries. [*](https://www.suse.com/company/legal/)
+* Red Hat®, CentOS®, and Red Hat Enterprise Linux® are trademarks or registered trademarks of Red Hat, Inc. in the United States and/or other countries. [*](https://www.redhat.com/en/about/trademark-guidelines-and-policies)
+* UNIX® is a trademark of The Open Group. Use of The Open Group trademarks are authorized by The Open Group Trademark Guidelines as "Editorial or Articles, but not Advertising" and/or permitted by trademark fair use under United States law. [*](http://www.unix.org/trademark.html)
+* Debian® is a registered trademark of Software in the Public Interest, Inc. in the United States and/or other countries. [*](https://www.debian.org/trademark)
 
 All other trademarks mentioned herein are the property of their respective owners and may be registered in the United States and/or other countries.
 
