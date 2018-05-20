@@ -65,6 +65,9 @@ WSL is undoubtedly a tool for power users, developers, and *NIX/Linux geeks who 
 * [Epic Development Environment using Windows Subsystem for Linux](https://medium.com/@johnwoodruff91/epic-dev-environment-with-wsl-dc81e234ae61)
 * [Setting Up a Programming Environment via Windows 10 Bash](https://www.cs.odu.edu/~zeil/FAQs/Public/win10Bash/)
 * [Using WSL and MobaXterm to Create a Linux Dev Environment on Windows](https://nickjanetakis.com/blog/using-wsl-and-mobaxterm-to-create-a-linux-dev-environment-on-windows)
+* [ubuntu-win-boostrap](https://github.com/seapagan/ubuntu-win-bootstrap) - A very simple bootstrap script to install some development tools on Debian/Ubuntu on WSL. ![github project][githublogo]
+* [Castle-Winbuntu](https://github.com/rodtreweek/Castle-Winbuntu) - Another developer's setup using WSL. ![github project][githublogo]
+
 
 #### WSL Web Development
 
@@ -90,30 +93,37 @@ and restart WSL. The above commands point WSL to the X server you installed on W
 
 Ubuntu is a Linux distribution based on Debian that is produced by [Canonical](https://www.ubuntu.com/). Ubuntu 16.04 and the more recent Ubuntu 18.04 featureing more recent software are both available for WSL.
 
-* [Windows Store](https://www.microsoft.com/store/productId/9NBLGGH4MSV6) for Ubuntu 16.04
-* [Windows Store](https://www.microsoft.com/store/productId/9N9TNGVNDL3Q) for Ubuntu 18.04
-* [Installing Software](https://help.ubuntu.com/community/InstallingSoftware) from Ubuntu
+* [Windows Store Link](https://www.microsoft.com/store/productId/9NBLGGH4MSV6) for Ubuntu 16.04.
+* [Windows Store Link](https://www.microsoft.com/store/productId/9N9TNGVNDL3Q) for Ubuntu 18.04.
+* [Installing Software](https://help.ubuntu.com/community/InstallingSoftware) guide from Ubuntu.
+* [Ubuntu Server Guide](https://help.ubuntu.com/lts/serverguide/index.html) from Ubuntu.
+* Because Ubuntu is based on Debian, most Debian tutorials also apply to Ubuntu.
 
 ### Debian
 
 Debian is a Linux distribution assembled by the non-profit [Debian](https://www.debian.org/) Project.
 
-* [Windows Store](https://www.microsoft.com/store/productId/9MSVKQC78PK6)
-* [Package Management](https://www.debian.org/doc/manuals/debian-reference/ch02.en.html) from Debian
+* [Windows Store Link](https://www.microsoft.com/store/productId/9MSVKQC78PK6).
+* [Debian Reference](https://www.debian.org/doc/manuals/debian-reference/) post-installation guide for Debian users with a focus on the command line from Debian.
+* [Package Management](https://www.debian.org/doc/manuals/debian-reference/ch02.en.html) from Debian.
 
 ### OpenSUSE
 
-OpenSUSE is a Linux distribution produced by [SUSE Linux GmbH](https://www.opensuse.org/) and other companies. Leap 42 is a community-produced distribution with more recent software. SUSE Enterprise Linux is an enterprise-grade commercial distribution with tested software.
+OpenSUSE is a Linux distribution produced by [SUSE Linux GmbH](https://www.opensuse.org/) and other companies. Leap 42 is a community-oriented distribution with recent software. SUSE Enterprise Linux is an enterprise-grade commercial distribution with older tested software.
 
-* [Windows Store](https://www.microsoft.com/store/productId/9NJVJTS82TJX) for Leap 42
-* [Windows Store](https://www.microsoft.com/store/productId/9P32MWBH6CNS) for SUSE Enterprise Linux
-* [Zypper](https://en.opensuse.org/Portal:Zypper) package manager from SUSE
+* [Windows Store Link](https://www.microsoft.com/store/productId/9NJVJTS82TJX) for Leap 42.
+* [Windows Store Link](https://www.microsoft.com/store/productId/9P32MWBH6CNS) for SUSE Enterprise Linux.
+* [Managing Software with Command Line Tools](https://doc.opensuse.org/documentation/leap/reference/html/book.opensuse.reference/cha.sw_cl.html) from OpenSUSE.
+* [OpenSUSE 42 Reference](https://doc.opensuse.org/documentation/leap/reference/html/book.opensuse.reference/book.opensuse.reference.html).
+* [SUSE Linux Enterprise Documentation](https://www.suse.com/documentation/sles-12/index.html) from SUSE.
 
 ### Kali Linux
 
 Kali Linux is a Linux distribution focused on penetration testing based on Debian that is produced by [Offensive Security](https://www.kali.org/).
 
-* [Windows Store](https://www.microsoft.com/store/productId/9PKR34TNCV07)
+* [Windows Store Link](https://www.microsoft.com/store/productId/9PKR34TNCV07).
+* [Kali Linux Official Documentation](https://www.kali.org/kali-linux-documentation/).
+* Because Kali is based on Debian, most Debian tutorials also apply to Kali.
 
 # Unofficial Distributions
 
@@ -142,6 +152,10 @@ Unofficial distributions must be installed manually or with tools listed below. 
 * [BootShellCredentialProvider](https://github.com/NathanCastle/BootShellCredentialProvider) - BSCP lets you boot Windows directly into a Linux desktop experience such as xfce4 using Windows native login and a combination of Xming & WSL upon login. ![github project][githublogo]
 * [wsl-dotfiles](https://github.com/Xyene/wsl-dotfiles) - Configuration files and scripts for creating an i3-based environment inside WSL. ![github project][githublogo]
 * [wslgit](https://github.com/andy-5/wslgit) - Use git installed WSL from Windows and Visual Studio Code (VSCode). ![github project][githublogo]
+* [wsl-proxy](https://github.com/watzon/wsl-proxy) - A collection of "proxy" batch files that can be used to route requests to the WSL version of a command. ![github project][githublogo]
+* [wslpath](https://github.com/laurent22/wslpath) - PHP app to convert Windows and WSL path names. ![github project][githublogo]
+* [wsl-open](https://github.com/4U6U57/wsl-open) - Open files with xdg-open on Bash for Windows in Windows applications. ![github project][githublogo]
+* [wsl-docker-git-setup](https://github.com/rodtreweek/Castle-Winbuntu) - Shell script to configure WSL to use docker and docker-compose as well as a git-enabled prompt. ![github project][githublogo]
 * [VcXsrv](https://sourceforge.net/projects/vcxsrv/) - X server for Windows. Required for running Linux GUI apps in Windows.
 
 # Additional Resources
@@ -150,6 +164,7 @@ Unofficial distributions must be installed manually or with tools listed below. 
 * [WSL-Programs](https://github.com/ethanhs/WSL-Programs) - A community powered list of programs that work on the Windows Subsystem for Linux. ![github project][githublogo]
 * [/r/bashonubuntuonwindows](https://www.reddit.com/r/bashonubuntuonwindows/)
 * [WSL-DistroLauncher](https://github.com/Microsoft/WSL-DistroLauncher) - Reference launcher app for developing your own WSL distribution Microsoft Store packages. ![github project][githublogo]
+* [Ansible-WSL](https://github.com/Wintus/Ansible-WSL) - Provision WSL using Ansible.
 
 # More
 
