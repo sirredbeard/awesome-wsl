@@ -58,7 +58,7 @@ WSL is undoubtedly a tool for power users, developers, and *NIX/Linux geeks who 
 
 ### 9. Can I install Linux GUI apps?
 
-Yes, some of them. This first requires installation of X server application such as [VcXsrv](https://sourceforge.net/projects/vcxsrv/) (recommended) or [Xming](https://sourceforge.net/projects/xming/) on Windows 10.
+Yes, [some](https://github.com/ethanhs/WSL-Programs) of them. This first requires installation of X server application such as [VcXsrv](https://sourceforge.net/projects/vcxsrv/) (recommended) or [Xming](https://sourceforge.net/projects/xming/) on Windows 10.
 
 Then in WSL type the following:
 
@@ -67,7 +67,7 @@ echo "export DISPLAY=:0" >> .bashrc
 echo "export LIBGL_ALWAYS_INDIRECT=1" >> .bashrc
 ```
 
-and restart WSL. The above commands point WSL to the X server you installed on Windows and offloads hardware graphics acceleration to Windows for faster graphical rendering.
+and restart WSL. The above commands point WSL to the X server you installed on Windows and offloads hardware graphics acceleration to Windows 10 for faster graphical rendering.
 
 ## Using WSL
 
@@ -107,7 +107,7 @@ For more about learning programming, visit [curated-programming-resources](https
 
 * Learning programming, computer science, and system administration generally.
 * Building applications for [Azure](https://blogs.technet.microsoft.com/stefan_stranger/2018/03/08/installing-azure-cli-on-debian-gnulinux-for-wsl/), Microsoft's cloud platform.
-* Leveraging the power of the shell and scripting to automate your personal workflow, like saving videos from YouTube using youtube-dl and then uploading them to your Synology or combining and OCRing folders of PDFs.
+* Leveraging the power of the shell and scripting to automate your personal workflow, like saving videos from YouTube and then uploading them to your Synology or OCRing and sorting PDFs into folders.
 * [Replacing Windows shell with Xfce, Gnome, KDE, i3.](https://github.com/NathanCastle/BootShellCredentialProvider).
 * Running Linux-based server applications like [OpenFOAM](https://openfoam.org/download/windows-10/) and [Wordpress](https://mkaz.blog/wordpress/install-wordpress-on-windows-subsystem-for-linux/) locally for testing purposes.
 * Managing your CentOS servers using [Ansible](https://www.jeffgeerling.com/blog/2017/using-ansible-through-windows-10s-subsystem-linux).
@@ -205,7 +205,7 @@ Required for running Linux GUI apps in Windows. See FAQ #9 above.
 
 * [The Windows Subsystem for Linux Guide](http://wsl-guide.org/en/latest/) - Third-party WSL resource.
 * [WSL-Programs](https://github.com/ethanhs/WSL-Programs) - A community powered list of programs that work on the Windows Subsystem for Linux. ![github project][githublogo]
-* [/r/bashonubuntuonwindows](https://www.reddit.com/r/bashonubuntuonwindows/) - Reddit community.
+* [/r/bashonubuntuonwindows](https://www.reddit.com/r/bashonubuntuonwindows/) - Reddit subreddit.
 * [##windows-wsl](https://irc-source.com/channel/freenode/%23%23windows-wsl) IRC channel on Freenode.net. 
 * [#debian-wsl](https://www.oftc.net/) IRC channel on OFTC.net.
 * [Microsoft Developer feedback page for WSL](https://wpdev.uservoice.com/forums/266908-command-prompt-console-windows-subsystem-for-l).
@@ -218,13 +218,14 @@ Required for running Linux GUI apps in Windows. See FAQ #9 above.
 * [Awesome Shell](https://github.com/alebcay/awesome-shell)
 * [Awesome Powershell](https://github.com/janikvonrotz/awesome-powershell)
 * [Awesome Linux](https://github.com/aleksandar-todorovic/awesome-linux)
+* [Awesome UNIX](https://github.com/sirredbeard/Awesome-UNIX)
 
 More [![Awesome][awesomelogo]](https://awesome.re) lists. ![github project][githublogo]
 
 ------
 
 * Linux® is a registered trademark of Linus Torvalds in the United States and/or other countries.
-* Windows®, Microsoft®, Skype®, Windows NT®, and Xenix® are trademarks or registered trademarks of Microsoft Corporation in the United States and/or other countries.
+* Windows® and Microsoft® are trademarks or registered trademarks of Microsoft Corporation in the United States and/or other countries.
 * Ubuntu® and Canonical® are registered trademark of Canonical Limited in the United States and/or other countries.
 * SUSE® and SUSE Linux Enterprise® are registered trademarks of SUSE in the United States and/or other countries.
 
