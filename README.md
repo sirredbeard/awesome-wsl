@@ -10,6 +10,7 @@ A collection of Windows Subsystem for Linux information, distributions, and tool
 * [Unofficial Distributions](#unofficial-distributions)
 * [WSL Tools](#wsl-tools)
 * [Additional Resources](#additional-resources)
+* [More Awesome](#more-awesome)
 
 ## FAQ
 
@@ -84,6 +85,7 @@ Every developer has a unique workflow. Windows and WSL enable developers to care
 
 * [Epic Development Environment Using Windows Subsystem for Linux](https://medium.com/@johnwoodruff91/epic-dev-environment-with-wsl-dc81e234ae61) - One developer's approach to their development environment using WSL.
 * [Setting Up a Programming Environment via Windows 10 Bash](https://www.cs.odu.edu/~zeil/FAQs/Public/win10Bash/) - From the computer science department at Old Dominion University.
+* [WSL as a Development Environment](https://github.com/hsab/WSL-config) - From the computer science department at University of Utah. ![github project][githublogo]
 * [Using WSL and MobaXterm to Create a Linux Dev Environment on Windows](https://nickjanetakis.com/blog/using-wsl-and-mobaxterm-to-create-a-linux-dev-environment-on-windows) - Another developer's approach using the third-party terminal MobaXterm.
 * [Setting up my WSL Environment - Azure CLI, Docker and .NET](http://tattoocoder.com/setting-up-my-wsl-environment-azure-cli-docker-and-net/)
 * [ubuntu-win-boostrap](https://github.com/seapagan/ubuntu-win-bootstrap) - A very simple bootstrap script to install some development basic tools on Debian/Ubuntu on WSL. ![github project][githublogo]
@@ -117,7 +119,7 @@ For more about learning programming, visit [curated-programming-resources](https
 Ubuntu is a Linux distribution based on Debian that is produced by [Canonical](https://www.ubuntu.com/). Ubuntu 16.04 and the more recent Ubuntu 18.04 are both available for WSL from the Microsoft Store.
 
 * [Windows Store Link](https://www.microsoft.com/store/productId/9NBLGGH4MSV6) for Ubuntu 16.04. Supported through April 2021. Very stable but packages and libraries may be older.
-* [Windows Store Link](https://www.microsoft.com/store/productId/9N9TNGVNDL3Q) for Ubuntu 18.04. Most recent update. Newer software but more likely to encounter bugs. Supported through April 2023.
+* [Windows Store Link](https://www.microsoft.com/store/productId/9N9TNGVNDL3Q) for Ubuntu 18.04. Most recent update. Newer packages but more likely to encounter bugs. Supported through April 2023.
 * [Installing Software](https://help.ubuntu.com/community/InstallingSoftware) guide from Ubuntu.
 * [Ubuntu Server Guide](https://help.ubuntu.com/lts/serverguide/index.html) from Ubuntu.
 * Because Ubuntu is based on Debian, most Debian tutorials also apply to Ubuntu.
@@ -158,6 +160,7 @@ Unofficial distributions must be installed manually or with tools listed below. 
 * [AlpineWSL](https://github.com/yuk7/AlpineWSL) - Alpine in WSL. ![github project][githublogo]
 * [windows-subsystem-linux-fedora](https://gitlab.com/gbraad/windows-subsystem-for-linux-fedora) - Fedora in WSL.
 * [WSLInstall](https://github.com/Biswa96/WSLInstall) - Install any GNU/Linux distribution userspace in Windows Subsystem for Linux (WSL) with compressed RootFS tarballs, Docker containers, or ISO files. ![github project][githublogo]
+* [WSL-DistroLauncher](https://github.com/yuk7/WSL-DistroLauncher) - General purpose WSL installer and launcher. ![github project][githublogo]
 * [WSL-Distribution-Switcher](https://github.com/RoliSoft/WSL-Distribution-Switcher) - Scripts to replace the distribution behind WSL with any other Linux distribution published on [Docker Hub](https://hub.docker.com/explore/). Includes alpine, CentOS, Fedora, Clear, and others. ![github project][githublogo]
 
 # WSL Tools
@@ -196,6 +199,7 @@ Required for running Linux GUI apps in Windows. See FAQ #9 above.
 * [wsl-dotfiles](https://github.com/Xyene/wsl-dotfiles) - Configuration files and scripts for creating an i3-based environment inside WSL. ![github project][githublogo]
 * [wsl-docker-git-setup](https://github.com/rodtreweek/Castle-Winbuntu) - Shell script to configure WSL to use docker and docker-compose as well as a git-enabled prompt. ![github project][githublogo]
 * [WSL-DistroLauncher](https://github.com/Microsoft/WSL-DistroLauncher) - Reference launcher app for developing your own WSL distribution Microsoft Store package. ![github project][githublogo]
+* [wslbridge](https://github.com/rprichard/wslbridge) - wslbridge is a Cygwin program that allows connecting to the WSL command-line environment over TCP sockets, as with ssh, but without the overhead of configuring an SSH server. ![github project][githublogo]
 
 # Additional Resources
 
@@ -206,13 +210,14 @@ Required for running Linux GUI apps in Windows. See FAQ #9 above.
 * [#debian-wsl](https://www.oftc.net/) IRC channel on OFTC.net.
 * [Microsoft Developer feedback page for WSL](https://wpdev.uservoice.com/forums/266908-command-prompt-console-windows-subsystem-for-l).
 
-# More
+# More Awesome
 
 * [Awesome Windows](https://github.com/Awesome-Windows/Awesome)
 * [Awesome VSCode](https://github.com/viatsko/awesome-vscode)
 * [Awesome Bash](https://github.com/awesome-lists/awesome-bash)
 * [Awesome Shell](https://github.com/alebcay/awesome-shell)
 * [Awesome Powershell](https://github.com/janikvonrotz/awesome-powershell)
+* [Awesome Linux](https://github.com/aleksandar-todorovic/awesome-linux)
 
 More [![Awesome][awesomelogo]](https://awesome.re) lists. ![github project][githublogo]
 
