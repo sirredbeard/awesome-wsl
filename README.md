@@ -25,6 +25,7 @@ An Awesome collection of Windows Subsystem for Linux (WSL) information, distribu
           - Windows <-> WSL <br>
           - Miscellaneous
 * [Additional WSL Resources](#additional-resources)
+* [Related Projects](#related-projects)
 * [More Awesome Lists](#more-awesome)
 * [Thanks](#thanks)
 * [Intellectual Property Notices](#intellectual-property-notices)
@@ -45,11 +46,11 @@ Windows is a family of proprietary operating systems, all of which are developed
 
 ### 4. What is the Windows Subsystem for Linux?
 
-Windows Subsystem for Linux is a compatibility layer for running Linux binary executables natively on Windows 10. WSL provides a Linux-compatible kernel interface developed by Microsoft, which can then run a Linux distribution of the user's choice on top of it. Linux applications run within the Linux distribution which provides the application's dependencies and Linux package management in a container-like environment.
+Windows Subsystem for Linux is a compatibility layer for running Linux binary executables natively on Windows 10. No re-compilation is required. WSL provides a Linux-compatible kernel interface developed by Microsoft and allows a user to chose a Linux distribution to install from the Microsoft Store. Linux applications run within the Linux distribution which provides the application's dependencies and package management in a container-like environment.
 
 ### 5. Is Windows Subsystem for Linux an emulator?
 
-No. Windows Subsystem for Linux is not an emulator or [VirtualBox](https://www.virtualbox.org/). WSL executes unmodified Linux ELF64 binaries by emulating a Linux kernel interface on top of the Windows kernel in Windows 10. The WSL kernel interface translates Linux system calls to Windows system calls which executes them at native speed. WSL is closer in it's approach to [Wine](https://www.winehq.org/) which is a compatibility layer to run Windows binaries on Linux by re-implementing Windows system and API calls in libraries.
+No. Windows Subsystem for Linux is not an emulator or virtualizer like [VirtualBox](https://www.virtualbox.org/). WSL executes unmodified Linux ELF64 binaries by emulating a Linux kernel interface on top of the Windows kernel in Windows 10. The WSL kernel interface translates Linux system calls to Windows system calls which executes them at native speed. WSL is closer in it's approach to [Wine](https://www.winehq.org/) which is a compatibility layer to run Windows binaries on Linux by re-implementing Windows system and API calls in libraries.
 
 ### 6. How does Windows Subsystem for Linux *really* work?
 
@@ -192,6 +193,7 @@ Unofficial distributions must be installed manually or with tools listed below. 
 
 * [wsltty](https://github.com/mintty/wsltty) - Mintty as a terminal for WSL. ![github project][githublogo]
 * [wsl-terminal](https://github.com/goreliu/wsl-terminal) - A terminal emulator for WSL, based on mintty, fatty and wslbridge. ![github project][githublogo]
+* [Terminus](https://eugeny.github.io/terminus/) - A terminal for a more modern age. ![github project][githublogo]
 * [ConEmu](https://conemu.github.io) - ConEmu aims to be handy, comprehensive, fast and reliable terminal where you may host any console application for the Windows command line, PowerShell, or WSL. 
 * [MobaXterm](https://mobaxterm.mobatek.net/) - Enhanced terminal for Windows with X11 server, tabbed SSH client, network tools and much more.
 * [extraterm](https://github.com/sedwards2009/extraterm) - Open source project to build a terminal emulator and expand it with new features to support modern workflows. ![github project][githublogo]
@@ -221,6 +223,7 @@ Required for running Linux GUI apps in Windows. See FAQ #9 above.
 
 * [wsl-dotfiles](https://github.com/Xyene/wsl-dotfiles) - Configuration files and scripts for creating an i3-based environment inside WSL. ![github project][githublogo]
 * [wsl-docker-git-setup](https://github.com/rodtreweek/Castle-Winbuntu) - Shell script to configure WSL to use docker and docker-compose as well as a git-enabled prompt. ![github project][githublogo]
+* [EnumWSL](https://github.com/therealkenc/EnumWSL) - Enumerates installed WSL packages. ![github project][githublogo]
 * [WSL-DistroLauncher](https://github.com/Microsoft/WSL-DistroLauncher) - Reference launcher app for developing your own WSL distribution Microsoft Store package. ![github project][githublogo]
 * [wslbridge](https://github.com/rprichard/wslbridge) - wslbridge is a Cygwin program that allows connecting to the WSL command-line environment over TCP sockets, as with ssh, but without the overhead of configuring an SSH server. ![github project][githublogo]
 
@@ -231,7 +234,18 @@ Required for running Linux GUI apps in Windows. See FAQ #9 above.
 * [/r/bashonubuntuonwindows](https://www.reddit.com/r/bashonubuntuonwindows/) - Reddit subreddit.
 * [##windows-wsl](https://irc-source.com/channel/freenode/%23%23windows-wsl) IRC channel on Freenode.net. 
 * [#debian-wsl](https://www.oftc.net/) IRC channel on OFTC.net.
+* [WSL on GitHub](https://github.com/Microsoft/WSL) for reporting issues with WSL. ![github project][githublogo]
 * [Microsoft Developer feedback page for WSL](https://wpdev.uservoice.com/forums/266908-command-prompt-console-windows-subsystem-for-l).
+
+# Related Projects
+
+* [Bash](https://www.gnu.org/software/bash/) - Bash is the GNU Project's shell. Bash is the Bourne Again SHell. Bash is an sh-compatible shell that incorporates useful features from the Korn shell (ksh) and C shell (csh).
+* [Cygwin](https://cygwin.com/) - Cygwin is a Unix-like environment and command-line interface for Microsoft Windows.
+* [Babun](http://babun.github.io/) - A Linux-like console on a Windows host. ![github project][githublogo]
+* [PuTTY](https://www.putty.org/) - PuTTY is an SSH and telnet client, developed originally by Simon Tatham for the Windows platform. ![github project][githublogo]
+* [PowerShell](https://docs.microsoft.com/en-us/powershell/scripting/powershell-scripting?view=powershell-6) - PowerShell is a task automation and configuration management framework from Microsoft, consisting of a command-line shell and associated scripting language.
+* [Visual Studio Code](https://code.visualstudio.com/) - Visual Studio Code ("vscode") is a source code editor developed by Microsoft for Windows, Linux, and macOS. It includes support for debugging, embedded Git control, syntax highlighting, intelligent code completion, snippets, and code refactoring.
+* [Windows Services for UNIX](https://en.wikipedia.org/wiki/Windows_Services_for_UNIX) - SFU is a discontinued software package produced by Microsoft which provided a Unix environment on Windows NT and some of its immediate successor operating-systems. [TechNet](https://technet.microsoft.com/en-us/library/bb496506.aspx) documentation.
 
 # More Awesome
 
@@ -247,15 +261,16 @@ More [![Awesome][awesomelogo]](https://awesome.re) lists. ![github project][gith
 
 # Thanks
 
-* The WSL team at Microsoft.
-* Ubuntu, Debian, SUSE, and Offensive Software
+* The Windows 10, WSL, and kernel teams at Microsoft, including but not limited to [Tara Raj](https://twitter.com/tara_msft), [Rich Turner](https://twitter.com/richturn_ms), [Jessie Frazelle](https://twitter.com/jessfraz), [Jack Hammons](https://github.com/jackchammons), and [Sarah Cooley](https://github.com/scooley), [Ben Hillis](https://github.com/benhillis), [Allen Sudbring](https://blogs.technet.microsoft.com/askpfeplat/tag/allen-sudbring/), and [Brandon Wilson](https://social.technet.microsoft.com/profile/BrandonWilson).
+* [Canonical](https://www.ubuntu.com/), [Debian](https://www.debian.org/), [SUSE](https://www.suse.com/), and [Offensive Software](https://www.offensive-security.com/).
+* The [Awesome community](https://awesome.re) on GitHub.
 
 ------
 
 # Intellectual Property Notices
 
 * Linux® is a registered trademark of Linus Torvalds in the United States and/or other countries. [*](https://www.linuxfoundation.org/trademark-usage/)
-* Windows®, Microsoft®, Microsoft Virtual Academy®, Azure®, PowerShell®, and MSDN® are trademarks or registered trademarks of Microsoft Corporation in the United States and/or other countries. [*](https://www.microsoft.com/en-us/legal/intellectualproperty/trademarks/usage/general.aspx) [**](https://www.microsoft.com/en-us/legal/intellectualproperty/trademarks/en-us.aspx)
+* Windows®, Windows Server®, Windows 10®, Microsoft®, Microsoft Virtual Academy®, Visual Studio®, Azure®, PowerShell®, and MSDN® are trademarks or registered trademarks of Microsoft Corporation in the United States and/or other countries. [*](https://www.microsoft.com/en-us/legal/intellectualproperty/trademarks/usage/general.aspx) [**](https://www.microsoft.com/en-us/legal/intellectualproperty/trademarks/en-us.aspx)
 * EdX® is a registered trademark of edX Inc. All Rights Reserved. [*](https://www.edx.org/trademarks)
 * Ubuntu® and Canonical® are registered  trademark of Canonical Limited in the United States and/or other countries. [*](https://www.ubuntu.com/legal/terms-and-policies/intellectual-property-policy)
 * SUSE® and SUSE Linux Enterprise® are registered trademarks of SUSE in the United States and/or other countries. [*](https://www.suse.com/company/legal/)
@@ -264,8 +279,13 @@ More [![Awesome][awesomelogo]](https://awesome.re) lists. ![github project][gith
 * Debian® is a registered trademark of Software in the Public Interest, Inc. in the United States and/or other countries. [*](https://www.debian.org/trademark)
 * Kali Linux® and Offensive Security® are registered trademarks of OffSec Services, Ltd. [*](https://www.offensive-security.com/trademark-policy/)
 * Docker® and Docker Hub® are registered trademarks of Docker, Inc. [*](https://www.docker.com/trademark-guidelines)
+* YouTube® is a registered trademark of Google, LLC. [*](https://www.google.com/permissions/trademark/our-trademarks.html)
+* macOS® is a registered trademark of Apple, Inc. [*](https://www.apple.com/legal/intellectual-property/guidelinesfor3rdparties.html)
+* GitHub® and [githublogo] are a registered trademarks of GitHub, Inc. [*](https://help.github.com/articles/github-terms-of-service/)
 
 All other trademarks mentioned herein are the property of their respective owners and may be registered in the United States and/or other countries.
+
+The author of this project has no connection with Microsoft, Inc.
 
 Portions of the descriptions above are from Wikipedia and used under [CC BY-SA 4.0 license](https://creativecommons.org/licenses/by-sa/4.0/). Portions of the descriptions above are from [Awesome-UNIX](https://github.com/sirredbeard/Awesome-UNIX) and used under [CC BY-SA 4.0 license](https://creativecommons.org/licenses/by-sa/4.0/).
 
