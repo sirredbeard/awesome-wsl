@@ -42,7 +42,7 @@ Unlike Windows or macOS there are many different Linux distributions, each of wh
 
 ### 3. What is Windows?
 
-Windows is a family of proprietary operating systems, all of which are developed, marketed, and sold by Microsoft. Currently Windows is available for Intel x86-based and ARM-based PCs. The Windows Subsystem for Linux first shipped in Windows 10 Anniversary Update, version number 1607, in August 2016. WSL can be enabled for free on all versions of Windows 10 after 1607, including Home, Professional, Enterprise, Server, LTSB, and Education.
+Windows is a family of proprietary operating systems, all of which are developed, marketed, and sold by Microsoft. Currently Windows 10 is Microsoft's flagship operating system. Windows 10 is available for Intel x86-based and arm64-based PCs. The Windows Subsystem for Linux first shipped in [Windows 10 Anniversary Update](https://blogs.msdn.microsoft.com/wsl/2016/07/08/bash-on-ubuntu-on-windows-10-anniversary-update/), version number 1607, in August 2016. WSL can be enabled for free on all versions of Windows 10 after 1607, including Home, Professional, Enterprise, Server, LTSB, and Education. Originally only available for Intel x86-based PCs, Ubuntu 18.04 for arm64 was made available on the Microsoft store in [May 2018](https://twitter.com/TheRealHariP/status/994293523514970112).
 
 ### 4. What is the Windows Subsystem for Linux?
 
@@ -262,7 +262,7 @@ More [![Awesome][awesomelogo]](https://awesome.re) lists. ![github project][gith
 
 # Thanks
 
-* The Windows 10, WSL, and kernel teams at Microsoft, including but not limited to [Tara Raj](https://twitter.com/tara_msft), [Rich Turner](https://twitter.com/richturn_ms), [Jessie Frazelle](https://twitter.com/jessfraz), [Jack Hammons](https://github.com/jackchammons), and [Sarah Cooley](https://github.com/scooley), [Ben Hillis](https://github.com/benhillis), [Allen Sudbring](https://blogs.technet.microsoft.com/askpfeplat/tag/allen-sudbring/), and [Brandon Wilson](https://social.technet.microsoft.com/profile/BrandonWilson).
+* The Windows 10, WSL, and kernel teams at Microsoft, including but not limited to [Tara Raj](https://twitter.com/tara_msft), [Rich Turner](https://twitter.com/richturn_ms), [Jessie Frazelle](https://twitter.com/jessfraz), [Jack Hammons](https://github.com/jackchammons), and [Sarah Cooley](https://github.com/scooley), [Ben Hillis](https://github.com/benhillis), [Allen Sudbring](https://blogs.technet.microsoft.com/askpfeplat/tag/allen-sudbring/), [Brandon Wilson](https://social.technet.microsoft.com/profile/BrandonWilson), [John Starks](https://twitter.com/gigastarks), [Russ Alexander](https://www.linkedin.com/in/russalex). Did I [miss anyone](https://github.com/sirredbeard/Awesome-WSL/issues/1)?
 * [Canonical](https://www.ubuntu.com/), [Debian](https://www.debian.org/), [SUSE](https://www.suse.com/), and [Offensive Software](https://www.offensive-security.com/).
 * The [Awesome community](https://awesome.re) on GitHub.
 
