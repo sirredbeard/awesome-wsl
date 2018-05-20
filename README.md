@@ -43,10 +43,12 @@ No. Windows Subsystem for Linux is not an emulator, or like [Wine](https://www.w
 * [WSL Release Notes](https://docs.microsoft.com/en-us/windows/wsl/release-notes) from docs.microsoft.com.
 * [Windows Subsystem for Linux Documentation](https://docs.microsoft.com/en-us/windows/wsl/about) from docs.microsoft.com.
 * [Windows Subsystem for Linux - Update](https://www.youtube.com/watch?v=PP_T_m0UV9E) from Microsoft Developer YouTube channel. 
+* [Windows for Linux Nerds](https://blog.jessfraz.com/post/windows-for-linux-nerds/) from Microsoft developer Jessie Frazelle.
 
 ### 7. How do I install the Windows Subsystem for Linux?
 
-* [Windows 10 Installation Guide](https://docs.microsoft.com/en-us/windows/wsl/install-win10) - Microsoft's official documentation.
+* [Windows 10 Installation Guide](https://docs.microsoft.com/en-us/windows/wsl/install-win10) - Microsoft's official guide.
+* [Windows 10 Server Installation Guide](https://docs.microsoft.com/en-us/windows/wsl/install-on-server) - Microsoft's official guide for Windows Server.
 * [Windows-Subsystem-For-Linux-Setup](https://github.com/michaeltreat/Windows-Subsystem-For-Linux-Setup) - A basic guide for how to get setup with the WSL feature that is included with Windows 10. ![github project][githublogo]
 
 ### 8. What can I do with Windows Subsystem for Linux?
@@ -78,11 +80,12 @@ and restart WSL. The above commands point WSL to the X server you installed on W
 
 #### WSL Programming
 
-Every developer has a unique workflow. Windows and WSL enable developers to carefully customize their setup for their unique workflow. The following are different developers approaches to creating their development enviroment using WSL:
+Every developer has a unique workflow. Windows and WSL enable developers to carefully customize their setup for their unique workflow. The following are different developers' approaches to creating their development enviroment using WSL:
 
 * [Epic Development Environment Using Windows Subsystem for Linux](https://medium.com/@johnwoodruff91/epic-dev-environment-with-wsl-dc81e234ae61) - One developers approach to their development enviroment using WSL.
 * [Setting Up a Programming Environment via Windows 10 Bash](https://www.cs.odu.edu/~zeil/FAQs/Public/win10Bash/) - From the computer science department at Old Dominion University.
 * [Using WSL and MobaXterm to Create a Linux Dev Environment on Windows](https://nickjanetakis.com/blog/using-wsl-and-mobaxterm-to-create-a-linux-dev-environment-on-windows) - Another developer's approach using the third-party terminal MobaXterm.
+* [Setting up my WSL Environment - Azure CLI, Docker and .NET](http://tattoocoder.com/setting-up-my-wsl-environment-azure-cli-docker-and-net/)
 * [ubuntu-win-boostrap](https://github.com/seapagan/ubuntu-win-bootstrap) - A very simple bootstrap script to install some development basic tools on Debian/Ubuntu on WSL. ![github project][githublogo]
 * [Castle-Winbuntu](https://github.com/rodtreweek/Castle-Winbuntu) - Another developer's progress on their development environment using WSL. ![github project][githublogo]
 
@@ -92,10 +95,18 @@ For more about learning programming, visit [curated-programming-resources](https
 
 Because WSL allows developers to run a variety of Linux servers locally on their Windows machine, WSL is uniquely useful for web and other server-side development. The following are different developers approaches to creating their web development enviroment using WSL:
 
-* [We put Linux in your Windows with Sarah Cooley](https://www.youtube.com/watch?v=JZCPYWrTLTg) - YouTube talk by Windows kernel team member on WSL for Windows.
-* [Setting Up Windows for Web Development](https://blog.cloudboost.io/setting-up-windows-for-web-development-28483d245a82)
+* [We put Linux in your Windows](https://www.youtube.com/watch?v=JZCPYWrTLTg) - YouTube talk by Windows kernel team member Sarah Cooley on WSL for Windows.
+* [Setting Up Windows for Web Development](https://blog.cloudboost.io/setting-up-windows-for-web-development-28483d245a82).
+* [How to Install LAMP Stack Server on Windows Subsystem Linux](https://medium.com/@ssharizal/how-to-install-lamp-stack-server-on-windows-subsystem-linux-wsl-windows-10-133419c22473)
 
 For more about learning programming, visit [curated-programming-resources](https://github.com/Michael0x2a/curated-programming-resources/blob/master/resources.md).
+
+#### Other WSL Uses
+
+* Learning programming and Linux administration generally.
+* Building applications on [Azure](https://blogs.technet.microsoft.com/stefan_stranger/2018/03/08/installing-azure-cli-on-debian-gnulinux-for-wsl/), Microsoft's cloud platform.
+* [Replacing Windows shell with Xfce, Gnome, KDE, i3.](https://github.com/NathanCastle/BootShellCredentialProvider).
+* Running Linux-based server applications like [OpenFOAM](https://openfoam.org/download/windows-10/) and [Wordpress](https://mkaz.blog/wordpress/install-wordpress-on-windows-subsystem-for-linux/) on Windows 10.
 
 # Supported Distributions
 
@@ -187,6 +198,7 @@ Required for running Linux GUI apps in Windows. See FAQ #9 above.
 * [/r/bashonubuntuonwindows](https://www.reddit.com/r/bashonubuntuonwindows/) - Reddit community.
 * [##windows-wsl](https://irc-source.com/channel/freenode/%23%23windows-wsl) IRC channel on Freenode.net. 
 * [#debian-wsl](https://www.oftc.net/) IRC channel on OFTC.net.
+* [Microsoft Developer feedback page for WSL](https://wpdev.uservoice.com/forums/266908-command-prompt-console-windows-subsystem-for-l).
 
 # More
 
