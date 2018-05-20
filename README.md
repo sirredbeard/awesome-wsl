@@ -80,9 +80,9 @@ and restart WSL. The above commands point WSL to the X server you installed on W
 
 #### WSL Programming
 
-Every developer has a unique workflow. Windows and WSL enable developers to carefully customize their setup for their unique workflow. The following are different developers' approaches to creating their development enviroment using WSL:
+Every developer has a unique workflow. Windows and WSL enable developers to carefully customize their setup for their unique workflow. The following are different developers' approaches to creating their development environments using WSL:
 
-* [Epic Development Environment Using Windows Subsystem for Linux](https://medium.com/@johnwoodruff91/epic-dev-environment-with-wsl-dc81e234ae61) - One developers approach to their development enviroment using WSL.
+* [Epic Development Environment Using Windows Subsystem for Linux](https://medium.com/@johnwoodruff91/epic-dev-environment-with-wsl-dc81e234ae61) - One developer's approach to their development environment using WSL.
 * [Setting Up a Programming Environment via Windows 10 Bash](https://www.cs.odu.edu/~zeil/FAQs/Public/win10Bash/) - From the computer science department at Old Dominion University.
 * [Using WSL and MobaXterm to Create a Linux Dev Environment on Windows](https://nickjanetakis.com/blog/using-wsl-and-mobaxterm-to-create-a-linux-dev-environment-on-windows) - Another developer's approach using the third-party terminal MobaXterm.
 * [Setting up my WSL Environment - Azure CLI, Docker and .NET](http://tattoocoder.com/setting-up-my-wsl-environment-azure-cli-docker-and-net/)
@@ -93,7 +93,7 @@ For more about learning programming, visit [curated-programming-resources](https
 
 #### WSL Web Development
 
-Because WSL allows developers to run a variety of Linux servers locally on their Windows machine, WSL is uniquely useful for web and other server-side development. The following are different developers approaches to creating their web development enviroment using WSL:
+Because WSL allows developers to run a variety of Linux server applications locally on their Windows machine, WSL is uniquely useful for web, cloud, and other server-side development tasks. The following are different developers' approaches to creating their web development environment using WSL:
 
 * [We put Linux in your Windows](https://www.youtube.com/watch?v=JZCPYWrTLTg) - YouTube talk by Windows kernel team member Sarah Cooley on WSL for Windows.
 * [Setting Up Windows for Web Development](https://blog.cloudboost.io/setting-up-windows-for-web-development-28483d245a82).
@@ -103,10 +103,12 @@ For more about learning programming, visit [curated-programming-resources](https
 
 #### Other WSL Uses
 
-* Learning programming and Linux administration generally.
-* Building applications on [Azure](https://blogs.technet.microsoft.com/stefan_stranger/2018/03/08/installing-azure-cli-on-debian-gnulinux-for-wsl/), Microsoft's cloud platform.
+* Learning programming, computer science, and system administration generally.
+* Building applications for [Azure](https://blogs.technet.microsoft.com/stefan_stranger/2018/03/08/installing-azure-cli-on-debian-gnulinux-for-wsl/), Microsoft's cloud platform.
+* Leveraging the power of the shell and scripting to automate your personal workflow, like saving videos from YouTube using youtube-dl and then uploading them to your Synology or combining and OCRing folders of PDFs.
 * [Replacing Windows shell with Xfce, Gnome, KDE, i3.](https://github.com/NathanCastle/BootShellCredentialProvider).
-* Running Linux-based server applications like [OpenFOAM](https://openfoam.org/download/windows-10/) and [Wordpress](https://mkaz.blog/wordpress/install-wordpress-on-windows-subsystem-for-linux/) on Windows 10.
+* Running Linux-based server applications like [OpenFOAM](https://openfoam.org/download/windows-10/) and [Wordpress](https://mkaz.blog/wordpress/install-wordpress-on-windows-subsystem-for-linux/) locally for testing purposes.
+* Managing your CentOS servers using [Ansible](https://www.jeffgeerling.com/blog/2017/using-ansible-through-windows-10s-subsystem-linux).
 
 # Supported Distributions
 
@@ -114,8 +116,8 @@ For more about learning programming, visit [curated-programming-resources](https
 
 Ubuntu is a Linux distribution based on Debian that is produced by [Canonical](https://www.ubuntu.com/). Ubuntu 16.04 and the more recent Ubuntu 18.04 are both available for WSL from the Microsoft Store.
 
-* [Windows Store Link](https://www.microsoft.com/store/productId/9NBLGGH4MSV6) for Ubuntu 16.04.
-* [Windows Store Link](https://www.microsoft.com/store/productId/9N9TNGVNDL3Q) for Ubuntu 18.04.
+* [Windows Store Link](https://www.microsoft.com/store/productId/9NBLGGH4MSV6) for Ubuntu 16.04. Supported through April 2021. Very stable but packages and libraries may be older.
+* [Windows Store Link](https://www.microsoft.com/store/productId/9N9TNGVNDL3Q) for Ubuntu 18.04. Most recent update. Newer software but more likely to encounter bugs. Supported through April 2023.
 * [Installing Software](https://help.ubuntu.com/community/InstallingSoftware) guide from Ubuntu.
 * [Ubuntu Server Guide](https://help.ubuntu.com/lts/serverguide/index.html) from Ubuntu.
 * Because Ubuntu is based on Debian, most Debian tutorials also apply to Ubuntu.
@@ -124,16 +126,16 @@ Ubuntu is a Linux distribution based on Debian that is produced by [Canonical](h
 
 Debian is a Linux distribution assembled by the non-profit [Debian](https://www.debian.org/) Project.
 
-* [Windows Store Link](https://www.microsoft.com/store/productId/9MSVKQC78PK6).
+* [Windows Store Link](https://www.microsoft.com/store/productId/9MSVKQC78PK6) for Debian Stretch.
 * [Debian Reference](https://www.debian.org/doc/manuals/debian-reference/) post-installation guide for Debian users with a focus on the command line from Debian.
 * [Package Management](https://www.debian.org/doc/manuals/debian-reference/ch02.en.html) from Debian.
 * [WSL wiki page](https://wiki.debian.org/InstallingDebianOn/Microsoft/Windows/SubsystemForLinux) from Debian.
 
-### OpenSUSE
+### OpenSUSE / SUSE Enterprise Linux
 
-OpenSUSE is a Linux distribution produced by [SUSE Linux GmbH](https://www.opensuse.org/) and other companies. Leap 42 is a community-oriented distribution with recent software. SUSE Enterprise Linux is an enterprise-grade commercial distribution with older tested software.
+OpenSUSE and SUSE Enterprise Linux are Linux distributions produced by [SUSE Linux GmbH](https://www.opensuse.org/) and other companies. Leap 42 is a community-oriented distribution with recent software. SUSE Enterprise Linux is an enterprise-grade commercial distribution with older tested software.
 
-* [Windows Store Link](https://www.microsoft.com/store/productId/9NJVJTS82TJX) for Leap 42.
+* [Windows Store Link](https://www.microsoft.com/store/productId/9NJVJTS82TJX) for OpenSUSE Leap 42.
 * [Windows Store Link](https://www.microsoft.com/store/productId/9P32MWBH6CNS) for SUSE Enterprise Linux.
 * [Managing Software with Command Line Tools](https://doc.opensuse.org/documentation/leap/reference/html/book.opensuse.reference/cha.sw_cl.html) from OpenSUSE.
 * [OpenSUSE 42 Reference](https://doc.opensuse.org/documentation/leap/reference/html/book.opensuse.reference/book.opensuse.reference.html).
@@ -154,6 +156,7 @@ Unofficial distributions must be installed manually or with tools listed below. 
 * [miniwsl](https://github.com/0xbadfca11/miniwsl) - A mini Linux distribution for WSL powered by [busybox](https://www.busybox.net/). ![github project][githublogo]
 * [ArchWSL](https://github.com/yuk7/ArchWSL) - ArchLinux in WSL. ![github project][githublogo]
 * [AlpineWSL](https://github.com/yuk7/AlpineWSL) - Alpine in WSL. ![github project][githublogo]
+* [windows-subsystem-linux-fedora](https://gitlab.com/gbraad/windows-subsystem-for-linux-fedora) - Fedora in WSL.
 * [WSLInstall](https://github.com/Biswa96/WSLInstall) - Install any GNU/Linux distribution userspace in Windows Subsystem for Linux (WSL) with compressed RootFS tarballs, Docker containers, or ISO files. ![github project][githublogo]
 * [WSL-Distribution-Switcher](https://github.com/RoliSoft/WSL-Distribution-Switcher) - Scripts to replace the distribution behind WSL with any other Linux distribution published on [Docker Hub](https://hub.docker.com/explore/). Includes alpine, CentOS, Fedora, Clear, and others. ![github project][githublogo]
 
@@ -181,13 +184,16 @@ Required for running Linux GUI apps in Windows. See FAQ #9 above.
 * [BootShellCredentialProvider](https://github.com/NathanCastle/BootShellCredentialProvider) - BSCP lets you boot Windows directly into a Linux desktop experience such as xfce4 using Windows native login and a combination of Xming & WSL upon login. ![github project][githublogo]
 * [Ansible-WSL](https://github.com/Wintus/Ansible-WSL) - Provision WSL using Ansible. ![github project][githublogo]
 
-### Miscellaneous
+### Windows <-> WSL Utilities
 
-* [wsl-dotfiles](https://github.com/Xyene/wsl-dotfiles) - Configuration files and scripts for creating an i3-based environment inside WSL. ![github project][githublogo]
 * [wslgit](https://github.com/andy-5/wslgit) - Use git installed WSL from Windows and Visual Studio Code (VSCode). ![github project][githublogo]
 * [wsl-proxy](https://github.com/watzon/wsl-proxy) - A collection of "proxy" batch files that can be used to route requests to the WSL version of a command. ![github project][githublogo]
 * [wslpath](https://github.com/laurent22/wslpath) - Easily convert Windows to WSL path names and vice-versa. ![github project][githublogo]
 * [wsl-open](https://github.com/4U6U57/wsl-open) - Open files with xdg-open on Bash for Windows in Windows applications. ![github project][githublogo]
+
+### Miscellaneous
+
+* [wsl-dotfiles](https://github.com/Xyene/wsl-dotfiles) - Configuration files and scripts for creating an i3-based environment inside WSL. ![github project][githublogo]
 * [wsl-docker-git-setup](https://github.com/rodtreweek/Castle-Winbuntu) - Shell script to configure WSL to use docker and docker-compose as well as a git-enabled prompt. ![github project][githublogo]
 * [WSL-DistroLauncher](https://github.com/Microsoft/WSL-DistroLauncher) - Reference launcher app for developing your own WSL distribution Microsoft Store package. ![github project][githublogo]
 
