@@ -121,7 +121,7 @@ Unofficial distributions must be installed manually or with tools listed below. 
 * [wslgit](https://github.com/andy-5/wslgit) - Use git installed WSL from Windows and Visual Studio Code (VSCode). ![github project][githublogo]
 * [VcXsrv](https://sourceforge.net/projects/vcxsrv/) - X server for Windows. Required for running Linux GUI apps in Windows.
 
-# Additional WSL Resources
+# Additional Resources
 
 * [The Windows Subsystem for Linux Guide](http://wsl-guide.org/en/latest/)
 * [WSL-Programs](https://github.com/ethanhs/WSL-Programs) - A community powered list of programs that work on the Windows Subsystem for Linux. ![github project][githublogo]
