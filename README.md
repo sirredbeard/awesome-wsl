@@ -12,13 +12,13 @@ An Awesome collection of Windows Subsystem for Linux (WSL) information, distribu
           - Programming on WSL <br>
           - Web Development on WSL <br>
           - Other WSL Uses
-* [Supported WSL Distributions](#supported-distributions)
+* [Supported WSL Distributions](#supported-distributions) <br>
           - Ubuntu <br>
           - Debian <br>
           - OpenSUSE / SUSE Enterprise Linux <br>
           - Kali Linux <br>
 * [Unofficial WSL Distributions](#unofficial-distributions)
-* [WSL Tools](#wsl-tools)
+* [WSL Tools](#wsl-tools) <br>
           - Terminals <br>
           - X Servers <br>
           - Managing WSL <br>
