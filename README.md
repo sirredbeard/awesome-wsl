@@ -5,6 +5,7 @@ A collection of Windows Subsystem for Linux information, distributions, and tool
 
 ## Table of Contents
 * [FAQ](#faq)
+* [Using WSL](#using-wsl)
 * [Supported Distributions](#supported-distributions)
 * [Unofficial Distributions](#unofficial-distributions)
 * [WSL Tools](#wsl-tools)
@@ -12,27 +13,27 @@ A collection of Windows Subsystem for Linux information, distributions, and tool
 
 ## FAQ
 
-### What is Linux?
+### 1. What is Linux?
 
-Linux is a [UNIX-like](https://github.com/sirredbeard/Awesome-UNIX#frequently-asked-questions) [open-source](https://opensource.org/osd) operating system. The core of Linux is a kernel (the piece of the operating system that lies between the hardware and the applications you choose to run) developed by Linus Torvalds. Linux also includes a wide array of applications, including web servers, compilers, and e-mail clients, developed and contributed by tens of thousands of programmers. These applications are then bundled together into distributions by communities, companies, and individuals.
+Linux is a [UNIX-like](https://github.com/sirredbeard/Awesome-UNIX#frequently-asked-questions) [open-source](https://opensource.org/osd) operating system. The core of Linux is a [kernel](https://www.howtogeek.com/howto/31632/what-is-the-linux-kernel-and-what-does-it-do/) (the piece of the operating system that lies between the hardware and the applications you choose to run) developed by Linus Torvalds. Linux also includes a wide array of applications, including web servers, compilers, and e-mail clients, developed and contributed by tens of thousands of programmers to the open-source ecosystem. These applications are then bundled together and maintained into [distributions](https://en.wikipedia.org/wiki/Linux_distribution) by communities, companies, and individuals.
 
-### What is a Linux distribution?
+### 2. What is a Linux distribution?
 
-Unlike Windows there are many different Linux distributions, each of which is assembled with different approaches to software selection and implementation. For example, the goal of the non-profit volunteer Debian Project community is to produce a universal operating system. There are also Linux distributions based on other distributions. Ubuntu is a distribution based on Debian built by for-profit company Canonical for paid use in the enterprise market. Kali is a distribution based on Debian built with an emphasis on tools for network security testing.
+Unlike Windows there are many different Linux distributions, each of which is assembled with different approaches to software selection and implementation. For example, the goal of the non-profit volunteer [Debian Project](https://www.debian.org/devel/constitution) community is to produce a universal operating system. There are also Linux distributions based on other distributions. Ubuntu is a distribution based on Debian built by for-profit company Canonical for [paid use in the enterprise market](https://www.ubuntu.com/support). Kali is a distribution based on Debian built with an emphasis on tools for network security testing. You can see the most popular distributions at [DistroWatch](https://distrowatch.com/).
 
-### What is Windows?
+### 3. What is Windows?
 
 Windows is a family of proprietary operating systems, all of which are developed, marketed, and sold by Microsoft. Windows Subsystem for Linux first shipped in Windows 10 Anniversary Update, version number 1607, in August 2016. WSL can be enabled on all versions of Windows after 1607, including Home, Professional, Enterprise, Server, LTSB, and Education.
 
-### What is the Windows Subsystem for Linux?
+### 4. What is the Windows Subsystem for Linux?
 
 Windows Subsystem for Linux is a compatibility layer for running Linux binary executables natively on Windows 10. WSL provides a Linux-compatible kernel interface developed by Microsoft, which can then run a Linux userland of the users choice on top of it. It is the successor to defunct [Windows Services for UNIX](https://en.wikipedia.org/wiki/Windows_Services_for_UNIX).
 
-### Is Windows Subsystem for Linux an emulator?
+### 5. Is Windows Subsystem for Linux an emulator?
 
-No. Windows Subsystem for Linux is not an emulator, or like Wine, or VirtualBox. WSL executes unmodified Linux ELF64 binaries by emulating a Linux kernel interface on top of the Windows NT kernel.
+No. Windows Subsystem for Linux is not an emulator, or like [Wine](https://www.winehq.org/), or [VirtualBox](https://www.virtualbox.org/). WSL executes unmodified Linux ELF64 binaries by emulating a Linux kernel interface on top of the Windows NT kernel.
 
-### How does Windows Subsystem for Linux work?
+### 6. How does Windows Subsystem for Linux really work?
 
 * [Windows Subsystem for Linux Overview](https://blogs.msdn.microsoft.com/wsl/2016/04/22/windows-subsystem-for-linux-overview/) at MSDN. 
 * [WSL File System Support](https://blogs.msdn.microsoft.com/wsl/2016/06/15/wsl-file-system-support/) at MSDN.
@@ -43,38 +44,16 @@ No. Windows Subsystem for Linux is not an emulator, or like Wine, or VirtualBox.
 * [Windows Subsystem for Linux Documentation](https://docs.microsoft.com/en-us/windows/wsl/about) from docs.microsoft.com.
 * [Windows Subsystem for Linux - Update](https://www.youtube.com/watch?v=PP_T_m0UV9E) from Microsoft Developer YouTube channel. 
 
-### How do I install the Windows Subsystem for Linux?
+### 7. How do I install the Windows Subsystem for Linux?
 
 * [Windows 10 Installation Guide](https://docs.microsoft.com/en-us/windows/wsl/install-win10) - Microsoft's official documentation.
 * [Windows-Subsystem-For-Linux-Setup](https://github.com/michaeltreat/Windows-Subsystem-For-Linux-Setup) - A basic guide for how to get setup with the WSL feature that is included with Windows 10. ![github project][githublogo]
 
-### What can I do with Windows Subsystem for Linux?
+### 8. What can I do with Windows Subsystem for Linux?
 
 WSL is undoubtedly a tool for power users, developers, and *NIX/Linux geeks who want to run Windows. Most of the things you can do with WSL are going to be related to programming, sysadmin, automation, AI/data science, and other geeky things.
 
-#### WSL Command Line
-
-* [Everything You Can Do With Windows 10’s New Bash Shell](https://www.howtogeek.com/265900/everything-you-can-do-with-windows-10s-new-bash-shell/)
-* [The Unix Workbench](http://seankross.com/the-unix-workbench/) - A book for anyone to get started with Unix/Linux.
-* [The Art of Command Line](https://github.com/jlevy/the-art-of-command-line) - Master the command line in one page. ![github project][githublogo]
-* [The Bash Academy](http://www.bash.academy) - The Bash Academy is an initiative to promote the bash shell language and educate people on its use.
-* [Awesome Command Line Apps](https://github.com/herrbischoff/awesome-command-line-apps) [![Awesome][awesomelogo]](https://awesome.re) ![github project][githublogo]
-
-#### WSL Programming
-
-* [Epic Development Environment using Windows Subsystem for Linux](https://medium.com/@johnwoodruff91/epic-dev-environment-with-wsl-dc81e234ae61)
-* [Setting Up a Programming Environment via Windows 10 Bash](https://www.cs.odu.edu/~zeil/FAQs/Public/win10Bash/)
-* [Using WSL and MobaXterm to Create a Linux Dev Environment on Windows](https://nickjanetakis.com/blog/using-wsl-and-mobaxterm-to-create-a-linux-dev-environment-on-windows)
-* [ubuntu-win-boostrap](https://github.com/seapagan/ubuntu-win-bootstrap) - A very simple bootstrap script to install some development tools on Debian/Ubuntu on WSL. ![github project][githublogo]
-* [Castle-Winbuntu](https://github.com/rodtreweek/Castle-Winbuntu) - Another developer's setup using WSL. ![github project][githublogo]
-
-
-#### WSL Web Development
-
-* [We put Linux in your Windows with Sarah Cooley](https://www.youtube.com/watch?v=JZCPYWrTLTg) - YouTube talk by Windows kernel team member on WSL for Windows.
-* [Setting Up Windows for Web Development](https://blog.cloudboost.io/setting-up-windows-for-web-development-28483d245a82)
-
-### Can I install Linux GUI apps?
+### 9. Can I install Linux GUI apps?
 
 Yes, some of them. This first requires installation of X server application such as [VcXsrv](https://sourceforge.net/projects/vcxsrv/) (recommended) or [Xming](https://sourceforge.net/projects/xming/) on Windows 10.
 
@@ -87,11 +66,42 @@ echo "export LIBGL_ALWAYS_INDIRECT=1" >> .bashrc
 
 and restart WSL. The above commands point WSL to the X server you installed on Windows and offloads hardware graphics acceleration to Windows for faster graphical rendering.
 
+## Using WSL
+
+#### WSL Command Line
+
+* [Everything You Can Do With Windows 10’s New Bash Shell](https://www.howtogeek.com/265900/everything-you-can-do-with-windows-10s-new-bash-shell/)
+* [The Unix Workbench](http://seankross.com/the-unix-workbench/) - A book for anyone to get started with Unix/Linux environments.
+* [The Art of Command Line](https://github.com/jlevy/the-art-of-command-line) - Master the command line in one page. ![github project][githublogo]
+* [The Bash Academy](http://www.bash.academy) - The Bash Academy is an initiative to promote the bash shell language and educate people on its use.
+* [Awesome Command Line Apps](https://github.com/herrbischoff/awesome-command-line-apps) [![Awesome][awesomelogo]](https://awesome.re) ![github project][githublogo]
+
+#### WSL Programming
+
+Every developer has a unique workflow. Windows and WSL enable developers to carefully customize their setup for their unique workflow. The following are different developers approaches to creating their development enviroment using WSL:
+
+* [Epic Development Environment Using Windows Subsystem for Linux](https://medium.com/@johnwoodruff91/epic-dev-environment-with-wsl-dc81e234ae61) - One developers approach to their development enviroment using WSL.
+* [Setting Up a Programming Environment via Windows 10 Bash](https://www.cs.odu.edu/~zeil/FAQs/Public/win10Bash/) - From the computer science department at Old Dominion University.
+* [Using WSL and MobaXterm to Create a Linux Dev Environment on Windows](https://nickjanetakis.com/blog/using-wsl-and-mobaxterm-to-create-a-linux-dev-environment-on-windows) - Another developer's approach using the third-party terminal MobaXterm.
+* [ubuntu-win-boostrap](https://github.com/seapagan/ubuntu-win-bootstrap) - A very simple bootstrap script to install some development basic tools on Debian/Ubuntu on WSL. ![github project][githublogo]
+* [Castle-Winbuntu](https://github.com/rodtreweek/Castle-Winbuntu) - Another developer's progress on their development environment using WSL. ![github project][githublogo]
+
+For more about learning programming, visit [curated-programming-resources](https://github.com/Michael0x2a/curated-programming-resources/blob/master/resources.md).
+
+#### WSL Web Development
+
+Because WSL allows developers to run a variety of Linux servers locally on their Windows machine, WSL is uniquely useful for web and other server-side development. The following are different developers approaches to creating their web development enviroment using WSL:
+
+* [We put Linux in your Windows with Sarah Cooley](https://www.youtube.com/watch?v=JZCPYWrTLTg) - YouTube talk by Windows kernel team member on WSL for Windows.
+* [Setting Up Windows for Web Development](https://blog.cloudboost.io/setting-up-windows-for-web-development-28483d245a82)
+
+For more about learning programming, visit [curated-programming-resources](https://github.com/Michael0x2a/curated-programming-resources/blob/master/resources.md).
+
 # Supported Distributions
 
 ### Ubuntu
 
-Ubuntu is a Linux distribution based on Debian that is produced by [Canonical](https://www.ubuntu.com/). Ubuntu 16.04 and the more recent Ubuntu 18.04 featureing more recent software are both available for WSL.
+Ubuntu is a Linux distribution based on Debian that is produced by [Canonical](https://www.ubuntu.com/). Ubuntu 16.04 and the more recent Ubuntu 18.04 are both available for WSL from the Microsoft Store.
 
 * [Windows Store Link](https://www.microsoft.com/store/productId/9NBLGGH4MSV6) for Ubuntu 16.04.
 * [Windows Store Link](https://www.microsoft.com/store/productId/9N9TNGVNDL3Q) for Ubuntu 18.04.
@@ -106,6 +116,7 @@ Debian is a Linux distribution assembled by the non-profit [Debian](https://www.
 * [Windows Store Link](https://www.microsoft.com/store/productId/9MSVKQC78PK6).
 * [Debian Reference](https://www.debian.org/doc/manuals/debian-reference/) post-installation guide for Debian users with a focus on the command line from Debian.
 * [Package Management](https://www.debian.org/doc/manuals/debian-reference/ch02.en.html) from Debian.
+* [WSL wiki page](https://wiki.debian.org/InstallingDebianOn/Microsoft/Windows/SubsystemForLinux) from Debian.
 
 ### OpenSUSE
 
@@ -145,26 +156,37 @@ Unofficial distributions must be installed manually or with tools listed below. 
 * [MobaXterm](https://mobaxterm.mobatek.net/) - Enhanced terminal for Windows with X11 server, tabbed SSH client, network tools and much more.
 * [extraterm](https://github.com/sedwards2009/extraterm) - Open source project to build a terminal emulator and expand it with new features to support modern workflows. ![github project][githublogo]
 
-### Other
+### X Servers
+
+Required for running Linux GUI apps in Windows. See FAQ #9 above.
+
+* [VcXsrv](https://sourceforge.net/projects/vcxsrv/) - X server for Windows. 
+* [Xming](https://sourceforge.net/projects/xming/) - Another X server for Windows. Has not been updated since 2016.
+
+### For Managing WSL
 
 * [LxRunOffline](https://github.com/DDoSolitary/LxRunOffline) - A full-featured utility for managing WSL. ![github project][githublogo]
 * [wslu](https://github.com/patrick330602/wslu) - A collection of utilities for Windows 10 Linux Subsystem, such as enabling sound in WSL and creating your favorite linux GUI application shortcuts on Windows 10. ![github project][githublogo]
 * [BootShellCredentialProvider](https://github.com/NathanCastle/BootShellCredentialProvider) - BSCP lets you boot Windows directly into a Linux desktop experience such as xfce4 using Windows native login and a combination of Xming & WSL upon login. ![github project][githublogo]
+* [Ansible-WSL](https://github.com/Wintus/Ansible-WSL) - Provision WSL using Ansible. ![github project][githublogo]
+
+### Miscellaneous
+
 * [wsl-dotfiles](https://github.com/Xyene/wsl-dotfiles) - Configuration files and scripts for creating an i3-based environment inside WSL. ![github project][githublogo]
 * [wslgit](https://github.com/andy-5/wslgit) - Use git installed WSL from Windows and Visual Studio Code (VSCode). ![github project][githublogo]
 * [wsl-proxy](https://github.com/watzon/wsl-proxy) - A collection of "proxy" batch files that can be used to route requests to the WSL version of a command. ![github project][githublogo]
-* [wslpath](https://github.com/laurent22/wslpath) - PHP app to convert Windows and WSL path names. ![github project][githublogo]
+* [wslpath](https://github.com/laurent22/wslpath) - Easily convert Windows to WSL path names and vice-versa. ![github project][githublogo]
 * [wsl-open](https://github.com/4U6U57/wsl-open) - Open files with xdg-open on Bash for Windows in Windows applications. ![github project][githublogo]
 * [wsl-docker-git-setup](https://github.com/rodtreweek/Castle-Winbuntu) - Shell script to configure WSL to use docker and docker-compose as well as a git-enabled prompt. ![github project][githublogo]
-* [VcXsrv](https://sourceforge.net/projects/vcxsrv/) - X server for Windows. Required for running Linux GUI apps in Windows.
+* [WSL-DistroLauncher](https://github.com/Microsoft/WSL-DistroLauncher) - Reference launcher app for developing your own WSL distribution Microsoft Store package. ![github project][githublogo]
 
 # Additional Resources
 
 * [The Windows Subsystem for Linux Guide](http://wsl-guide.org/en/latest/) - Third-party WSL resource.
 * [WSL-Programs](https://github.com/ethanhs/WSL-Programs) - A community powered list of programs that work on the Windows Subsystem for Linux. ![github project][githublogo]
-* [/r/bashonubuntuonwindows](https://www.reddit.com/r/bashonubuntuonwindows/)
-* [WSL-DistroLauncher](https://github.com/Microsoft/WSL-DistroLauncher) - Reference launcher app for developing your own WSL distribution Microsoft Store packages. ![github project][githublogo]
-* [Ansible-WSL](https://github.com/Wintus/Ansible-WSL) - Provision WSL using Ansible.
+* [/r/bashonubuntuonwindows](https://www.reddit.com/r/bashonubuntuonwindows/) - Reddit community.
+* [##windows-wsl](https://irc-source.com/channel/freenode/%23%23windows-wsl) IRC channel on Freenode.net. 
+* [#debian-wsl](https://www.oftc.net/) IRC channel on OFTC.net.
 
 # More
 
