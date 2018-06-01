@@ -8,23 +8,23 @@ An Awesome collection of Windows Subsystem for Linux (WSL) information, distribu
 ## Table of Contents
 * [WSL Frequently Asked Questions](#faq)
 * [Using WSL](#using-wsl) <br>
-          - The WSL Shell <br>
-          - Programming on WSL <br>
-          - Web Development on WSL <br>
-          - Other WSL Uses
+          - [The WSL Shell](https://github.com/sirredbeard/Awesome-WSL#the-wsl-shell) <br>
+          - [Programming on WSL](https://github.com/sirredbeard/Awesome-WSL#programming-on-wsl) <br>
+          - [Web Development on WSL](https://github.com/sirredbeard/Awesome-WSL#web-development-on-wsl) <br>
+          - [Other WSL Uses](https://github.com/sirredbeard/Awesome-WSL#other-wsl-uses)
 * [Supported WSL Distributions](#supported-distributions) <br>
-          - Ubuntu <br>
-          - Debian <br>
-          - OpenSUSE / SUSE Enterprise Linux <br>
-          - Kali Linux <br>
+          - [Ubuntu](https://github.com/sirredbeard/Awesome-WSL#ubuntu) <br>
+          - [Debian](https://github.com/sirredbeard/Awesome-WSL#debian) <br>
+          - [OpenSUSE / SUSE Enterprise Linux](https://github.com/sirredbeard/Awesome-WSL#opensuse--suse-enterprise-linux) <br>
+          - [Kali Linux](https://github.com/sirredbeard/Awesome-WSL#kali-linux) <br>
 * [Unofficial WSL Distributions](#unofficial-distributions)
 * [WSL Tools](#wsl-tools) <br>
-          - Terminals <br>
-          - X Servers <br>
-          - Managing WSL <br>
-          - Windows <-> WSL <br>
-          - WSL-Specific Development Tools <br>
-          - Miscellaneous
+          - [Terminals](https://github.com/sirredbeard/Awesome-WSL#terminals) <br>
+          - [X Servers](https://github.com/sirredbeard/Awesome-WSL#x-servers) <br>
+          - [Managing WSL](https://github.com/sirredbeard/Awesome-WSL#for-managing-wsl) <br>
+          - [Windows <-> WSL](https://github.com/sirredbeard/Awesome-WSL#windows---wsl-utilities) <br>
+          - [WSL-Specific Development Tools](https://github.com/sirredbeard/Awesome-WSL#wsl-specific-development-tools) <br>
+          - [Miscellaneous Tools](https://github.com/sirredbeard/Awesome-WSL#miscellaneous-tools)
 * [Additional WSL Resources](#additional-resources)
 * [Related Projects](#related-projects)
 * [More Awesome Lists](#more-awesome)
@@ -204,8 +204,9 @@ Unofficial distributions must be installed manually or with tools listed below. 
 
 Required for running Linux GUI apps in Windows. See FAQ #9 above.
 
-* [VcXsrv](https://sourceforge.net/projects/vcxsrv/) - X server for Windows. 
-* [Xming](https://sourceforge.net/projects/xming/) - Another X server for Windows. Has not been updated since 2016.
+* [VcXsrv](https://sourceforge.net/projects/vcxsrv/) - X server for Windows with hardware acceleration compiled with Visual Studio.
+* [Xming](https://sourceforge.net/projects/xming/) - An older X server for Windows. Has not been updated since 2016.
+* [Cygwin/X](https://x.cygwin.com/) - Cygwin/X is a port of the X Window System to the Cygwin API layer for Windows.
 
 ### For Managing WSL
 
@@ -232,7 +233,7 @@ Required for running Linux GUI apps in Windows. See FAQ #9 above.
 * [wsl-dotfiles](https://github.com/Xyene/wsl-dotfiles) - Configuration files and scripts for creating an i3-based environment inside WSL. ![github project][githublogo]
 * [EnumWSL](https://github.com/therealkenc/EnumWSL) - Enumerates installed WSL packages. ![github project][githublogo]
 * [WSL-DistroLauncher](https://github.com/Microsoft/WSL-DistroLauncher) - Reference launcher app for developing your own WSL distribution Microsoft Store package. ![github project][githublogo]
-* [](https://github.com/Biswa96/WSL_Reverse) - Reveal hidden COM interface between WSL and Lxss Manager Service. ![github project][githublogo]
+* [WSL_Reverse](https://github.com/Biswa96/WSL_Reverse) - Reveal hidden COM interface between WSL and Lxss Manager Service. ![github project][githublogo]
 * [wslbridge](https://github.com/rprichard/wslbridge) - wslbridge is a Cygwin program that allows connecting to the WSL command-line environment over TCP sockets, as with ssh, but without the overhead of configuring an SSH server. ![github project][githublogo]
 * [WSLInstall](https://github.com/Biswa96/WSLInstall) - Install any Linux distribution userspace in WSL with compressed RootFS tarballs (tar.gz) or with Docker containers or with ISO files. ![github project][githublogo]
 * [cmd-colors-solarized](https://github.com/neilpa/cmd-colors-solarized) - This is a solarized color scheme for the Windows command prompt that works in WSL.
