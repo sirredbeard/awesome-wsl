@@ -240,13 +240,17 @@ Required for running Linux GUI apps in Windows. See FAQ #9 above.
 
 # Additional Resources
 
-* [The Windows Subsystem for Linux Guide](http://wsl-guide.org/en/latest/) - Third-party WSL resource.
+* Microsoft [WSL Blog](https://blogs.msdn.microsoft.com/wsl)
+* Microsoft [Console Blog](https://blogs.msdn.microsoft.com/commandline/)
 * [WSL-Programs](https://github.com/ethanhs/WSL-Programs) - A community powered list of programs that work on the Windows Subsystem for Linux. ![github project][githublogo]
 * [/r/bashonubuntuonwindows](https://www.reddit.com/r/bashonubuntuonwindows/) - Reddit subreddit.
-* [##windows-wsl](https://irc-source.com/channel/freenode/%23%23windows-wsl) IRC channel on Freenode.net. 
-* [#debian-wsl](https://www.oftc.net/) IRC channel on OFTC.net.
-* [WSL on GitHub](https://github.com/Microsoft/WSL) for reporting issues with WSL. ![github project][githublogo]
-* [Microsoft Developer feedback page for WSL](https://wpdev.uservoice.com/forums/266908-command-prompt-console-windows-subsystem-for-l).
+* [##windows-wsl](https://irc-source.com/channel/freenode/%23%23windows-wsl) - IRC channel on Freenode.net. 
+* [#debian-wsl](https://www.oftc.net/) - IRC channel on OFTC.net.
+* [WSL on GitHub](https://github.com/Microsoft/WSL) - For reporting issues with WSL. ![github project][githublogo]
+* [The Windows Subsystem for Linux Guide](http://wsl-guide.org/en/latest/) - Third-party WSL resource.
+* [Microsoft User Voice](https://wpdev.uservoice.com/forums/266908-command-prompt-console-bash-on-ubuntu-on-windo/category/161892-bash) - Send Microsoft feedback on WSL.
+* [Microsoft Developer Feedback](https://wpdev.uservoice.com/forums/266908-command-prompt-console-windows-subsystem-for-l) - For developers to send Microsoft feeback on WSL.
+* [Stack Overflow: WSL](https://stackoverflow.com/questions/tagged/wsl) - Programming question and answer site.
 
 # Related Projects
 
