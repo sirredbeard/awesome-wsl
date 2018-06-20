@@ -21,7 +21,7 @@ An Awesome collection of Windows Subsystem for Linux (WSL) information, distribu
 * [WSL Tools](#wsl-tools) <br>
           - [Terminals](https://github.com/sirredbeard/Awesome-WSL#terminals) <br>
           - [X Servers](https://github.com/sirredbeard/Awesome-WSL#x-servers) <br>
-          - [Managing WSL](https://github.com/sirredbeard/Awesome-WSL#for-managing-wsl) <br>
+          - [Managing WSL Installations](https://github.com/sirredbeard/Awesome-WSL#for-managing-wsl) <br>
           - [Windows <-> WSL](https://github.com/sirredbeard/Awesome-WSL#windows---wsl-utilities) <br>
           - [WSL-Specific Development Tools](https://github.com/sirredbeard/Awesome-WSL#wsl-specific-development-tools) <br>
           - [Miscellaneous Tools](https://github.com/sirredbeard/Awesome-WSL#miscellaneous-tools)
@@ -208,7 +208,7 @@ Required for running Linux GUI apps in Windows. See FAQ #9 above.
 * [Xming](https://sourceforge.net/projects/xming/) - An older X server for Windows. Has not been updated since 2016.
 * [Cygwin/X](https://x.cygwin.com/) - Cygwin/X is a port of the X Window System to the Cygwin API layer for Windows.
 
-### For Managing WSL
+### For Managing WSL Installations
 
 * [LxRunOffline](https://github.com/DDoSolitary/LxRunOffline) - A full-featured utility for managing WSL. ![github project][githublogo]
 * [wslu](https://github.com/patrick330602/wslu) - A collection of utilities for Windows 10 Linux Subsystem, such as enabling sound in WSL and creating your favorite linux GUI application shortcuts on Windows 10. ![github project][githublogo]
@@ -277,7 +277,7 @@ More [![Awesome][awesomelogo]](https://awesome.re) lists. ![github project][gith
 
 # Thanks
 
-* The Windows 10, WSL, and kernel teams at Microsoft, including but not limited to [Tara Raj](https://twitter.com/tara_msft), [Rich Turner](https://twitter.com/richturn_ms), [Jessie Frazelle](https://twitter.com/jessfraz), [Jack Hammons](https://github.com/jackchammons), and [Sarah Cooley](https://github.com/scooley), [Ben Hillis](https://github.com/benhillis), [Allen Sudbring](https://blogs.technet.microsoft.com/askpfeplat/tag/allen-sudbring/), [Brandon Wilson](https://social.technet.microsoft.com/profile/BrandonWilson), [John Starks](https://twitter.com/gigastarks), [Russ Alexander](https://www.linkedin.com/in/russalex). Did I [miss anyone](https://github.com/sirredbeard/Awesome-WSL/issues/1)?
+* The Windows 10, WSL, and kernel teams at Microsoft, including but not limited to [Tara Raj](https://twitter.com/tara_msft), [Rich Turner](https://twitter.com/richturn_ms), [Jessie Frazelle](https://twitter.com/jessfraz), [Jack Hammons](https://github.com/jackchammons), [Sarah Cooley](https://github.com/scooley), [Ben Hillis](https://github.com/benhillis), [Allen Sudbring](https://blogs.technet.microsoft.com/askpfeplat/tag/allen-sudbring/), [Brandon Wilson](https://social.technet.microsoft.com/profile/BrandonWilson), [John Starks](https://twitter.com/gigastarks), [Russ Alexander](https://www.linkedin.com/in/russalex), [Yosef Durr](https://twitter.com/yosefdurr), [Sven Groot](https://twitter.com/svengroot_ms), [Sunil Muthuswamy](https://twitter.com/SunilMut), [Palkesh Soni](https://twitter.com/sonipalkesh), [John Starks](https://twitter.com/gigastarks), [Craig Wilhite](https://twitter.com/CraigWilhite).
 * [Canonical](https://www.ubuntu.com/), [Debian](https://www.debian.org/), [SUSE](https://www.suse.com/), and [Offensive Software](https://www.offensive-security.com/).
 * The [Awesome community](https://awesome.re) on GitHub.
 
