@@ -5,7 +5,7 @@ An Awesome collection of Windows Subsystem for Linux (WSL) information, distribu
 
 <img src="https://raw.githubusercontent.com/sirredbeard/Awesome-WSL/master/WSLscreenshot.PNG" height=50% width=50%>
 
-## Table of Contents
+## Contents
 * [WSL Frequently Asked Questions](#faq)
 * [Using WSL](#using-wsl) <br>
           - [The WSL Shell](https://github.com/sirredbeard/Awesome-WSL#the-wsl-shell) <br>
