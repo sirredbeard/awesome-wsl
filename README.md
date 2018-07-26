@@ -77,18 +77,20 @@ You want the gritty details? Here they are:
 
 WSL is undoubtedly a tool for power users, developers, and *NIX/Linux geeks who want to run Windows. Most of the things you can do with WSL are going to be related to programming, sysadmin, automation, AI/data science, and other geeky things.
 
-### 9. Can I install Linux GUI apps?
+### 9. Can I run Linux GUI apps?
 
-Yes, [some](https://github.com/ethanhs/WSL-Programs) of them. This first requires installation of X server application such as [VcXsrv](https://sourceforge.net/projects/vcxsrv/) (recommended) or [Xming](https://sourceforge.net/projects/xming/) on Windows 10.
+Yes, a [suprising number](https://github.com/ethanhs/WSL-Programs) of Linux GUI apps can run on WSL even though this is not officially supported by Microsoft. Running a GUI app on Linux though means running an X server on Windows. This must be downloaded, installed, and running for your GUI app to open from WSL. Otherwise it will complain of not finding a display. X server applications on Windows include [X410](https://www.microsoft.com/store/productId/9NLP712ZMN9Q) ($5 highly recommended), [VcXsrv](https://sourceforge.net/projects/vcxsrv/), or [Xming](https://sourceforge.net/projects/xming/) on Windows 10.
 
-Then in WSL type the following:
+Then in WSL you will need type the following to redirect the X output to the X server you just installed:
 
 ```bash
 echo "export DISPLAY=:0" >> .bashrc
 echo "export LIBGL_ALWAYS_INDIRECT=1" >> .bashrc
 ```
 
-and restart WSL. The above commands point WSL to the X server you installed on Windows and offloads hardware graphics acceleration to Windows 10 for faster graphical rendering.
+and restart WSL. 
+
+Note: The LIBGL command offloads hardware graphics acceleration from Linux to Windows 10 for faster graphical rendering.
 
 ## Using WSL
 
