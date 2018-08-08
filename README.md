@@ -22,7 +22,7 @@ An Awesome collection of Windows Subsystem for Linux (WSL) information, distribu
           - [Terminals](https://github.com/sirredbeard/Awesome-WSL#terminals) <br>
           - [X Servers](https://github.com/sirredbeard/Awesome-WSL#x-servers) <br>
           - [Managing WSL Installations](https://github.com/sirredbeard/Awesome-WSL#for-managing-wsl) <br>
-          - [Windows <-> WSL](https://github.com/sirredbeard/Awesome-WSL#windows---wsl-utilities) <br>
+          - [WSL Utilities](https://github.com/sirredbeard/Awesome-WSL#wsl-utilities) <br>
           - [WSL-Specific Development Tools](https://github.com/sirredbeard/Awesome-WSL#wsl-specific-development-tools) <br>
           - [Miscellaneous Tools](https://github.com/sirredbeard/Awesome-WSL#miscellaneous-tools)
 * [Additional WSL Resources](#additional-resources)
@@ -35,23 +35,23 @@ An Awesome collection of Windows Subsystem for Linux (WSL) information, distribu
 
 ### 1. What is Linux?
 
-Linux is a [UNIX-like](https://github.com/sirredbeard/Awesome-UNIX#frequently-asked-questions) [open-source](https://opensource.org/osd) operating system. The core of Linux is a [kernel](https://www.howtogeek.com/howto/31632/what-is-the-linux-kernel-and-what-does-it-do/) developed by [Linus Torvalds](https://en.wikipedia.org/wiki/Linus_Torvalds). Linux also includes a wide array of applications built on top of the kernel, including [web servers](https://www.linux.com/learn/apache-ubuntu-linux-beginners), [compilers](https://gcc.gnu.org/), and [e-mail clients](https://wiki.gnome.org/Apps/Geary), developed and contributed to the Linux ecosystem by a worldwide community of programmers. These applications are then assembled together into Linux [distributions](https://en.wikipedia.org/wiki/Linux_distribution) by communities, companies, and individuals.
+Linux is a [UNIX-like](https://github.com/sirredbeard/Awesome-UNIX#frequently-asked-questions) [open-source](https://opensource.org/osd) operating system. The core of Linux is a [kernel](https://www.howtogeek.com/howto/31632/what-is-the-linux-kernel-and-what-does-it-do/) developed by [Linus Torvalds](https://en.wikipedia.org/wiki/Linus_Torvalds). Linux also includes a wide array of applications built on top of the kernel, including [web servers](https://www.linux.com/learn/apache-ubuntu-linux-beginners), [compilers](https://gcc.gnu.org/), and [e-mail clients](https://wiki.gnome.org/Apps/Geary), developed and contributed to the Linux ecosystem by a worldwide community of programmers. These applications are then assembled together into Linux [distributions](https://en.wikipedia.org/wiki/Linux_distribution) by [companies](https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux), [communities](https://www.archlinux.org/), and [individuals](http://www.slackware.com/).
 
 ### 2. What is a Linux distribution?
 
-Unlike Windows or macOS there are many different Linux distributions, each of which is assembled with different approaches to the software selection and implementation. For example, the goal of the non-profit volunteer [Debian Project](https://www.debian.org/devel/constitution) community is to produce a universal free operating system. The goal of the CentOS project is to provide a [stable enterprise platform](https://www.centos.org/about/) compatible with the Red Hat Enterprise Linux distribution. There are also Linux distributions based on other distributions. Ubuntu is a distribution based on Debian built by the company Canonical for [paid use in the enterprise market](https://www.ubuntu.com/support). Kali is a distribution based on Debian built with an emphasis on tools for network security testing. You can see the most popular distributions at [DistroWatch](https://distrowatch.com/).
+Unlike Windows or macOS there are many different Linux distributions, each of which is assembled with different approaches to the software selection and implementation. For example, the goal of the non-profit volunteer [Debian Project](https://www.debian.org/devel/constitution) community is to produce a universal free operating system, while the goal of the for-profit SUSE is to provide a [stable enterprise platform](https://www.suse.com/). There are also Linux distributions based on other distributions. [Ubuntu](https://www.ubuntu.com/) is a distribution based on Debian built by the company Canonical. Kali is a distribution based on Debian built with an emphasis on tools for network security testing. You can see the most popular distributions ranked at [DistroWatch](https://distrowatch.com/).
 
 ### 3. What is Windows?
 
-Windows is a family of proprietary operating systems, all of which are developed, marketed, and sold by Microsoft. Currently Windows 10 is Microsoft's flagship operating system. Windows 10 is available for Intel x86-based and arm64-based PCs. The Windows Subsystem for Linux first shipped in [Windows 10 Anniversary Update](https://blogs.msdn.microsoft.com/wsl/2016/07/08/bash-on-ubuntu-on-windows-10-anniversary-update/), version number 1607, in August 2016. WSL can be enabled for free on all versions of Windows 10 after 1607, including Home, Professional, Enterprise, Server, LTSB, and Education. Originally only available for Intel x86-based PCs, Ubuntu 18.04 for arm64 was made available on the Microsoft store in [May 2018](https://twitter.com/TheRealHariP/status/994293523514970112).
+[Windows](https://en.wikipedia.org/wiki/Microsoft_Windows) is a family of proprietary operating systems, all of which are developed, marketed, and sold by Microsoft. Currently Windows 10 is Microsoft's flagship operating system. Windows 10 is available for Intel x86-based and arm64-based PCs. The Windows Subsystem for Linux first shipped in [Windows 10 Anniversary Update](https://blogs.msdn.microsoft.com/wsl/2016/07/08/bash-on-ubuntu-on-windows-10-anniversary-update/), version number 1607, in August 2016. WSL can be enabled for free on all versions of Windows 10 after 1607, including Home, Professional, Enterprise, Server, LTSB, and Education. Originally only available for Intel x86-based PCs, Ubuntu 18.04 for arm64 was made available on the Microsoft store in [May 2018](https://twitter.com/TheRealHariP/status/994293523514970112).
 
 ### 4. What is the Windows Subsystem for Linux?
 
-Windows Subsystem for Linux is a compatibility layer for running Linux binary executables natively on Windows 10. No re-compilation is required. WSL provides a Linux-compatible kernel interface developed by Microsoft and allows a user to chose a Linux distribution to install from the Microsoft Store. Linux applications run within the Linux distribution which provides the application's dependencies and package management in a container-like environment.
+Windows Subsystem for Linux is a compatibility layer for running Linux binary executables (ELF) natively on Windows 10. No re-compilation or porting is required. WSL provides a Linux-compatible kernel interface developed by Microsoft and allows a user to chose a Linux distribution to install from the Microsoft Store. Linux applications run within the Linux distribution which provides the application's dependencies and package management in a container-like environment. WSL provides an interface to mount drives within WSL. Additional features are planned.
 
 ### 5. Is Windows Subsystem for Linux an emulator?
 
-No. Windows Subsystem for Linux is not an emulator or virtualizer like [VirtualBox](https://www.virtualbox.org/). WSL executes unmodified Linux ELF64 binaries by emulating a Linux kernel interface on top of the Windows kernel in Windows 10. The WSL kernel interface translates Linux system calls to Windows system calls which executes them at native speed. WSL is closer in it's approach to [Wine](https://www.winehq.org/) which is a compatibility layer to run Windows binaries on Linux by re-implementing Windows system and API calls in libraries.
+No. Windows Subsystem for Linux is not an emulator or virtualizer like [VirtualBox](https://www.virtualbox.org/). WSL executes unmodified Linux ELF64 binaries by operating a Linux kernel interface on top of the Windows kernel in Windows 10. The WSL kernel interface translates Linux system calls from the binaries into Windows system calls and then executes them at native speed. WSL is closer in its approach to [Wine](https://www.winehq.org/) which is a compatibility layer to run Windows binaries on Linux by re-implementing Windows system and API calls in libraries.
 
 ### 6. How does Windows Subsystem for Linux *really* work?
 
@@ -75,11 +75,11 @@ You want the gritty details? Here they are:
 
 ### 8. What can I do with Windows Subsystem for Linux?
 
-WSL is undoubtedly a tool for power users, developers, and *NIX/Linux geeks who want to run Windows. Most of the things you can do with WSL are going to be related to programming, sysadmin, automation, AI/data science, and other geeky things.
+WSL is undoubtedly a tool for power-users, developers, and *NIX/Linux geeks who want to run Windows. Most of the things you can do with WSL are going to be related to programming, the console, sysadmin, automation, AI/data science, and other geeky things.
 
 ### 9. Can I run Linux GUI apps?
 
-Yes, a [suprising number](https://github.com/ethanhs/WSL-Programs) of Linux GUI apps can run on WSL even though this is not officially supported by Microsoft. Running a GUI app on Linux though means running an X server on Windows. This must be downloaded, installed, and running for your GUI app to open from WSL. Otherwise it will complain of not finding a display. X server applications on Windows include [X410](https://www.microsoft.com/store/productId/9NLP712ZMN9Q) ($5 highly recommended), [VcXsrv](https://sourceforge.net/projects/vcxsrv/), or [Xming](https://sourceforge.net/projects/xming/) on Windows 10.
+Yes, a [suprising number](https://github.com/ethanhs/WSL-Programs) of Linux GUI apps can run on WSL even though this is not officially supported by Microsoft. Running a GUI app on Linux though means running an X server on Windows. This must be downloaded, installed, and running for your GUI app to open from WSL. Otherwise it will complain of not finding a display. X server applications on Windows include [X410](https://www.microsoft.com/store/productId/9NLP712ZMN9Q) ($5 but very highly recommended), [VcXsrv](https://sourceforge.net/projects/vcxsrv/), or [Xming](https://sourceforge.net/projects/xming/) on Windows 10.
 
 Then in WSL you will need type the following to redirect the X output to the X server you just installed:
 
@@ -90,7 +90,7 @@ echo "export LIBGL_ALWAYS_INDIRECT=1" >> .bashrc
 
 and restart WSL. 
 
-Note: The LIBGL command offloads hardware graphics acceleration from Linux to Windows 10 for faster graphical rendering.
+If you use another shell, make the appropriate edit there. The LIBGL command offloads hardware graphics acceleration from Linux to Windows 10 for faster graphical rendering.
 
 ## Using WSL
 
@@ -124,7 +124,7 @@ Because WSL allows developers to run a variety of Linux server applications loca
 
 * [We put Linux in your Windows](https://www.youtube.com/watch?v=JZCPYWrTLTg) - YouTube talk by Windows kernel team member Sarah Cooley on WSL for Windows.
 * [Setting Up Windows for Web Development](https://blog.cloudboost.io/setting-up-windows-for-web-development-28483d245a82).
-* [How to Install LAMP Stack Server on Windows Subsystem Linux](https://medium.com/@ssharizal/how-to-install-lamp-stack-server-on-windows-subsystem-linux-wsl-windows-10-133419c22473)
+* [How to Install LAMP Stack Server on Windows Subsystem Linux](https://medium.com/@ssharizal/how-to-install-lamp-stack-server-on-windows-subsystem-linux-wsl-windows-10-133419c22473).
 
 For more about learning programming, visit [curated-programming-resources](https://github.com/Michael0x2a/curated-programming-resources/blob/master/resources.md).
 
@@ -145,9 +145,9 @@ Microsoft makes [free development tools](https://code.visualstudio.com/) availab
 
 Ubuntu is a Linux distribution based on Debian that is produced by [Canonical Ltd.](https://www.ubuntu.com/). Ubuntu 16.04 and the more recent Ubuntu 18.04 are both available for WSL from the Microsoft Store.
 
-* [Windows Store Link](https://www.microsoft.com/store/productId/9NBLGGH4MSV6) for Ubuntu 16.04. Supported through April 2021. Very stable but packages and libraries may be older.
+* [Windows Store Link](https://www.microsoft.com/store/productId/9NBLGGH4MSV6) for Ubuntu 16.04. Supported through April 2021. Very stable but some packages and libraries may be older.
 * [Windows Store Link](https://www.microsoft.com/store/productId/9N9TNGVNDL3Q) for Ubuntu 18.04. Most recent update. Newer packages but more likely to encounter bugs. Supported through April 2023.
-* [Installing Software](https://help.ubuntu.com/community/InstallingSoftware) guide from Ubuntu.
+* [Installing Software](https://help.ubuntu.com/community/InstallingSoftware) guide to using apt from Ubuntu.
 * [Ubuntu Server Guide](https://help.ubuntu.com/lts/serverguide/index.html) from Ubuntu.
 * Because Ubuntu is based on Debian, many Debian tutorials also apply to Ubuntu.
 
@@ -157,12 +157,12 @@ Debian is a Linux distribution assembled by volunteers with the non-profit [Debi
 
 * [Windows Store Link](https://www.microsoft.com/store/productId/9MSVKQC78PK6) for Debian Stretch.
 * [Debian Reference](https://www.debian.org/doc/manuals/debian-reference/) post-installation guide for Debian users with a focus on the command line from Debian.
-* [Package Management](https://www.debian.org/doc/manuals/debian-reference/ch02.en.html) from Debian.
+* [Package Management](https://www.debian.org/doc/manuals/debian-reference/ch02.en.html) guide to using apt from Debian.
 * [WSL Wiki page](https://wiki.debian.org/InstallingDebianOn/Microsoft/Windows/SubsystemForLinux) from Debian.
 
 ### OpenSUSE / SUSE Enterprise Linux
 
-OpenSUSE and SUSE Enterprise Linux are Linux distributions produced by [SUSE Linux GmbH](https://www.opensuse.org/) and other companies. Leap 42 is a community-oriented distribution with recent software. SUSE Enterprise Linux is an enterprise-grade commercial distribution with older tested software.
+OpenSUSE and SUSE Enterprise Linux are Linux distributions produced by [SUSE Linux GmbH](https://www.opensuse.org/) and other companies. Leap is a community-oriented distribution with recent software. SUSE Enterprise Linux is an enterprise-grade commercial distribution with older tested software.
 
 * [Windows Store Link](https://www.microsoft.com/store/productId/9NJVJTS82TJX) for OpenSUSE Leap 42.
 * [Windows Store Link](https://www.microsoft.com/store/productId/9P32MWBH6CNS) for SUSE Enterprise Linux.
@@ -217,7 +217,7 @@ Required for running Linux GUI apps in Windows. See FAQ #9 above.
 * [wslu](https://github.com/patrick330602/wslu) - A collection of utilities for Windows 10 Linux Subsystem, such as enabling sound in WSL and creating your favorite linux GUI application shortcuts on Windows 10. ![github project][githublogo]
 * [Ansible-WSL](https://github.com/Wintus/Ansible-WSL) - Provision WSL using Ansible. ![github project][githublogo]
 
-### Windows <-> WSL Utilities
+### WSL Utilities
 
 * [wslgit](https://github.com/andy-5/wslgit) - Use git installed on WSL from Visual Studio Code on Windows. ![github project][githublogo]
 * [wsl-proxy](https://github.com/watzon/wsl-proxy) - A collection of 'proxy' batch files that can be used to route requests to the WSL version of a command. ![github project][githublogo]
@@ -301,6 +301,7 @@ More [![Awesome][awesomelogo]](https://awesome.re) lists. ![github project][gith
 * YouTube® is a registered trademark of Google, LLC. [*](https://www.google.com/permissions/trademark/our-trademarks.html)
 * macOS® is a registered trademark of Apple, Inc. [*](https://www.apple.com/legal/intellectual-property/guidelinesfor3rdparties.html)
 * GitHub® and [githublogo] are a registered trademarks of GitHub, Inc. [*](https://help.github.com/articles/github-terms-of-service/)
+* Oracle and Oracle Linux are trademarks or registered tracemarks of Oracle, Inc. [*](https://www.oracle.com/legal/trademarks.html)
 
 All other trademarks mentioned herein are the property of their respective owners and may be registered in the United States and/or other countries.
 
