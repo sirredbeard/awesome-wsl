@@ -113,6 +113,7 @@ Every developer has a unique workflow. Windows and WSL enable developers to care
 - [Setting up my WSL Environment - Azure CLI, Docker and .NET](http://tattoocoder.com/setting-up-my-wsl-environment-azure-cli-docker-and-net/)
 - [ubuntu-win-boostrap](https://github.com/seapagan/ubuntu-win-bootstrap) - A very simple bootstrap script to install some development basic tools on Debian/Ubuntu on WSL. ![github project][githublogo]
 - [Castle-Winbuntu](https://github.com/rodtreweek/Castle-Winbuntu) - Another developer's progress on their development environment using WSL. ![github project][githublogo]
+- [Badass Terminal](http://jessicadeen.com/tech/badass-terminal-wsl-macos-and-ubuntu-dotfiles-update/)
 
 For more about learning programming generally, visit [curated-programming-resources](https://github.com/Michael0x2a/curated-programming-resources/blob/master/resources.md).
 
@@ -138,6 +139,8 @@ Microsoft makes [free development tools](https://code.visualstudio.com) availabl
 - Replacing Windows shell [with Xfce, Gnome, KDE, or i3.](https://github.com/NathanCastle/BootShellCredentialProvider).
 - Running Linux-based server applications like [OpenFOAM](https://openfoam.org/download/windows-10/) and [Wordpress](https://mkaz.blog/wordpress/install-wordpress-on-windows-subsystem-for-linux/) locally for testing purposes.
 - Managing your companies' CentOS servers using [Ansible](https://www.jeffgeerling.com/blog/2017/using-ansible-through-windows-10s-subsystem-linux).
+- [pWSLinux+K8S: The Interop way](https://medium.com/@hoxunn/wslinux-k8s-the-interop-way-2d98e5b88f08)
+- [Vagrant and Windows Subsystem for Linux](https://www.vagrantup.com/docs/other/wsl.html)
 
 ## Supported Distributions
 
@@ -201,6 +204,7 @@ Unofficial distributions must be installed manually or with tools listed below. 
 - [ConEmu](https://conemu.github.io) - ConEmu aims to be handy, comprehensive, fast and reliable terminal where you may host any console application for the Windows command line, PowerShell, or WSL. 
 - [MobaXterm](https://mobaxterm.mobatek.net) - Enhanced terminal for Windows with X11 server, tabbed SSH client, network tools and much more.
 - [extraterm](https://github.com/sedwards2009/extraterm) - Open source project to build a terminal emulator and expand it with new features to support modern workflows. ![github project][githublogo]
+- [Hyper](https://hyper.is/) - A terminal built on web technologies. ![github project][githublogo]
 
 #### X Servers
 
