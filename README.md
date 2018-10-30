@@ -80,18 +80,7 @@ WSL is undoubtedly a tool for power-users, developers, and *NIX/Linux geeks who 
 
 ### 9. GUI Apps
 
-Yes, a [suprising number](https://github.com/ethanhs/WSL-Programs) of Linux GUI apps can run on WSL even though this is not officially supported by Microsoft. Running a GUI app on Linux though means running an X server on Windows. This must be downloaded, installed, and running for your GUI app to open from WSL. Otherwise it will complain of not finding a display. X server applications on Windows include [X410](https://www.microsoft.com/store/productId/9NLP712ZMN9Q) ($5 but very highly recommended), [VcXsrv](https://sourceforge.net/projects/vcxsrv/), or [Xming](https://sourceforge.net/projects/xming/) on Windows 10.
-
-Then in WSL you will need type the following to redirect the X output to the X server you just installed:
-
-```bash
-echo "export DISPLAY=:0" >> .bashrc
-echo "export LIBGL_ALWAYS_INDIRECT=1" >> .bashrc
-```
-
-and restart WSL. 
-
-If you use another shell, make the appropriate edit there. The LIBGL command offloads hardware graphics acceleration from Linux to Windows 10 for faster graphical rendering.
+Yes, a [suprising number](https://github.com/ethanhs/WSL-Programs) of Linux GUI apps can run on WSL even though this is not officially supported by Microsoft. Running a GUI app on Linux though means running an X server on Windows. This must be downloaded, installed, and running for your GUI app to open from WSL. Otherwise it will complain of not finding a display. X servers for Windows include [X410](https://afflnk.microsoft.com/c/1291904/433017/7593?u=https%3A%2F%2Fwww.microsoft.com%2Fp%2Fx410%2F9nlp712zmn9q) 💰 ($5 but very highly recommended), [VcXsrv](https://sourceforge.net/projects/vcxsrv/), or [Xming](https://sourceforge.net/projects/xming/) on Windows 10.
 
 ## Using WSL
 
@@ -186,7 +175,7 @@ Kali Linux is a Linux distribution focused on penetration testing based on Debia
 
 WLinux is a Linux distribution based on Debian that is designed for WSL users by independent open source developers at [Whitewater Foundry](https://www.whitewaterfoundry.com/).
 
-- [WLinux Store Link](https://afflnk.microsoft.com/c/1291904/433017/7593?u=https%3A%2F%2Fwww.microsoft.com%2Fp%2Fwlinux%2F9nv1gv1pxz6p)
+- [WLinux Store Link](https://afflnk.microsoft.com/c/1291904/433017/7593?u=https%3A%2F%2Fwww.microsoft.com%2Fp%2Fwlinux%2F9nv1gv1pxz6p) 💰
 - [WLinux GitHub Page](https://github.com/WhitewaterFoundry/WLinux) ![github project][githublogo]
 - Because WLinux is based on Debian, most Debian and Ubuntu documentation also applies to WLinux.
 
@@ -209,9 +198,9 @@ Unofficial distributions must be installed manually or with tools listed below. 
 
 An X server running on Windows is required for running Linux GUI apps on Windows. See FAQ #9 above.
 
-- [X410](https://afflnk.microsoft.com/c/1291904/433017/7593?u=https%3A%2F%2Fwww.microsoft.com%2Fp%2Fx410%2F9nlp712zmn9q) - X server for Windows 10 on the Microsoft Store.
+- [X410](https://afflnk.microsoft.com/c/1291904/433017/7593?u=https%3A%2F%2Fwww.microsoft.com%2Fp%2Fx410%2F9nlp712zmn9q) - X server for Windows 10 on the Microsoft Store. 💰
 - [VcXsrv](https://sourceforge.net/projects/vcxsrv/) - X server for Windows with hardware acceleration compiled with Visual Studio.
-- [Xmanage](https://www.netsarang.com/products/xmg_overview.html) - X server for Windows from NetSarang.
+- [Xmanage](https://www.netsarang.com/products/xmg_overview.html) - X server for Windows from NetSarang. 💰
 - [Xming](https://sourceforge.net/projects/xming/) - An older X server for Windows. Has not been updated since 2016.
 - [Cygwin/X](https://x.cygwin.com) - Cygwin/X is a port of the X Window System to the Cygwin API layer for Windows.
 
@@ -282,13 +271,13 @@ An X server running on Windows is required for running Linux GUI apps on Windows
 
 ## More Awesome
 
+- [Awesome UNIX](https://github.com/sirredbeard/Awesome-UNIX)
 - [Awesome Windows](https://github.com/Awesome-Windows/Awesome)
 - [Awesome VSCode](https://github.com/viatsko/awesome-vscode)
 - [Awesome Bash](https://github.com/awesome-lists/awesome-bash)
 - [Awesome Shell](https://github.com/alebcay/awesome-shell)
 - [Awesome Powershell](https://github.com/janikvonrotz/awesome-powershell)
 - [Awesome Linux](https://github.com/aleksandar-todorovic/awesome-linux)
-- [Awesome UNIX](https://github.com/sirredbeard/Awesome-UNIX)
 
 More [![Awesome][awesomelogo]](https://awesome.re) lists. ![github project][githublogo]
 
