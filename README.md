@@ -17,10 +17,11 @@ An Awesome collection of Windows Subsystem for Linux (WSL) information, distribu
           - [Debian](https://github.com/sirredbeard/Awesome-WSL#debian) <br>
           - [OpenSUSE / SUSE Enterprise Linux](https://github.com/sirredbeard/Awesome-WSL#opensuse--suse-enterprise-linux) <br>
           - [Kali Linux](https://github.com/sirredbeard/Awesome-WSL#kali-linux) <br>
+          - [WLinux](https://github.com/sirredbeard/Awesome-WSL#wlinux) <br>
 - [Unofficial WSL Distributions](#unofficial-distributions)
 - [WSL Tools](#wsl-tools) <br>
-          - [Terminals](https://github.com/sirredbeard/Awesome-WSL#terminals) <br>
           - [X Servers](https://github.com/sirredbeard/Awesome-WSL#x-servers) <br>
+          - [Terminals](https://github.com/sirredbeard/Awesome-WSL#terminals) <br>
           - [Managing WSL Installations](https://github.com/sirredbeard/Awesome-WSL#for-managing-wsl) <br>
           - [WSL Utilities](https://github.com/sirredbeard/Awesome-WSL#wsl-utilities) <br>
           - [WSL-Specific Development Tools](https://github.com/sirredbeard/Awesome-WSL#wsl-specific-development-tools) <br>
@@ -156,7 +157,7 @@ Ubuntu is a Linux distribution based on Debian that is produced by [Canonical Lt
 
 #### Debian
 
-Debian is a Linux distribution assembled by volunteers with the non-profit [Debian](https://www.debian.org) Project.
+Debian is a Linux distribution assembled by volunteers with the community [Debian](https://www.debian.org) Project.
 
 - [Windows Store Link](https://www.microsoft.com/store/productId/9MSVKQC78PK6) for Debian Stretch.
 - [Debian Reference](https://www.debian.org/doc/manuals/debian-reference/) post-installation guide for Debian users with a focus on the command line from Debian.
@@ -167,11 +168,11 @@ Debian is a Linux distribution assembled by volunteers with the non-profit [Debi
 
 OpenSUSE and SUSE Enterprise Linux are Linux distributions produced by [SUSE Linux GmbH](https://www.opensuse.org) and other companies. Leap is a community-oriented distribution with recent software. SUSE Enterprise Linux is an enterprise-grade commercial distribution with older tested software.
 
-- [Windows Store Link](https://www.microsoft.com/store/productId/9NJVJTS82TJX) for OpenSUSE Leap 42.
-- [Windows Store Link](https://www.microsoft.com/store/productId/9P32MWBH6CNS) for SUSE Enterprise Linux.
+- [Windows Store Link](https://www.microsoft.com/store/productId/9N1TB6FPVJ8C) for OpenSUSE Leap 15.
+- [Windows Store Link](https://www.microsoft.com/store/productId/9PMW35D7FNLX) for SUSE Enterprise Linux 15.
 - [Managing Software with Command Line Tools](https://doc.opensuse.org/documentation/leap/reference/html/book.opensuse.reference/cha.sw_cl.html) from OpenSUSE.
-- [OpenSUSE 42 Reference](https://doc.opensuse.org/documentation/leap/reference/html/book.opensuse.reference/book.opensuse.reference.html).
-- [SUSE Linux Enterprise Documentation](https://www.suse.com/documentation/sles-12/index.html) from SUSE.
+- [OpenSUSE Reference](https://doc.opensuse.org/documentation/leap/reference/html/book.opensuse.reference/book.opensuse.reference.html).
+- [SUSE Linux Enterprise Documentation](https://www.suse.com/documentation/sles-15/index.html) from SUSE.
 
 #### Kali Linux
 
@@ -179,7 +180,15 @@ Kali Linux is a Linux distribution focused on penetration testing based on Debia
 
 - [Windows Store Link](https://www.microsoft.com/store/productId/9PKR34TNCV07).
 - [Kali Linux Official Documentation](https://www.kali.org/kali-linux-documentation/).
-- Because Kali is based on Debian, most Debian tutorials also apply to Kali.
+- Because Kali is based on Debian, most Debian and Ubuntu documentation also applies to Kali.
+
+#### WLinux
+
+WLinux is a Linux distribution based on Debian that is designed for WSL users by independent open source developers at [Whitewater Foundry](https://www.whitewaterfoundry.com/).
+
+- [WLinux Store Link](https://afflnk.microsoft.com/c/1291904/433017/7593?u=https%3A%2F%2Fwww.microsoft.com%2Fp%2Fwlinux%2F9nv1gv1pxz6p)
+- [WLinux GitHub Page](https://github.com/WhitewaterFoundry/WLinux) ![github project][githublogo]
+- Because WLinux is based on Debian, most Debian and Ubuntu documentation also applies to WLinux.
 
 ## Unofficial Distributions
 
@@ -196,6 +205,16 @@ Unofficial distributions must be installed manually or with tools listed below. 
 
 ## WSL Tools
 
+#### X Servers
+
+An X server running on Windows is required for running Linux GUI apps on Windows. See FAQ #9 above.
+
+- [X410](https://afflnk.microsoft.com/c/1291904/433017/7593?u=https%3A%2F%2Fwww.microsoft.com%2Fp%2Fx410%2F9nlp712zmn9q) - X server for Windows 10 on the Microsoft Store.
+- [VcXsrv](https://sourceforge.net/projects/vcxsrv/) - X server for Windows with hardware acceleration compiled with Visual Studio.
+- [Xmanage](https://www.netsarang.com/products/xmg_overview.html) - X server for Windows from NetSarang.
+- [Xming](https://sourceforge.net/projects/xming/) - An older X server for Windows. Has not been updated since 2016.
+- [Cygwin/X](https://x.cygwin.com) - Cygwin/X is a port of the X Window System to the Cygwin API layer for Windows.
+
 #### Terminals
 
 - [wsltty](https://github.com/mintty/wsltty) - Mintty as a terminal for WSL. ![github project][githublogo]
@@ -205,15 +224,6 @@ Unofficial distributions must be installed manually or with tools listed below. 
 - [MobaXterm](https://mobaxterm.mobatek.net) - Enhanced terminal for Windows with X11 server, tabbed SSH client, network tools and much more.
 - [extraterm](https://github.com/sedwards2009/extraterm) - Open source project to build a terminal emulator and expand it with new features to support modern workflows. ![github project][githublogo]
 - [Hyper](https://hyper.is/) - A terminal built on web technologies. ![github project][githublogo]
-
-#### X Servers
-
-Required for running Linux GUI apps in Windows. See FAQ #9 above.
-
-- [VcXsrv](https://sourceforge.net/projects/vcxsrv/) - X server for Windows with hardware acceleration compiled with Visual Studio.
-- [X410](https://www.microsoft.com/en-us/p/x410/9nlp712zmn9q) - X server for Windows on the Microsoft Store.
-- [Xming](https://sourceforge.net/projects/xming/) - An older X server for Windows. Has not been updated since 2016.
-- [Cygwin/X](https://x.cygwin.com) - Cygwin/X is a port of the X Window System to the Cygwin API layer for Windows.
 
 #### For Managing WSL Installations
 
