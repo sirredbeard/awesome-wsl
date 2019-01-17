@@ -1,4 +1,4 @@
-# Awesome WSL - Windows Subsystem for Linux
+squar3e# Awesome WSL - Windows Subsystem for Linux
 [![Awesome][awesomelogo]](https://awesome.re)
 
 An Awesome collection of Windows Subsystem for Linux (WSL) information, distributions, and tools.
@@ -17,7 +17,9 @@ An Awesome collection of Windows Subsystem for Linux (WSL) information, distribu
           - [Debian](https://github.com/sirredbeard/Awesome-WSL#debian) <br>
           - [OpenSUSE / SUSE Enterprise Linux](https://github.com/sirredbeard/Awesome-WSL#opensuse--suse-enterprise-linux) <br>
           - [Kali Linux](https://github.com/sirredbeard/Awesome-WSL#kali-linux) <br>
+          - [Fedora Remix for WSL](https://github.com/sirredbeard/Awesome-WSL#fedora-remix-for-wsl) <br>
           - [WLinux](https://github.com/sirredbeard/Awesome-WSL#wlinux) <br>
+          - [WLinux Enterprise](https://github.com/sirredbeard/Awesome-WSL#wlinux-enterprise) <br>
 - [Unofficial WSL Distributions](#unofficial-distributions)
 - [WSL Tools](#wsl-tools) <br>
           - [X Servers](https://github.com/sirredbeard/Awesome-WSL#x-servers) <br>
@@ -52,7 +54,7 @@ Windows Subsystem for Linux is a compatibility layer for running Linux binary ex
 
 ### 5. Emulation
 
-No. Windows Subsystem for Linux is not an emulator or virtualizer like [VirtualBox](https://www.virtualbox.org). WSL executes unmodified Linux ELF64 binaries by operating a Linux kernel interface on top of the Windows kernel in Windows 10. The WSL kernel interface translates Linux system calls from the binaries into Windows system calls and then executes them at native speed. WSL is closer in its approach to [Wine](https://www.winehq.org) which is a compatibility layer to run Windows binaries on Linux by re-implementing Windows system and API calls in libraries.
+Windows Subsystem for Linux is not an emulator or virtualizer like [VirtualBox](https://www.virtualbox.org). WSL executes unmodified Linux ELF64 binaries by operating a Linux kernel interface on top of the Windows kernel in Windows 10. The WSL kernel interface translates Linux system calls from the binaries into Windows system calls and then executes them at native speed. WSL is closer in its approach to [Wine](https://www.winehq.org) which is a compatibility layer to run Windows binaries on Linux by re-implementing Windows system and API calls in libraries.
 
 ### 6. Details
 
@@ -171,13 +173,30 @@ Kali Linux is a Linux distribution focused on penetration testing based on Debia
 - [Kali Linux Official Documentation](https://www.kali.org/kali-linux-documentation/).
 - Because Kali is based on Debian, most Debian and Ubuntu documentation also applies to Kali.
 
+#### Fedora Remix for WSL
+
+Fedora Remix for WSL is a Linux distribution derived from the [Fedora distribution](https://getfedora.org/).
+
+- [Windows Store Link](https://www.microsoft.com/store/productId/9N6GDM4K2HNC)
+- [Fedora Project getDocumentation](https://docs.fedoraproject.org/)
+- [Fedora Remix for WSL Homepage](https://www.whitewaterfoundry.com/fedora-remix-for-wsl/)
+- [Fedora Remix for WSL GitHub](https://github.com/WhitewaterFoundry/WSLFedoraRemix) ![github project][githublogo]
+
 #### WLinux
 
 WLinux is a Linux distribution based on Debian that is designed for WSL users by independent open source developers at [Whitewater Foundry](https://www.whitewaterfoundry.com/).
 
-- [WLinux Store Link](https://afflnk.microsoft.com/c/1291904/433017/7593?u=https%3A%2F%2Fwww.microsoft.com%2Fp%2Fwlinux%2F9nv1gv1pxz6p) 💰
-- [WLinux GitHub Page](https://github.com/WhitewaterFoundry/WLinux) ![github project][githublogo]
+- [Windows Store Link](https://afflnk.microsoft.com/c/1291904/433017/7593?u=https%3A%2F%2Fwww.microsoft.com%2Fp%2Fwlinux%2F9nv1gv1pxz6p) 💰
+- [WLinux GitHub](https://github.com/WhitewaterFoundry/WLinux) ![github project][githublogo]
 - Because WLinux is based on Debian, most Debian and Ubuntu documentation also applies to WLinux.
+
+#### WLinux Enterprise
+
+WLinux Enterprise is a custom WSL solution available to enterprise customers from Whitewater Foundry. WLinux Enterprise supports [Red Hat Enterprise Linux](https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux), [CentOS](https://www.centos.org/), and [Scientific Linux](https://www.scientificlinux.org/). A demo of WLinux Enterprise built with [Scientific Linux](https://www.scientificlinux.org/) is available on the Microsoft Store.
+
+- [WLinux Enterprise Homepage](https://www.whitewaterfoundry.com/wlinux-enterprise-edition/)
+- [WLinux Enterprise GitHub](https://github.com/WhitewaterFoundry/WLE) ![github project][githublogo]
+- Demo [Microsoft Store Link](https://www.microsoft.com/store/productId/9N8LP0X93VCP)
 
 ## Unofficial Distributions
 
