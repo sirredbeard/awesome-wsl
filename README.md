@@ -235,6 +235,7 @@ An X server running on Windows is required for running Linux GUI apps on Windows
 
 #### For Managing WSL Installations
 
+- Opsview [WSLTools](https://www.opsview.com/resources/application/blog/opsview-wsltools-beta-go) - Opsview WSLTools is a unique monitoring and management interface for WSL designed to empower developers and Windows administrators with a visual and intuitive way of working with WSL.
 - [LxRunOffline](https://github.com/DDoSolitary/LxRunOffline) - A full-featured utility for managing WSL. ![github project][githublogo]
 - [wslu](https://github.com/patrick330602/wslu) - A collection of utilities for Windows 10 Linux Subsystem, such as enabling sound in WSL and creating your favorite linux GUI application shortcuts on Windows 10. ![github project][githublogo]
 - [Ansible-WSL](https://github.com/Wintus/Ansible-WSL) - Provision WSL using Ansible. ![github project][githublogo]
