@@ -1,4 +1,4 @@
-squar3e# Awesome WSL - Windows Subsystem for Linux
+# Awesome WSL - Windows Subsystem for Linux
 [![Awesome][awesomelogo]](https://awesome.re)
 
 An Awesome collection of Windows Subsystem for Linux (WSL) information, distributions, and tools.
