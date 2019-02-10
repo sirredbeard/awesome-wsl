@@ -277,6 +277,7 @@ An X server running on Windows is required for running Linux GUI apps on Windows
 - [The Windows Subsystem for Linux Guide](http://wsl-guide.org/en/latest/) - Third-party WSL resource.
 - [Microsoft User Voice](https://wpdev.uservoice.com/forums/266908-command-prompt-console-bash-on-ubuntu-on-windo/category/161892-bash) - Send Microsoft feedback on WSL.
 - [Microsoft Developer Feedback](https://wpdev.uservoice.com/forums/266908-command-prompt-console-windows-subsystem-for-l) - For developers to send Microsoft feeback on WSL.
+- [Portable Node.js guide](https://github.com/ehmicky/portable-node-guide) - Practical guide on how to write portable/cross-platform Node.js code
 - [Stack Overflow: WSL](https://stackoverflow.com/questions/tagged/wsl) - Programming question and answer site.
 
 ## Related Projects
