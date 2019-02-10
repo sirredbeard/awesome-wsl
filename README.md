@@ -178,7 +178,7 @@ Kali Linux is a Linux distribution focused on penetration testing based on Debia
 Fedora Remix for WSL is a Linux distribution derived from the [Fedora distribution](https://getfedora.org/).
 
 - [Windows Store Link](https://www.microsoft.com/store/productId/9N6GDM4K2HNC)
-- [Fedora Project getDocumentation](https://docs.fedoraproject.org/)
+- [Fedora Project Documentation](https://docs.fedoraproject.org/)
 - [Fedora Remix for WSL Homepage](https://www.whitewaterfoundry.com/fedora-remix-for-wsl/)
 - [Fedora Remix for WSL GitHub](https://github.com/WhitewaterFoundry/WSLFedoraRemix) ![github project][githublogo]
 
