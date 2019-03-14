@@ -182,20 +182,20 @@ Fedora Remix for WSL is a Linux distribution derived from the [Fedora distributi
 - [Fedora Remix for WSL Homepage](https://www.whitewaterfoundry.com/fedora-remix-for-wsl/)
 - [Fedora Remix for WSL GitHub](https://github.com/WhitewaterFoundry/WSLFedoraRemix) ![github project][githublogo]
 
-#### WLinux
+#### Pengwin
 
-WLinux is a Linux distribution based on Debian that is designed for WSL users by independent open source developers at [Whitewater Foundry](https://www.whitewaterfoundry.com/).
+Pengwin (formerly WLinux) is a Linux distribution based on Debian that is designed for WSL users by independent open source developers at [Whitewater Foundry](https://www.whitewaterfoundry.com/).
 
 - [Windows Store Link](https://afflnk.microsoft.com/c/1291904/433017/7593?u=https%3A%2F%2Fwww.microsoft.com%2Fp%2Fwlinux%2F9nv1gv1pxz6p) 💰
-- [WLinux GitHub](https://github.com/WhitewaterFoundry/WLinux) ![github project][githublogo]
-- Because WLinux is based on Debian, most Debian and Ubuntu documentation also applies to WLinux.
+- [Pengwin GitHub](https://github.com/WhitewaterFoundry/Pengwin) ![github project][githublogo]
+- Because Pengwin is based on Debian, most Debian and Ubuntu documentation also applies to Pengwin.
 
-#### WLinux Enterprise
+#### Pengwin Enterprise
 
-WLinux Enterprise is a custom WSL solution available to enterprise customers from Whitewater Foundry. WLinux Enterprise supports [Red Hat Enterprise Linux](https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux), [CentOS](https://www.centos.org/), and [Scientific Linux](https://www.scientificlinux.org/). A demo of WLinux Enterprise built with [Scientific Linux](https://www.scientificlinux.org/) is available on the Microsoft Store.
+Pengwin Enterprise is a custom WSL solution available to enterprise customers from Whitewater Foundry. Pengwin Enterprise supports [Red Hat Enterprise Linux](https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux), [CentOS](https://www.centos.org/), and [Scientific Linux](https://www.scientificlinux.org/). A demo of Pengwin Enterprise built with [Scientific Linux](https://www.scientificlinux.org/) is available on the Microsoft Store.
 
-- [WLinux Enterprise Homepage](https://www.whitewaterfoundry.com/wlinux-enterprise-edition/)
-- [WLinux Enterprise GitHub](https://github.com/WhitewaterFoundry/WLE) ![github project][githublogo]
+- [Pengwin Enterprise Homepage](https://www.whitewaterfoundry.com/)
+- [Pengwin Enterprise GitHub](https://github.com/WhitewaterFoundry/Pengwin-Enterprise) ![github project][githublogo]
 - Demo [Microsoft Store Link](https://www.microsoft.com/store/productId/9N8LP0X93VCP)
 
 ## Unofficial Distributions
