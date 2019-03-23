@@ -18,8 +18,8 @@ An Awesome collection of Windows Subsystem for Linux (WSL) information, distribu
           - [OpenSUSE / SUSE Enterprise Linux](https://github.com/sirredbeard/Awesome-WSL#opensuse--suse-enterprise-linux) <br>
           - [Kali Linux](https://github.com/sirredbeard/Awesome-WSL#kali-linux) <br>
           - [Fedora Remix for WSL](https://github.com/sirredbeard/Awesome-WSL#fedora-remix-for-wsl) <br>
-          - [WLinux](https://github.com/sirredbeard/Awesome-WSL#wlinux) <br>
-          - [WLinux Enterprise](https://github.com/sirredbeard/Awesome-WSL#wlinux-enterprise) <br>
+          - [Pengwin](https://github.com/sirredbeard/Awesome-WSL#pengwin) <br>
+          - [Pengwin Enterprise](https://github.com/sirredbeard/Awesome-WSL#pengwin-enterprise) <br>
 - [Unofficial WSL Distributions](#unofficial-distributions)
 - [WSL Tools](#wsl-tools) <br>
           - [X Servers](https://github.com/sirredbeard/Awesome-WSL#x-servers) <br>
