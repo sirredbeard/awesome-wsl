@@ -54,7 +54,7 @@ The original WSL is now known as WSL1. WSL1 is a compatibility layer for running
 
 ### 5. WSL2
 
-WSL2 was announced at Microsoft Build 2019. WSL2 features a Linux kernel running inside Windows 10 to provide better application support and improve file performance. Transitioning from WSL2 is seamless. WSL2 is still in active development and is only available in [Insider builds](https://insider.windows.com/en-us/getting-started/). These builds are not suitable for production devices and are not recommended for a user's primary machine. Instead, users [can try WSL2 using Hypver-V](https://boxofcables.dev/trying-wsl2-on-hyper-v/) or on a secondary machine.
+WSL2 was announced at Microsoft Build 2019. WSL2 features a Linux kernel running inside Windows 10 and is built on the core technology of Hyper-V to provide better Linux application support and improved file performance. Transitioning from WSL2 is seamless. WSL2 is still in active development and is only available in [Insider builds](https://insider.windows.com/en-us/getting-started/). These builds are not suitable for production devices and are not recommended for a user's primary machine. Instead, users [can try WSL2 using Hypver-V](https://boxofcables.dev/trying-wsl2-on-hyper-v/) or on a secondary machine.
 
 - [Announcing WSL2](https://devblogs.microsoft.com/commandline/announcing-wsl-2/) - Microsoft blog announcing WSL2
 - [The new Windows subsystem for Linux architecture: a deep dive](https://www.youtube.com/watch?v=lwhMThePdIo) - WSL2 presentation at Microsoft Build 2019
