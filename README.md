@@ -48,15 +48,23 @@ Unlike Windows or macOS there are many different Linux distributions, each of wh
 
 [Windows](https://en.wikipedia.org/wiki/Microsoft_Windows) is a family of proprietary operating systems, all of which are developed, marketed, and sold by Microsoft. Currently Windows 10 is Microsoft's flagship operating system. Windows 10 is available for Intel x86-based and arm64-based PCs. The Windows Subsystem for Linux first shipped in [Windows 10 Anniversary Update](https://blogs.msdn.microsoft.com/wsl/2016/07/08/bash-on-ubuntu-on-windows-10-anniversary-update/), version number 1607, in August 2016. WSL can be enabled for free on all versions of Windows 10 after 1607, including Home, Professional, Enterprise, Server, LTSB, and Education. Originally only available for Intel x86-based PCs, Ubuntu 18.04 for arm64 was made available on the Microsoft store in [May 2018](https://twitter.com/TheRealHariP/status/994293523514970112).
 
-### 4. Windows Subsystem for Linux
+### 4. WSL1
 
-Windows Subsystem for Linux is a compatibility layer for running Linux binary executables (ELF) natively on Windows 10. No re-compilation or porting is required. WSL provides a Linux-compatible kernel interface developed by Microsoft and allows a user to chose a Linux distribution to install from the Microsoft Store. Linux applications run within the Linux distribution which provides the application's dependencies and package management in a container-like environment. WSL provides an interface to mount drives within WSL. Additional features are planned.
+WSL1 is a compatibility layer for running Linux binary executables (ELF) natively on Windows 10. No re-compilation or porting is required. WSL1 provides a Linux-compatible kernel interface developed by Microsoft that allows a user to chose a Linux distribution to install from the Microsoft Store. WSL1 executes unmodified Linux ELF64 binaries by operating a Linux kernel interface on top of the Windows kernel in Windows 10. The WSL1 interface translates Linux system calls from the binaries into Windows system calls and then executes them at native speed.  Linux applications run within the Linux distribution which provides the application's dependencies and package management in a container-like environment. WSL provides an interface to mount drives within WSL.
 
-### 5. Emulation
+### 5. WSL2
 
-Windows Subsystem for Linux is not an emulator or virtualizer like [VirtualBox](https://www.virtualbox.org). WSL executes unmodified Linux ELF64 binaries by operating a Linux kernel interface on top of the Windows kernel in Windows 10. The WSL kernel interface translates Linux system calls from the binaries into Windows system calls and then executes them at native speed. WSL is closer in its approach to [Wine](https://www.winehq.org) which is a compatibility layer to run Windows binaries on Linux by re-implementing Windows system and API calls in libraries.
+WSL2 was announced at Microsoft Build 2019. WSL2 features a Linux kernel running inside Windows 10 to provide better application support and improve file performance. WSL2 is still in active development and is only available in Insider builds. These builds are not suitable for production devices and are not recommended for a user's primary machine. Instead, users [can try WSL2 using Hypver-V](https://boxofcables.dev/trying-wsl2-on-hyper-v/).
 
-### 6. Details
+- [Announcing WSL2](https://devblogs.microsoft.com/commandline/announcing-wsl-2/) - Microsoft blog announcing WSL2
+- [The new Windows subsystem for Linux architecture: a deep dive](https://www.youtube.com/watch?v=lwhMThePdIo) - WSL2 presentation at Microsoft Build 2019
+- [WSL2-Linux-Kernel](https://github.com/microsoft/WSL2-Linux-Kernel) - The source for the Linux kernel used in Windows Subsystem for Linux 2. 
+
+### 6. Emulation
+
+Windows Subsystem for Linux is not an emulator or virtualizer like [VirtualBox](https://www.virtualbox.org). WSL1 is closer in its approach to [Wine](https://www.winehq.org) which is a compatibility layer to run Windows binaries on Linux by re-implementing Windows system and API calls in libraries.
+
+### 7. Details
 
 You want the gritty details? Here they are:
 
@@ -70,17 +78,18 @@ You want the gritty details? Here they are:
 - [Windows Subsystem for Linux - Update](https://www.youtube.com/watch?v=PP_T_m0UV9E) from Microsoft Developer YouTube channel. 
 - [Windows for Linux Nerds](https://blog.jessfraz.com/post/windows-for-linux-nerds/) from Microsoft developer Jessie Frazelle.
 
-### 7. Installation
+### 8. Installation
 
-- [Windows 10 Installation Guide](https://docs.microsoft.com/en-us/windows/wsl/install-win10) - Microsoft's official guide.
-- [Windows 10 Server Installation Guide](https://docs.microsoft.com/en-us/windows/wsl/install-on-server) - Microsoft's official guide for Windows Server.
+- [WSL1 Installation Guide](https://docs.microsoft.com/en-us/windows/wsl/install-win10) - Microsoft's official guide for WSL1.
+- [WSL2 Installation Guide](https://docs.microsoft.com/en-us/windows/wsl/wsl2-install) - Microsoft's official guide for WSL2.
+- [Windows Server Installation Guide](https://docs.microsoft.com/en-us/windows/wsl/install-on-server) - Microsoft's official guide for Windows Server.
 - [Windows-Subsystem-For-Linux-Setup](https://github.com/michaeltreat/Windows-Subsystem-For-Linux-Setup) - A basic guide for how to get setup with the WSL feature that is included with Windows 10. ![github project][githublogo]
 
-### 8. Use Cases
+### 9. Use Cases
 
 WSL is undoubtedly a tool for power-users, developers, and *NIX/Linux geeks who want to run Windows. Most of the things you can do with WSL are going to be related to programming, the console, sysadmin, automation, AI/data science, and other geeky things.
 
-### 9. GUI Apps
+### 10. GUI Apps
 
 Yes, a [suprising number](https://github.com/ethanhs/WSL-Programs) of Linux GUI apps can run on WSL even though this is not officially supported by Microsoft. Running a GUI app on Linux though means running an X server on Windows. This must be downloaded, installed, and running for your GUI app to open from WSL. Otherwise it will complain of not finding a display. X servers for Windows include [X410](https://afflnk.microsoft.com/c/1291904/433017/7593?u=https%3A%2F%2Fwww.microsoft.com%2Fp%2Fx410%2F9nlp712zmn9q) 💰 ($5 but very highly recommended), [VcXsrv](https://sourceforge.net/projects/vcxsrv/), or [Xming](https://sourceforge.net/projects/xming/) on Windows 10.
 
