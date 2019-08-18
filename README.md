@@ -248,7 +248,7 @@ An X server running on Windows is required for running Linux GUI apps on Windows
 #### WSL Utilities
 
 - [wslgit](https://github.com/andy-5/wslgit) - Use git installed on WSL from Visual Studio Code on Windows. ![github project][githublogo]
-- [wslexec](https://github.com/int128/wslexec) - Simply use wsl executables as exe files on windows. ![github project][githublogo]
+- [wslexec](https://github.com/int128/wslexec) - Execute Linux executables as .exe files on Windows. ![github project][githublogo]
 - [wsl-proxy](https://github.com/watzon/wsl-proxy) - A collection of 'proxy' batch files that can be used to route requests to the WSL version of a command. ![github project][githublogo]
 - [wslpath](https://github.com/laurent22/wslpath) - Easily convert Windows to WSL path names and vice-versa. ![github project][githublogo]
 - [wsl-open](https://github.com/4U6U57/wsl-open) - Open files with xdg-open in WSL from Windows applications. ![github project][githublogo]
