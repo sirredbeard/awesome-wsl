@@ -230,6 +230,7 @@ An X server running on Windows is required for running Linux GUI apps on Windows
 
 #### Terminals
 
+- [Windows Terminal](https://github.com/microsoft/terminal) - The new open-source Windows Terminal. ![github_project][githublogo]
 - [wsltty](https://github.com/mintty/wsltty) - Mintty as a terminal for WSL. ![github project][githublogo]
 - [wsl-terminal](https://github.com/goreliu/wsl-terminal) - A terminal emulator for WSL, based on mintty, fatty and wslbridge. ![github project][githublogo]
 - [Terminus](https://eugeny.github.io/terminus/) - A terminal for a more modern age. ![github project][githublogo]
@@ -237,7 +238,6 @@ An X server running on Windows is required for running Linux GUI apps on Windows
 - [MobaXterm](https://mobaxterm.mobatek.net) - Enhanced terminal for Windows with X11 server, tabbed SSH client, network tools and much more.
 - [extraterm](https://github.com/sedwards2009/extraterm) - Open source project to build a terminal emulator and expand it with new features to support modern workflows. ![github project][githublogo]
 - [Hyper](https://hyper.is/) - A terminal built on web technologies. ![github project][githublogo]
-- [Windows Terminal](https://github.com/microsoft/terminal) - The new Windows Terminal, and the original Windows console host - all in the same place! ![github_project][githublogo]
 
 #### For Managing WSL Installations
 
