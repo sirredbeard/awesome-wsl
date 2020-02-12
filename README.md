@@ -102,6 +102,7 @@ Yes, a [suprising number](https://github.com/ethanhs/WSL-Programs) of Linux GUI 
 - [The Art of Command Line](https://github.com/jlevy/the-art-of-command-line) - Master the command line in one page. ![github project][githublogo]
 - [The Bash Academy](http://www.bash.academy) - The Bash Academy is an initiative to promote the bash shell language and educate people on its use.
 - [Awesome Command Line Apps](https://github.com/herrbischoff/awesome-command-line-apps) [![Awesome][awesomelogo]](https://awesome.re) ![github project][githublogo]
+- [Easy install .zsh for WSL](https://blog.joaograssi.com/windows-subsystem-for-linux-with-oh-my-zsh-conemu/)
 
 #### Programming on WSL
 
