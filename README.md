@@ -216,6 +216,7 @@ Unofficial distributions must be installed manually or with tools listed below. 
 - [WSL-Distribution-Switcher](https://github.com/RoliSoft/WSL-Distribution-Switcher) - Scripts to replace the distribution behind WSL with any other Linux distribution published on [Docker Hub](https://hub.docker.com/explore/). Includes alpine, CentOS, Fedora, Clear, and others. ![github project][githublogo]
 - [acme-wsl](https://github.com/elrzn/acme-wsl) - Install acme / plan9port on Debian, Ubuntu, or Kali Linux distributions on WSL. 
 - [CentWSL](https://github.com/yuk7/CentWSL) - CentOS as a WSL distro. ![github project][githublogo]
+- [RHEL8WSL](https://github.com/yosukes-dev/RHEL8WSL) - RHEL8 in WSL2 based on UBI Container Image. ![github project][githublogo]
 
 ## WSL Tools
 
