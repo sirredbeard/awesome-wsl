@@ -28,6 +28,7 @@ An Awesome collection of Windows Subsystem for Linux (WSL) information, distribu
           - [WSL Utilities](https://github.com/sirredbeard/Awesome-WSL#wsl-utilities) <br>
           - [WSL-Specific Development Tools](https://github.com/sirredbeard/Awesome-WSL#wsl-specific-development-tools) <br>
           - [Miscellaneous Tools](https://github.com/sirredbeard/Awesome-WSL#miscellaneous-tools)
+- [Books](#books)
 - [Additional WSL Resources](#additional-resources)
 - [Related Projects](#related-projects)
 - [More Awesome Lists](#more-awesome)
@@ -274,6 +275,11 @@ An X server running on Windows is required for running Linux GUI apps on Windows
 - [WSLInstall](https://github.com/Biswa96/WSLInstall) - Install any Linux distribution userspace in WSL with compressed RootFS tarballs (tar.gz) or with Docker containers or with ISO files. ![github project][githublogo]
 - [cmd-colors-solarized](https://github.com/neilpa/cmd-colors-solarized) - This is a solarized color scheme for the Windows command prompt that works in WSL.
 - [weasel-pageant](https://github.com/vuori/weasel-pageant) - An ssh-agent compatible helper for interacting with Pageant from processes running on the Windows Subsystem for Linux.
+
+## Books
+
+- [Windows Subsystem for Linux: Tactics, Mindset and Tips](https://www.amazon.com/Windows-Subsystem-Linux-Tactics-Mindset/dp/1977718094)
+- [Windows Subsystem for Linux (WSL)](https://leanpub.com/wsl) - In-progress book available on the lean publishing platform leanpub.com.
 
 ## Additional Resources
 
