@@ -225,7 +225,7 @@ Unofficial distributions must be installed manually or with tools listed below. 
 
 An X server running on Windows is required for running Linux GUI apps on Windows. See FAQ #9 above.
 
-- [X410](https://afflnk.microsoft.com/c/1291904/433017/7593?u=https%3A%2F%2Fwww.microsoft.com%2Fp%2Fx410%2F9nlp712zmn9q) - X server for Windows 10 on the Microsoft Store. 💰
+- [X410](https://token2shell.com/x410/) - X server for Windows 10 on the Microsoft Store. 💰
 - [VcXsrv](https://sourceforge.net/projects/vcxsrv/) - X server for Windows with hardware acceleration compiled with Visual Studio.
 - [Xmanager](https://www.netsarang.com/en/xmanager/) - X server for Windows from NetSarang. 💰
 - [Xming](https://sourceforge.net/projects/xming/) - An older X server for Windows. Has not been updated since 2016.
