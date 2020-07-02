@@ -243,6 +243,7 @@ An X server running on Windows is required for running Linux GUI apps on Windows
 - [MobaXterm](https://mobaxterm.mobatek.net) - Enhanced terminal for Windows with X11 server, tabbed SSH client, network tools and much more.
 - [extraterm](https://github.com/sedwards2009/extraterm) - Open source project to build a terminal emulator and expand it with new features to support modern workflows. ![github project][githublogo]
 - [Hyper](https://hyper.is/) - A terminal built on web technologies. ![github project][githublogo]
+- [Terminator](https://medium.com/@bhupathy/install-terminator-on-windows-with-wsl-2826591d2156) - Feature-rich tabbed terminal. Requires X server.
 
 #### For Managing WSL Installations
 
