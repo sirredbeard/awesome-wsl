@@ -292,6 +292,7 @@ An X server running on Windows is required for running Linux GUI apps on Windows
 
 ## Additional Resources
 
+- Microsoft [WSL Official Documentation](https://docs.microsoft.com/en-us/windows/wsl/)
 - Microsoft [WSL Blog](https://blogs.msdn.microsoft.com/wsl)
 - Microsoft [Console Blog](https://blogs.msdn.microsoft.com/commandline/)
 - [WSL-Programs](https://github.com/ethanhs/WSL-Programs) - A community powered list of programs that work on the Windows Subsystem for Linux. ![github project][githublogo]
