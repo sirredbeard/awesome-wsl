@@ -229,7 +229,7 @@ An X server running on Windows is required for running Linux GUI apps on Windows
 
 - [X410](https://token2shell.com/x410/) - X server for Windows 10 on the Microsoft Store. 💰
 - [VcXsrv](https://sourceforge.net/projects/vcxsrv/) - X server for Windows with hardware acceleration compiled with Visual Studio.
-- [GWSL](https://www.microsoft.com/store/apps/9NL6KD1H33V3) - A free X server for Windows 10 with an app launcher, distro manager, and shortcut creator.
+- [GWSL](https://www.microsoft.com/store/apps/9NL6KD1H33V3) - An X server for Windows 10 with an app launcher, distro manager, shortcut creator, and ssh launcher.
 - [Xmanager](https://www.netsarang.com/en/xmanager/) - X server for Windows from NetSarang. 💰
 - [Xming](https://sourceforge.net/projects/xming/) - An older X server for Windows. Has not been updated since 2016.
 - [Cygwin/X](https://x.cygwin.com) - Cygwin/X is a port of the X Window System to the Cygwin API layer for Windows.
