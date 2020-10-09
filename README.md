@@ -288,7 +288,7 @@ An X server running on Windows is required for running Linux GUI apps on Windows
 ## Books
 
 - [Windows Subsystem for Linux: Tactics, Mindset and Tips](https://www.amazon.com/Windows-Subsystem-Linux-Tactics-Mindset/dp/1977718094)
-- [Windows Subsystem for Linux (WSL)](https://leanpub.com/wsl) - In-progress book available on the lean publishing platform leanpub.com.
+- [Learn Windows Subsystem for Linux](https://www.apress.com/gp/book/9781484260371) - A Practical Guide for Developers and IT Professionals
 
 ## Additional Resources
 
