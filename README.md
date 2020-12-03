@@ -229,7 +229,7 @@ Unofficial distributions must be installed manually or with tools listed below. 
 
 #### X Servers
 
-An X server running on Windows is required for running Linux GUI apps on Windows. See FAQ #9 above.
+An X server running on Windows is required for running Linux GUI apps on Windows. See [FAQ #10](#10-gui-apps)above.
 
 - [X410](https://token2shell.com/x410/) - X server for Windows 10 on the Microsoft Store. 💰
 - [VcXsrv](https://sourceforge.net/projects/vcxsrv/) - X server for Windows with hardware acceleration compiled with Visual Studio.
