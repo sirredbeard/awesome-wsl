@@ -251,6 +251,7 @@ An X server running on Windows is required for running Linux GUI apps on Windows
 - [Hyper](https://hyper.is/) - A terminal built on web technologies. ![github project][githublogo]
 - [Terminator](https://medium.com/@bhupathy/install-terminator-on-windows-with-wsl-2826591d2156) - Feature-rich tabbed terminal. Requires X server.
 - [Alacritty](https://github.com/alacritty/alacritty) - A terminal emulator with focus on performance and simplicity.
+- [Fluent Terminal](https://github.com/felixse/FluentTerminal) - A Terminal Emulator based on UWP and web technologies.
 
 #### For Managing WSL Installations
 
