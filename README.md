@@ -222,7 +222,7 @@ Unofficial distributions must be installed manually or with tools listed below. 
 - [RHWSL](https://github.com/yosukes-dev/RHWSL) - Red Hat Universal Base Image as a WSL distro. If you have a Red Hat Subscription, you can register and subscribe the system and use it as RHEL. ![github project][githublogo]
 - [FedoraWSL](https://github.com/yosukes-dev/FedoraWSL) - Fedora as a WSL distro. ![github project][githublogo]
 - [AmazonWSL](https://github.com/yosukes-dev/AmazonWSL) - Amazon Linux as a WSL distro. ![github project][githublogo]
-- [GentooWSL](https://github.com/ThatWeirdAndrew/GentooWSL) - Gentoo as a WSL distro. ![github project][githublogo]
+- [GentooWSL](https://github.com/imaandrew/GentooWSL) - Gentoo as a WSL distro. ![github project][githublogo]
 - [DevuanWSL](https://github.com/VPraharsha03/DevuanWSL) - Devuan Linux as a WSL Distro. Devuan is a Debian variant without the complexities and dependencies of systemd. ![github project][githublogo]
 - [ManjaroWSL](https://github.com/sileshn/ManjaroWSL) - Manjaro as a WSL distro based on wsldl. ![github project][githublogo]
 
