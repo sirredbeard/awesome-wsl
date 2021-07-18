@@ -225,6 +225,7 @@ Unofficial distributions must be installed manually or with tools listed below. 
 - [GentooWSL](https://github.com/imaandrew/GentooWSL) - Gentoo as a WSL distro. ![github project][githublogo]
 - [DevuanWSL](https://github.com/VPraharsha03/DevuanWSL) - Devuan Linux as a WSL Distro. Devuan is a Debian variant without the complexities and dependencies of systemd. ![github project][githublogo]
 - [ManjaroWSL](https://github.com/sileshn/ManjaroWSL) - Manjaro as a WSL distro based on wsldl. ![github project][githublogo]
+- [LinuxmintWSL](https://github.com/sileshn/LinuxmintWSL) - Linuxmint as a WSL distro based on wsldl. ![github project][githublogo]
 
 ## WSL Tools
 
