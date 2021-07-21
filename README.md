@@ -92,7 +92,9 @@ WSL is undoubtedly a tool for power-users, developers, and *NIX/Linux geeks who 
 
 ### 10. GUI Apps
 
-Yes, a [suprising number](https://github.com/ethanhs/WSL-Programs) of Linux GUI apps can run on WSL even though this is not officially supported by Microsoft. Running a GUI app on Linux though means running an X server on Windows. This must be downloaded, installed, and running for your GUI app to open from WSL. Otherwise it will complain of not finding a display. X servers for Windows include [X410](https://afflnk.microsoft.com/c/1291904/433017/7593?u=https%3A%2F%2Fwww.microsoft.com%2Fp%2Fx410%2F9nlp712zmn9q) 💰 ($10 but very highly recommended), [VcXsrv](https://sourceforge.net/projects/vcxsrv/), [GWSL](https://www.microsoft.com/store/apps/9NL6KD1H33V3), or [Xming](https://sourceforge.net/projects/xming/) on Windows 10.
+Yes, a [suprising number](https://github.com/ethanhs/WSL-Programs) of Linux GUI apps can run on WSL. GUI applications are officially supported on WSL2 with Windows Insider Preview since Windows 10 Insider Preview build 21286. It will also be available in Windows 10's fall 2021 release, and Windows 11. The GUI capabilities of WSL2 are informally referred to as WSLg.
+
+If you have an earlier release of Windows 10, then running a GUI app on WSL requires an operational X server on Windows. This must be downloaded, installed, and running for your GUI app to open from WSL; or it will complain that it cannot find a display. X servers for Windows include [X410](https://afflnk.microsoft.com/c/1291904/433017/7593?u=https%3A%2F%2Fwww.microsoft.com%2Fp%2Fx410%2F9nlp712zmn9q) 💰 ($10 but very highly recommended), [VcXsrv](https://sourceforge.net/projects/vcxsrv/), [GWSL](https://www.microsoft.com/store/apps/9NL6KD1H33V3), or [Xming](https://sourceforge.net/projects/xming/) on Windows 10.
 
 ## Using WSL
 
