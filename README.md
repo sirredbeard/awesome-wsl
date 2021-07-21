@@ -267,6 +267,7 @@ An X server running on Windows is required for running Linux GUI apps on Windows
 - [wsl-proxy](https://github.com/watzon/wsl-proxy) - A collection of 'proxy' batch files that can be used to route requests to the WSL version of a command. ![github project][githublogo]
 - [wslpath](https://github.com/laurent22/wslpath) - Easily convert Windows to WSL path names and vice-versa. ![github project][githublogo]
 - [wsl-open](https://github.com/4U6U57/wsl-open) - Open files with xdg-open in WSL from Windows applications. ![github project][githublogo]
+- [OpenInWSL](https://github.com/Opticos/OpenInWSL-Source) - Easily Make WSL Linux Apps Windows File Handlers. ![github project][githublogo]
 - [is-wsl for Node](https://github.com/sindresorhus/is-wsl) - Check if the current process is running inside Windows Subsystem for Linux, useful for scripting. ![github project][githublogo]
 - [is_wsl for Python](https://github.com/julien-h/is-wsl) - Check if the current process is running inside Windows Subsystem for Linux, useful for scripting. ![github project][githublogo] 
 - [wsl-gui-bins](https://github.com/Konfekt/wsl-gui-bins) -  Start common GUI applications under WSL as under Linux. ![github project][githublogo]
