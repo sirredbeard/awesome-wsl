@@ -278,6 +278,8 @@ An X server running on Windows is required for running Linux GUI apps on Windows
 - [wsl-gui-bins](https://github.com/Konfekt/wsl-gui-bins) -  Start common GUI applications under WSL as under Linux. ![github project][githublogo]
 - [xclip-xsel-WSL](https://github.com/Konfekt/xclip-xsel-WSL) -  Make `xclip` and `xsel` in `WSL` read and write on the Windows instead of the Linux clipboard.
 . ![github project][githublogo]
+- [vim-wsl-copy-paste](https://github.com/Konfekt/vim-wsl-copy-paste) -  Adds mappings in Vim to write and read on the Windows clipboard.
+. ![github project][githublogo]
 - [WslShortcut](//github.com/HanabishiRecca/WslShortcut) - Run WSL commands directly in Windows. Also allows to use WSL `git`/`node`/etc. in **Visual Studio Code** or another software. Combines functionality of utilities like [`wslgit`](//github.com/andy-5/wslgit), [`wslnodejs`](//github.com/snooopcatt/wslnodejs), [`wslexec`](//github.com/int128/wslexec) etc. with simpler usage. ![github project][githublogo]
 
 #### WSL-Specific Development Tools
