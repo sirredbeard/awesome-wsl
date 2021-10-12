@@ -167,9 +167,11 @@ Debian is a Linux distribution assembled by volunteers with the community [Debia
 
 #### OpenSUSE / SUSE Enterprise Linux
 
-OpenSUSE and SUSE Enterprise Linux are Linux distributions produced by [SUSE Linux GmbH](https://www.opensuse.org) and other companies. Leap is a community-oriented distribution with recent software. SUSE Enterprise Linux is an enterprise-grade commercial distribution with older tested software.
+OpenSUSE and SUSE Enterprise Linux are Linux distributions produced by [SUSE Linux GmbH](https://www.opensuse.org) and other companies. Tumbleweed and Leap are community-oriented distributions. Tumbleweed is a rolling release distribution with the latest software, while Leap is a stable distribution based on SUSE Enterprise Linux. SUSE Enterprise Linux is an enterprise-grade commercial distribution with older tested software.
 
-- [Windows Store Link](https://www.microsoft.com/store/productId/9N1TB6FPVJ8C) for OpenSUSE Leap 15.
+- [Windows Store Link](https://www.microsoft.com/en-us/p/opensuse-tumbleweed/9mssk2zxxn11) for OpenSUSE Tumbleweed.
+- [Windows Store Link](https://www.microsoft.com/en-us/p/opensuse-leap-153/9n6j06bmcgt3) for OpenSUSE Leap 15.3.
+- [Windows Store Link](https://www.microsoft.com/en-us/p/opensuse-leap-152/9mzd0n9z4m4h) for OpenSUSE Leap 15.2.
 - [Windows Store Link](https://www.microsoft.com/store/productId/9PMW35D7FNLX) for SUSE Enterprise Linux 15.
 - [Managing Software with Command Line Tools](https://doc.opensuse.org/documentation/leap/reference/html/book.opensuse.reference/cha.sw_cl.html) from OpenSUSE.
 - [OpenSUSE Reference](https://doc.opensuse.org/documentation/leap/reference/html/book.opensuse.reference/book.opensuse.reference.html).
