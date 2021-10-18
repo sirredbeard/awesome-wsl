@@ -55,7 +55,7 @@ The original WSL is now known as WSL1. WSL1 is a compatibility layer for running
 
 ### 5. WSL2
 
-WSL2 was announced at Microsoft Build 2019. WSL2 features a Linux kernel running inside Windows 10 and is built on the core technology of Hyper-V to provide better Linux application support and improved file performance. Transitioning to WSL2 is seamless. WSL2 is still in active development and is only available in [Insider builds](https://insider.windows.com/en-us/getting-started/). These builds are not suitable for production devices and are not recommended for a user's primary machine. Instead, users [can try WSL2 using Hyper-V](https://boxofcables.dev/trying-wsl2-on-hyper-v/) or on a secondary machine.
+WSL2 was announced at Microsoft Build 2019. WSL2 features a Linux kernel running inside Windows and is built on the core technology of Hyper-V to provide better Linux application support and improved file system performance. Transitioning to WSL2 is seamless. WSL2 is set by default since Windows 11.
 
 - [Announcing WSL2](https://devblogs.microsoft.com/commandline/announcing-wsl-2/) - Microsoft blog announcing WSL2
 - [The new Windows subsystem for Linux architecture: a deep dive](https://www.youtube.com/watch?v=lwhMThePdIo) - WSL2 presentation at Microsoft Build 2019
@@ -81,8 +81,7 @@ You want the gritty details? Here they are:
 
 ### 8. Installation
 
-- [WSL1 Installation Guide](https://docs.microsoft.com/en-us/windows/wsl/install-win10) - Microsoft's official guide for WSL1.
-- [WSL2 Installation Guide](https://docs.microsoft.com/en-us/windows/wsl/wsl2-install) - Microsoft's official guide for WSL2.
+- [WSL1 Installation Guide](https://docs.microsoft.com/en-us/windows/wsl/install) - Microsoft's official guide for WSL.
 - [Windows Server Installation Guide](https://docs.microsoft.com/en-us/windows/wsl/install-on-server) - Microsoft's official guide for Windows Server.
 - [Windows-Subsystem-For-Linux-Setup](https://github.com/michaeltreat/Windows-Subsystem-For-Linux-Setup) - A basic guide for how to get setup with the WSL feature that is included with Windows 10. ![github project][githublogo]
 
