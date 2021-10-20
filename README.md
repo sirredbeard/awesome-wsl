@@ -7,12 +7,12 @@ An Awesome collection of Windows Subsystem for Linux (WSL) information, distribu
 
 ## Contents
 - [Overview](#overview)
-- [Using WSL](#using-wsl) <br>
+- [Using WSL](#using-wsl) </br>
           - [The WSL Shell](https://github.com/sirredbeard/Awesome-WSL#the-wsl-shell) <br>
           - [Programming on WSL](https://github.com/sirredbeard/Awesome-WSL#programming-on-wsl) <br>
           - [Web Development on WSL](https://github.com/sirredbeard/Awesome-WSL#web-development-on-wsl) <br>
           - [Other WSL Uses](https://github.com/sirredbeard/Awesome-WSL#other-wsl-uses)
-- [Supported WSL Distributions](#supported-distributions) <br>
+- [Supported WSL Distributions](#supported-distributions) </br>
           - [Ubuntu](https://github.com/sirredbeard/Awesome-WSL#ubuntu) <br>
           - [Debian](https://github.com/sirredbeard/Awesome-WSL#debian) <br>
           - [OpenSUSE / SUSE Enterprise Linux](https://github.com/sirredbeard/Awesome-WSL#opensuse--suse-enterprise-linux) <br>
