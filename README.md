@@ -264,6 +264,7 @@ An X server running on Windows is required for running Linux GUI apps on Windows
 - [LxRunOffline](https://github.com/DDoSolitary/LxRunOffline) - A full-featured utility for managing WSL. ![github project][githublogo]
 - [Raft WSL](https://www.microsoft.com/store/apps/9MSMJQD017X7) - Raft is a Windows Subsystem for Linux (WSL) distribution manager in native C#/XAML. 💰
 - [wslu](https://github.com/patrick330602/wslu) - A collection of utilities for Windows 10 Linux Subsystem, such as enabling sound in WSL and creating your favorite linux GUI application shortcuts on Windows 10. ![github project][githublogo]
+- [WSL GUI Tool](https://github.com/emeric-martineau/wsl-gui-tool) - A graphical tool to manage (run, stop, import, export...) WSL. ![github project][githublogo]
 
 #### WSL Utilities
 
