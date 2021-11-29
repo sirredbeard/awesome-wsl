@@ -322,7 +322,6 @@ An X server running on Windows is required for running Linux GUI apps on Windows
 - [##windows-wsl](https://irc-source.com/channel/freenode/%23%23windows-wsl) - IRC channel on Freenode.net. 
 - [#debian-wsl](https://www.oftc.net) - IRC channel on OFTC.net.
 - [WSL on GitHub](https://github.com/Microsoft/WSL) - For reporting issues with WSL. ![github project][githublogo]
-- [The Windows Subsystem for Linux Guide](http://wsl-guide.org/en/latest/) - Third-party WSL resource.
 - [Microsoft User Voice](https://wpdev.uservoice.com/forums/266908-command-prompt-console-bash-on-ubuntu-on-windo/category/161892-bash) - Send Microsoft feedback on WSL.
 - [Microsoft Developer Feedback](https://wpdev.uservoice.com/forums/266908-command-prompt-console-windows-subsystem-for-l) - For developers to send Microsoft feeback on WSL.
 - [Portable Node.js guide](https://github.com/ehmicky/portable-node-guide) - Practical guide on how to write portable/cross-platform Node.js code.
