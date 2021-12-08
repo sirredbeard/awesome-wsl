@@ -3,7 +3,8 @@
 
 An Awesome collection of Windows Subsystem for Linux (WSL) information, distributions, and tools.
 
-<img src="https://raw.githubusercontent.com/sirredbeard/Awesome-WSL/master/WSLscreenshot.PNG" height=50% width=50%>
+![WSLscreenshot](https://user-images.githubusercontent.com/33820650/145261380-a0dd2834-4830-4272-8a5b-4547fb40c296.PNG)
+
 
 ## Contents
 - [Overview](#overview)
