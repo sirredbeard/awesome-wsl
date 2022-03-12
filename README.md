@@ -269,6 +269,7 @@ An X server running on Windows is required for running Linux GUI apps on Windows
 
 #### WSL Utilities
 
+- [community.wsl.sdk](https://github.com/Gitii/community.wsl.sdk) - SDK for Windows Subsystem for Linux for .NET 5, 6 and Standard 2.1 ![github project][githublogo]
 - [wslgit](https://github.com/andy-5/wslgit) - Use git installed on WSL from Visual Studio Code on Windows. ![github project][githublogo]
 - [pinentry-wsl-ps1](https://github.com/diablodale/pinentry-wsl-ps1) - Store passwords for gpg-agent in Windows Credential Manager ![github project][githublogo]
 - [wslexec](https://github.com/int128/wslexec) - Execute Linux executables as .exe files on Windows. ![github project][githublogo]
