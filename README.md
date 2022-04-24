@@ -308,6 +308,7 @@ An X server running on Windows is required for running Linux GUI apps on Windows
 - [WinCryptSSHAgent](https://github.com/buptczq/WinCryptSSHAgent) - Using a Yubikey for SSH Authentication on Windows Seamlessly.  Supports WSL and WSL2.
 - [Files](https://github.com/files-community/Files) - A modern file explorer that supports WSL filesystem. ![github project][githublogo]
 - [easyWSL](https://github.com/redcode-labs/easyWSL) - Use any Docker image as a WSL distro. ![github project][githublogo]
+- [setup-wsl](https://github.com/Vampire/setup-wsl) - A GitHub action to install and setup a Linux distribution for the Windows Subsystem for Linux (WSL). ![github project][githublogo]
 
 ## Books
 
