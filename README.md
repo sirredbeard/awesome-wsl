@@ -210,6 +210,15 @@ Pengwin Enterprise is a custom WSL solution available to enterprise customers fr
 - [Pengwin Enterprise GitHub](https://github.com/WhitewaterFoundry/Pengwin-Enterprise) ![github project][githublogo]
 - Demo [Microsoft Store Link](https://www.microsoft.com/store/productId/9N8LP0X93VCP)
 
+#### Oracle Linux
+
+Oracle Linux is a Linux distribution based on [Red Hat Enterprise Linux](https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux) that is produced by [Oracle](https://www.oracle.com/linux/).
+
+- [Windows Store Link](https://www.microsoft.com/en-us/p/oracle-linux-79/9p7l0qwbsltk) for Oracle Linux 7 Update 9.
+- [Windows Store Link](https://www.microsoft.com/en-us/p/oracle-linux-85/9p06h18wxbvp#activetab=pivot:overviewtab) for Oracle Linux 8 Update 5.
+- [Oracle Linux 7 Documentation](https://docs.oracle.com/en/operating-systems/oracle-linux/7/)
+- [Oracle Linux 8 Documentation](https://docs.oracle.com/en/operating-systems/oracle-linux/8/)
+
 ## Unofficial Distributions
 
 Unofficial distributions must be installed manually or with tools listed below. They are not available in the Windows Store.
