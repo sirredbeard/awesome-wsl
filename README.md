@@ -220,6 +220,12 @@ Oracle Linux is a Linux distribution based on [Red Hat Enterprise Linux](https:/
 - [Oracle Linux 7 Documentation](https://docs.oracle.com/en/operating-systems/oracle-linux/7/)
 - [Oracle Linux 8 Documentation](https://docs.oracle.com/en/operating-systems/oracle-linux/8/)
 
+#### AlmaLinux
+
+[AlmaLinux OS](https://almalinux.org) is an open-source, community-driven Linux operating system that fills the gap left by the discontinuation of the [CentOS Linux stable release](https://www.centos.org/).
+
+- [Windows Store Link](https://apps.microsoft.com/store/detail/almalinux-8-wsl/9NMD96XJJ19F)
+
 ## Unofficial Distributions
 
 Unofficial distributions must be installed manually or with tools listed below. They are not available in the Windows Store.
