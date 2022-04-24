@@ -149,9 +149,10 @@ Because WSL allows developers to run a variety of Linux server applications loca
 
 Ubuntu is a Linux distribution based on Debian that is produced by [Canonical Ltd.](https://www.ubuntu.com). Ubuntu 16.04 and the more recent Ubuntu 18.04 are both available for WSL from the Microsoft Store.
 
-- [Windows Store Link](https://www.microsoft.com/store/productId/9NBLGGH4MSV6) for Ubuntu 16.04. Supported through April 2021. Very stable but some packages and libraries may be older.
-- [Windows Store Link](https://www.microsoft.com/store/productId/9N9TNGVNDL3Q) for Ubuntu 18.04. Supported through April 2023.
-- [Windows Store Link](https://www.microsoft.com/en-gb/p/ubuntu-2004-lts/9n6svws3rx71?activetab=pivot:overviewtab) for Ubuntu 20.04. Most recent update. Newer packages but more likely to encounter bugs. Supported through April 2025.
+- ~~[Windows Store Link](https://www.microsoft.com/store/productId/9NBLGGH4MSV6) for Ubuntu 16.04. Supported through April 2021.~~
+- [Windows Store Link](https://www.microsoft.com/store/productId/9N9TNGVNDL3Q) for Ubuntu 18.04. Supported through April 2023. Very stable but some packages and libraries may be older.
+- [Windows Store Link](https://www.microsoft.com/en-gb/p/ubuntu-2004-lts/9n6svws3rx71?activetab=pivot:overviewtab) for Ubuntu 20.04. Supported through April 2025.
+- [Windows Store Link](https://www.microsoft.com/en-us/p/app/9pn20msr04dw#activetab=pivot:overviewtab) for Ubuntu 22.04. Most recent update. Newer packages but more likely to encounter bugs. Supported through April 2027.
 - [Installing Software](https://help.ubuntu.com/community/InstallingSoftware) guide to using apt from Ubuntu.
 - [Ubuntu Server Guide](https://help.ubuntu.com/lts/serverguide/index.html) from Ubuntu.
 - Because Ubuntu is based on Debian, many Debian tutorials also apply to Ubuntu.
