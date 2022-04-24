@@ -220,7 +220,7 @@ Oracle Linux is a Linux distribution based on [Red Hat Enterprise Linux](https:/
 - [Oracle Linux 7 Documentation](https://docs.oracle.com/en/operating-systems/oracle-linux/7/)
 - [Oracle Linux 8 Documentation](https://docs.oracle.com/en/operating-systems/oracle-linux/8/)
 
-#### AlmaLinux
+#### AlmaLinux OS
 
 [AlmaLinux OS](https://almalinux.org) is an open-source, community-driven Linux operating system that fills the gap left by the discontinuation of the [CentOS Linux stable release](https://www.centos.org/).
 
@@ -382,7 +382,7 @@ More [![Awesome][awesomelogo]](https://awesome.re) lists. ![github project][gith
 - Linux® is a registered trademark of Linus Torvalds in the United States and/or other countries. [*](https://www.linuxfoundation.org/trademark-usage/)
 - Windows®, Windows Server®, Windows 10®, Microsoft®, Microsoft Virtual Academy®, Visual Studio®, Azure®, PowerShell®, and MSDN® are trademarks or registered trademarks of Microsoft Corporation in the United States and/or other countries. [*](https://www.microsoft.com/en-us/legal/intellectualproperty/trademarks/usage/general.aspx) [**](https://www.microsoft.com/en-us/legal/intellectualproperty/trademarks/en-us.aspx)
 - EdX® is a registered trademark of edX Inc. All Rights Reserved. [*](https://www.edx.org/trademarks)
-- Ubuntu® and Canonical® are registered  trademark of Canonical Limited in the United States and/or other countries. [*](https://www.ubuntu.com/legal/terms-and-policies/intellectual-property-policy)
+- Ubuntu® and Canonical® are registered trademark of Canonical Limited in the United States and/or other countries. [*](https://www.ubuntu.com/legal/terms-and-policies/intellectual-property-policy)
 - SUSE® and SUSE Linux Enterprise® are registered trademarks of SUSE in the United States and/or other countries. [*](https://www.suse.com/company/legal/)
 - Red Hat®, CentOS®, and Red Hat Enterprise Linux® are trademarks or registered trademarks of Red Hat, Inc. in the United States and/or other countries. [*](https://www.redhat.com/en/about/trademark-guidelines-and-policies)
 - UNIX® is a trademark of The Open Group. Use of The Open Group trademarks are authorized by The Open Group Trademark Guidelines as "Editorial or Articles, but not Advertising" and/or permitted by trademark fair use under United States law. [*](http://www.unix.org/trademark.html)
@@ -394,6 +394,7 @@ More [![Awesome][awesomelogo]](https://awesome.re) lists. ![github project][gith
 - GitHub® and [githublogo] are a registered trademarks of GitHub, Inc. [*](https://help.github.com/articles/github-terms-of-service/)
 - Oracle and Oracle Linux are trademarks or registered tracemarks of Oracle, Inc. [*](https://www.oracle.com/legal/trademarks.html)
 - Gentoo® is a trademark of the Gentoo Foundation, Inc. [*](https://www.gentoo.org/inside-gentoo/foundation/name-logo-guidelines.html)
+- The AlmaLinux OS Marks are trademarks of AlmaLinux OS Foundation. [*](https://almalinux.org/p/the-almalinux-os-trademark-usage-policy/)
 
 All other trademarks mentioned herein are the property of their respective owners and may be registered in the United States and/or other countries.
 
