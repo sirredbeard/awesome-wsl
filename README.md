@@ -149,9 +149,10 @@ Because WSL allows developers to run a variety of Linux server applications loca
 
 Ubuntu is a Linux distribution based on Debian that is produced by [Canonical Ltd.](https://www.ubuntu.com). Ubuntu 16.04 and the more recent Ubuntu 18.04 are both available for WSL from the Microsoft Store.
 
-- [Windows Store Link](https://www.microsoft.com/store/productId/9NBLGGH4MSV6) for Ubuntu 16.04. Supported through April 2021. Very stable but some packages and libraries may be older.
-- [Windows Store Link](https://www.microsoft.com/store/productId/9N9TNGVNDL3Q) for Ubuntu 18.04. Supported through April 2023.
-- [Windows Store Link](https://www.microsoft.com/en-gb/p/ubuntu-2004-lts/9n6svws3rx71?activetab=pivot:overviewtab) for Ubuntu 20.04. Most recent update. Newer packages but more likely to encounter bugs. Supported through April 2025.
+- ~~[Windows Store Link](https://www.microsoft.com/store/productId/9NBLGGH4MSV6) for Ubuntu 16.04. Supported through April 2021.~~
+- [Windows Store Link](https://www.microsoft.com/store/productId/9N9TNGVNDL3Q) for Ubuntu 18.04. Supported through April 2023. Very stable but some packages and libraries may be older.
+- [Windows Store Link](https://www.microsoft.com/en-gb/p/ubuntu-2004-lts/9n6svws3rx71?activetab=pivot:overviewtab) for Ubuntu 20.04. Supported through April 2025.
+- [Windows Store Link](https://www.microsoft.com/en-us/p/app/9pn20msr04dw#activetab=pivot:overviewtab) for Ubuntu 22.04. Most recent update. Newer packages but more likely to encounter bugs. Supported through April 2027.
 - [Installing Software](https://help.ubuntu.com/community/InstallingSoftware) guide to using apt from Ubuntu.
 - [Ubuntu Server Guide](https://help.ubuntu.com/lts/serverguide/index.html) from Ubuntu.
 - Because Ubuntu is based on Debian, many Debian tutorials also apply to Ubuntu.
@@ -210,6 +211,21 @@ Pengwin Enterprise is a custom WSL solution available to enterprise customers fr
 - [Pengwin Enterprise GitHub](https://github.com/WhitewaterFoundry/Pengwin-Enterprise) ![github project][githublogo]
 - Demo [Microsoft Store Link](https://www.microsoft.com/store/productId/9N8LP0X93VCP)
 
+#### Oracle Linux
+
+Oracle Linux is a Linux distribution based on [Red Hat Enterprise Linux](https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux) that is produced by [Oracle](https://www.oracle.com/linux/).
+
+- [Windows Store Link](https://www.microsoft.com/en-us/p/oracle-linux-79/9p7l0qwbsltk) for Oracle Linux 7 Update 9.
+- [Windows Store Link](https://www.microsoft.com/en-us/p/oracle-linux-85/9p06h18wxbvp#activetab=pivot:overviewtab) for Oracle Linux 8 Update 5.
+- [Oracle Linux 7 Documentation](https://docs.oracle.com/en/operating-systems/oracle-linux/7/)
+- [Oracle Linux 8 Documentation](https://docs.oracle.com/en/operating-systems/oracle-linux/8/)
+
+#### AlmaLinux OS
+
+[AlmaLinux OS](https://almalinux.org) is an open-source, community-driven Linux operating system that fills the gap left by the discontinuation of the [CentOS Linux stable release](https://www.centos.org/).
+
+- [Windows Store Link](https://apps.microsoft.com/store/detail/almalinux-8-wsl/9NMD96XJJ19F)
+
 ## Unofficial Distributions
 
 Unofficial distributions must be installed manually or with tools listed below. They are not available in the Windows Store.
@@ -264,7 +280,6 @@ An X server running on Windows is required for running Linux GUI apps on Windows
 - [Ansible-WSL](https://github.com/Wintus/Ansible-WSL) - Provision WSL using Ansible. ![github project][githublogo]
 - [LxRunOffline](https://github.com/DDoSolitary/LxRunOffline) - A full-featured utility for managing WSL. ![github project][githublogo]
 - [Raft WSL](https://www.microsoft.com/store/apps/9MSMJQD017X7) - Raft is a Windows Subsystem for Linux (WSL) distribution manager in native C#/XAML. 💰
-- [wslu](https://github.com/patrick330602/wslu) - A collection of utilities for Windows 10 Linux Subsystem, such as enabling sound in WSL and creating your favorite linux GUI application shortcuts on Windows 10. ![github project][githublogo]
 - [WSL GUI Tool](https://github.com/emeric-martineau/wsl-gui-tool) - A graphical tool to manage (run, stop, import, export...) WSL. ![github project][githublogo]
 - [WSL Distro Manager](https://github.com/bostrot/wsl2-distro-manager) - GUI to manage, copy, distribute WSL distros. ![github project][githublogo]
 
@@ -286,6 +301,8 @@ An X server running on Windows is required for running Linux GUI apps on Windows
 . ![github project][githublogo]
 - [WslShortcut](//github.com/HanabishiRecca/WslShortcut) - Run WSL commands directly in Windows. Also allows to use WSL `git`/`node`/etc. in **Visual Studio Code** or another software. Combines functionality of utilities like [`wslgit`](//github.com/andy-5/wslgit), [`wslnodejs`](//github.com/snooopcatt/wslnodejs), [`wslexec`](//github.com/int128/wslexec) etc. with simpler usage. ![github project][githublogo]
 - [community.wsl.sdk](https://github.com/Gitii/community.wsl.sdk) - SDK for Windows Subsystem for Linux for .NET 5, 6 and Standard 2.1 ![github project][githublogo]
+- [wslu](https://github.com/wslutilities/wslu) - A collection of utilities for Windows 10 Linux Subsystem, such as enabling sound in WSL and creating your favorite linux GUI application shortcuts on Windows 10. ![github project][githublogo]
+- [wslpy](https://github.com/wslutilities/wslpy) - A Python3 library for WSL specific tasks. ![github project][githublogo]
 
 #### WSL-Specific Development Tools
 
@@ -307,6 +324,7 @@ An X server running on Windows is required for running Linux GUI apps on Windows
 - [WinCryptSSHAgent](https://github.com/buptczq/WinCryptSSHAgent) - Using a Yubikey for SSH Authentication on Windows Seamlessly.  Supports WSL and WSL2.
 - [Files](https://github.com/files-community/Files) - A modern file explorer that supports WSL filesystem. ![github project][githublogo]
 - [easyWSL](https://github.com/redcode-labs/easyWSL) - Use any Docker image as a WSL distro. ![github project][githublogo]
+- [setup-wsl](https://github.com/Vampire/setup-wsl) - A GitHub action to install and setup a Linux distribution for the Windows Subsystem for Linux (WSL). ![github project][githublogo]
 
 ## Books
 
@@ -364,7 +382,7 @@ More [![Awesome][awesomelogo]](https://awesome.re) lists. ![github project][gith
 - Linux® is a registered trademark of Linus Torvalds in the United States and/or other countries. [*](https://www.linuxfoundation.org/trademark-usage/)
 - Windows®, Windows Server®, Windows 10®, Microsoft®, Microsoft Virtual Academy®, Visual Studio®, Azure®, PowerShell®, and MSDN® are trademarks or registered trademarks of Microsoft Corporation in the United States and/or other countries. [*](https://www.microsoft.com/en-us/legal/intellectualproperty/trademarks/usage/general.aspx) [**](https://www.microsoft.com/en-us/legal/intellectualproperty/trademarks/en-us.aspx)
 - EdX® is a registered trademark of edX Inc. All Rights Reserved. [*](https://www.edx.org/trademarks)
-- Ubuntu® and Canonical® are registered  trademark of Canonical Limited in the United States and/or other countries. [*](https://www.ubuntu.com/legal/terms-and-policies/intellectual-property-policy)
+- Ubuntu® and Canonical® are registered trademark of Canonical Limited in the United States and/or other countries. [*](https://www.ubuntu.com/legal/terms-and-policies/intellectual-property-policy)
 - SUSE® and SUSE Linux Enterprise® are registered trademarks of SUSE in the United States and/or other countries. [*](https://www.suse.com/company/legal/)
 - Red Hat®, CentOS®, and Red Hat Enterprise Linux® are trademarks or registered trademarks of Red Hat, Inc. in the United States and/or other countries. [*](https://www.redhat.com/en/about/trademark-guidelines-and-policies)
 - UNIX® is a trademark of The Open Group. Use of The Open Group trademarks are authorized by The Open Group Trademark Guidelines as "Editorial or Articles, but not Advertising" and/or permitted by trademark fair use under United States law. [*](http://www.unix.org/trademark.html)
@@ -376,6 +394,7 @@ More [![Awesome][awesomelogo]](https://awesome.re) lists. ![github project][gith
 - GitHub® and [githublogo] are a registered trademarks of GitHub, Inc. [*](https://help.github.com/articles/github-terms-of-service/)
 - Oracle and Oracle Linux are trademarks or registered tracemarks of Oracle, Inc. [*](https://www.oracle.com/legal/trademarks.html)
 - Gentoo® is a trademark of the Gentoo Foundation, Inc. [*](https://www.gentoo.org/inside-gentoo/foundation/name-logo-guidelines.html)
+- The AlmaLinux OS Marks are trademarks of AlmaLinux OS Foundation. [*](https://almalinux.org/p/the-almalinux-os-trademark-usage-policy/)
 
 All other trademarks mentioned herein are the property of their respective owners and may be registered in the United States and/or other countries.
 
