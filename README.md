@@ -7,34 +7,49 @@ An Awesome collection of Windows Subsystem for Linux (WSL) information, distribu
 
 
 ## Contents
-- [Overview](#overview)
-- [Using WSL](#using-wsl) </br>
-          - [The WSL Shell](https://github.com/sirredbeard/Awesome-WSL#the-wsl-shell) <br>
-          - [Programming on WSL](https://github.com/sirredbeard/Awesome-WSL#programming-on-wsl) <br>
-          - [Web Development on WSL](https://github.com/sirredbeard/Awesome-WSL#web-development-on-wsl) <br>
-          - [Other WSL Uses](https://github.com/sirredbeard/Awesome-WSL#other-wsl-uses)
-- [Supported WSL Distributions](#supported-distributions) </br>
-          - [Ubuntu](https://github.com/sirredbeard/Awesome-WSL#ubuntu) <br>
-          - [Debian](https://github.com/sirredbeard/Awesome-WSL#debian) <br>
-          - [OpenSUSE / SUSE Enterprise Linux](https://github.com/sirredbeard/Awesome-WSL#opensuse--suse-enterprise-linux) <br>
-          - [Kali Linux](https://github.com/sirredbeard/Awesome-WSL#kali-linux) <br>
-          - [Fedora Remix for WSL](https://github.com/sirredbeard/Awesome-WSL#fedora-remix-for-wsl) <br>
-          - [Pengwin](https://github.com/sirredbeard/Awesome-WSL#pengwin) <br>
-          - [Pengwin Enterprise](https://github.com/sirredbeard/Awesome-WSL#pengwin-enterprise) <br>
-- [Unofficial WSL Distributions](#unofficial-distributions)
-- [WSL Tools](#wsl-tools) <br>
-          - [X Servers](https://github.com/sirredbeard/Awesome-WSL#x-servers) <br>
-          - [Terminals](https://github.com/sirredbeard/Awesome-WSL#terminals) <br>
-          - [Managing WSL Installations](https://github.com/sirredbeard/Awesome-WSL#for-managing-wsl) <br>
-          - [WSL Utilities](https://github.com/sirredbeard/Awesome-WSL#wsl-utilities) <br>
-          - [WSL-Specific Development Tools](https://github.com/sirredbeard/Awesome-WSL#wsl-specific-development-tools) <br>
-          - [Miscellaneous Tools](https://github.com/sirredbeard/Awesome-WSL#miscellaneous-tools)
-- [Books](#books)
-- [Additional WSL Resources](#additional-resources)
-- [Related Projects](#related-projects)
-- [More Awesome Lists](#more-awesome)
-- [Thanks](#thanks)
-- [Intellectual Property Notices](#intellectual-property-notices)
+- [Awesome WSL - Windows Subsystem for Linux](#awesome-wsl---windows-subsystem-for-linux)
+  - [Contents](#contents)
+  - [Overview](#overview)
+    - [1. Linux](#1-linux)
+    - [2. Linux Distributions](#2-linux-distributions)
+    - [3. Windows](#3-windows)
+    - [4. WSL1](#4-wsl1)
+    - [5. WSL2](#5-wsl2)
+    - [6. Emulation](#6-emulation)
+    - [7. Details](#7-details)
+    - [8. Installation](#8-installation)
+    - [9. Use Cases](#9-use-cases)
+    - [10. GUI Apps](#10-gui-apps)
+  - [Using WSL](#using-wsl)
+      - [The WSL Shell](#the-wsl-shell)
+      - [Programming on WSL](#programming-on-wsl)
+      - [Web Development on WSL](#web-development-on-wsl)
+      - [CUDA Development on WSL](#cuda-development-on-wsl)
+      - [Other WSL Uses](#other-wsl-uses)
+  - [Supported Distributions](#supported-distributions)
+      - [Ubuntu](#ubuntu)
+      - [Debian](#debian)
+      - [OpenSUSE / SUSE Enterprise Linux](#opensuse--suse-enterprise-linux)
+      - [Kali Linux](#kali-linux)
+      - [Fedora Remix for WSL](#fedora-remix-for-wsl)
+      - [Pengwin](#pengwin)
+      - [Pengwin Enterprise](#pengwin-enterprise)
+      - [Oracle Linux](#oracle-linux)
+      - [AlmaLinux OS](#almalinux-os)
+  - [Unofficial Distributions](#unofficial-distributions)
+  - [WSL Tools](#wsl-tools)
+      - [X Servers](#x-servers)
+      - [Terminals](#terminals)
+      - [For Managing WSL Installations](#for-managing-wsl-installations)
+      - [WSL Utilities](#wsl-utilities)
+      - [WSL-Specific Development Tools](#wsl-specific-development-tools)
+      - [Miscellaneous Tools](#miscellaneous-tools)
+  - [Books](#books)
+  - [Additional Resources](#additional-resources)
+  - [Related Projects](#related-projects)
+  - [More Awesome](#more-awesome)
+  - [Thanks](#thanks)
+  - [Intellectual Property Notices](#intellectual-property-notices)
 
 ## Overview
 
@@ -131,6 +146,12 @@ Because WSL allows developers to run a variety of Linux server applications loca
 - [We put Linux in your Windows](https://www.youtube.com/watch?v=JZCPYWrTLTg) - YouTube talk by Windows kernel team member Sarah Cooley on WSL for Windows.
 - [Setting Up Windows for Web Development](https://blog.cloudboost.io/setting-up-windows-for-web-development-28483d245a82).
 - [How to Install LAMP Stack Server on Windows Subsystem Linux](https://medium.com/@ssharizal/how-to-install-lamp-stack-server-on-windows-subsystem-linux-wsl-windows-10-133419c22473).
+
+#### CUDA Development on WSL
+WSL allows for CUDA usage in the Linux environment for machine learning, intense mathematics or related uses. In order to activate CUDA inside WSL, Windows 11 or Windows 10 with version 21H2 support is required. [WSL2](#5-wsl2) is required along with the 5.10 kernel which is available through `wsl --update` command.
+ - [CUDA drivers and toolkit](https://developer.nvidia.com/cuda-toolkit) are required to be installed on Windows. 11.7 is recommended.
+ - [Section 3](https://docs.nvidia.com/cuda/wsl-user-guide/index.html) will instruct how to install the CUDA requirements inside WSL. **Do not install a driver inside WSL.** The Windows driver will be used through the 5.10 kernel.
+You can test the install after following the above steps through PyTorch (`torch.cuda.is_available()`) or similar tools. Another option is using the [NVIDIA CUDA Samples](https://github.com/NVIDIA/cuda-samples).
 
 #### Other WSL Uses
 - [Arduino setup checklist](https://yanivpaz.com/2020-04-13-arduino-wsl1/) - Checklist to connect Arduino board from WSL 1.  
