@@ -151,6 +151,7 @@ Because WSL allows developers to run a variety of Linux server applications loca
 WSL allows for CUDA usage in the Linux environment for machine learning, intense mathematics or related uses. In order to activate CUDA inside WSL, Windows 11 or Windows 10 with version 21H2 support is required. [WSL2](#5-wsl2) is required along with the 5.10 kernel which is available through `wsl --update` command.
  - [CUDA drivers and toolkit](https://developer.nvidia.com/cuda-toolkit) are required to be installed on Windows. 11.7 is recommended.
  - [Section 3](https://docs.nvidia.com/cuda/wsl-user-guide/index.html) will instruct how to install the CUDA requirements inside WSL. **Do not install a driver inside WSL.** The Windows driver will be used through the 5.10 kernel.
+  
 You can test the install after following the above steps through PyTorch (`torch.cuda.is_available()`) or similar tools. Another option is using the [NVIDIA CUDA Samples](https://github.com/NVIDIA/cuda-samples).
 
 #### Other WSL Uses
