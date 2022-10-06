@@ -109,7 +109,7 @@ WSL is undoubtedly a tool for power-users, developers, and *NIX/Linux geeks who 
 
 Yes, a [suprising number](https://github.com/ethanhs/WSL-Programs) of Linux GUI apps can run on WSL. GUI applications are officially supported on WSL2 with Windows Insider Preview since Windows 10 Insider Preview build 21286. It will also be available in Windows 10's fall 2021 release, and Windows 11. The GUI capabilities of WSL2 are informally referred to as WSLg.
 
-If you have an earlier release of Windows 10, then running a GUI app on WSL requires an operational X server on Windows. This must be downloaded, installed, and running for your GUI app to open from WSL; or it will complain that it cannot find a display. X servers for Windows include [X410](https://afflnk.microsoft.com/c/1291904/433017/7593?u=https%3A%2F%2Fwww.microsoft.com%2Fp%2Fx410%2F9nlp712zmn9q) 💰 ($10 but very highly recommended), [VcXsrv](https://sourceforge.net/projects/vcxsrv/), [GWSL](https://www.microsoft.com/store/apps/9NL6KD1H33V3), or [Xming](https://sourceforge.net/projects/xming/) on Windows 10.
+If you have an earlier release of Windows 10, then running a GUI app on WSL requires an operational X server on Windows. This must be downloaded, installed, and running for your GUI app to open from WSL; or it will complain that it cannot find a display. X servers for Windows include [X410](https://apps.microsoft.com/store/detail/x410/9NLP712ZMN9Q) 💰 (very highly recommended), [VcXsrv](https://sourceforge.net/projects/vcxsrv/), [GWSL](https://www.microsoft.com/store/apps/9NL6KD1H33V3), or [Xming](https://sourceforge.net/projects/xming/) on Windows 10.
 
 ## Using WSL
 
@@ -118,7 +118,7 @@ If you have an earlier release of Windows 10, then running a GUI app on WSL requ
 - [Everything You Can Do With Windows 10’s New Bash Shell](https://www.howtogeek.com/265900/everything-you-can-do-with-windows-10s-new-bash-shell/)
 - [The Unix Workbench](http://seankross.com/the-unix-workbench/) - A book for anyone to get started with Unix/Linux environments.
 - [The Art of Command Line](https://github.com/jlevy/the-art-of-command-line) - Master the command line in one page. ![github project][githublogo]
-- [The Bash Academy](http://www.bash.academy) - The Bash Academy is an initiative to promote the bash shell language and educate people on its use.
+- [The Bash Academy](https://guide.bash.academy/) - The Bash Academy is an initiative to promote the bash shell language and educate people on its use.
 - [Awesome Command Line Apps](https://github.com/herrbischoff/awesome-command-line-apps) [![Awesome][awesomelogo]](https://awesome.re) ![github project][githublogo]
 
 #### Programming on WSL
@@ -132,7 +132,6 @@ Every developer has a unique workflow. Windows and WSL enable developers to care
 - [Using WSL and MobaXterm to Create a Linux Dev Environment on Windows](https://nickjanetakis.com/blog/using-wsl-and-mobaxterm-to-create-a-linux-dev-environment-on-windows) - Another developer's approach using the third-party terminal MobaXterm.
 - [Setting up my WSL Environment - Azure CLI, Docker and .NET](http://tattoocoder.com/setting-up-my-wsl-environment-azure-cli-docker-and-net/)
 - [ubuntu-win-boostrap](https://github.com/seapagan/ubuntu-win-bootstrap) - A very simple bootstrap script to install some development basic tools on Debian/Ubuntu on WSL. ![github project][githublogo]
-- [Castle-Winbuntu](https://github.com/rodtreweek/Castle-Winbuntu) - Another developer's progress on their development environment using WSL. ![github project][githublogo]
 - [Badass Terminal](https://jessicadeen.com/badass-terminal-wsl-macos-and-ubuntu-dotfiles-update/)
 
 For more about learning programming generally, visit [curated-programming-resources](https://github.com/Michael0x2a/curated-programming-resources/blob/master/resources.md).
@@ -196,9 +195,9 @@ OpenSUSE and SUSE Enterprise Linux are Linux distributions produced by [SUSE Lin
 - [Windows Store Link](https://www.microsoft.com/en-us/p/opensuse-leap-153/9n6j06bmcgt3) for OpenSUSE Leap 15.3.
 - [Windows Store Link](https://www.microsoft.com/en-us/p/opensuse-leap-152/9mzd0n9z4m4h) for OpenSUSE Leap 15.2.
 - [Windows Store Link](https://www.microsoft.com/store/productId/9PMW35D7FNLX) for SUSE Enterprise Linux 15.
-- [Managing Software with Command Line Tools](https://doc.opensuse.org/documentation/leap/reference/html/book.opensuse.reference/cha.sw_cl.html) from OpenSUSE.
-- [OpenSUSE Reference](https://doc.opensuse.org/documentation/leap/reference/html/book.opensuse.reference/book.opensuse.reference.html).
-- [SUSE Linux Enterprise Documentation](https://www.suse.com/documentation/sles-15/index.html) from SUSE.
+- [Managing Software with Command Line Tools](https://doc.opensuse.org/documentation/leap/reference/html/book-reference/cha-sw-cl.html) from OpenSUSE.
+- [OpenSUSE Reference](https://doc.opensuse.org/documentation/leap/reference/html/book-reference/index.html).
+- [SUSE Linux Enterprise Documentation](https://documentation.suse.com/sles) from SUSE.
 
 #### Kali Linux
 
@@ -221,7 +220,7 @@ Fedora Remix for WSL is a Linux distribution derived from the [Fedora distributi
 
 Pengwin (formerly WLinux) is a Linux distribution based on Debian that is designed for WSL users by independent open source developers at [Whitewater Foundry](https://www.whitewaterfoundry.com/).
 
-- [Windows Store Link](https://afflnk.microsoft.com/c/1291904/433017/7593?u=https%3A%2F%2Fwww.microsoft.com%2Fp%2Fwlinux%2F9nv1gv1pxz6p) 💰
+- [Windows Store Link](https://apps.microsoft.com/store/detail/pengwin/9NV1GV1PXZ6P) 💰
 - [Pengwin GitHub](https://github.com/WhitewaterFoundry/Pengwin) ![github project][githublogo]
 - Because Pengwin is based on Debian, most Debian and Ubuntu documentation also applies to Pengwin.
 
@@ -314,7 +313,6 @@ An X server running on Windows is required for running Linux GUI apps on Windows
 - [wsl-open](https://github.com/4U6U57/wsl-open) - Open files with xdg-open in WSL from Windows applications. ![github project][githublogo]
 - [OpenInWSL](https://github.com/Opticos/OpenInWSL-Source) - Easily Make WSL Linux Apps Windows File Handlers. ![github project][githublogo]
 - [is-wsl for Node](https://github.com/sindresorhus/is-wsl) - Check if the current process is running inside Windows Subsystem for Linux, useful for scripting. ![github project][githublogo]
-- [is_wsl for Python](https://github.com/julien-h/is-wsl) - Check if the current process is running inside Windows Subsystem for Linux, useful for scripting. ![github project][githublogo] 
 - [wsl-gui-bins](https://github.com/Konfekt/wsl-gui-bins) -  Start common GUI applications under WSL as under Linux. ![github project][githublogo]
 - [xclip-xsel-WSL](https://github.com/Konfekt/xclip-xsel-WSL) -  Make `xclip` and `xsel` in `WSL` read and write on the Windows instead of the Linux clipboard.
 . ![github project][githublogo]
@@ -327,7 +325,6 @@ An X server running on Windows is required for running Linux GUI apps on Windows
 
 #### WSL-Specific Development Tools
 
-- [wsl-docker-git-setup](https://github.com/rodtreweek/Castle-Winbuntu) - Shell script to configure WSL to use docker and docker-compose as well as a git-enabled prompt. ![github project][githublogo]
 - [ghc](https://launchpad.net/~hvr/+archive/ubuntu/ghc-wsl) - A version of the Glasgow Haskell Compiler built and optimized for WSL and hosted in a PPA for Debian and Ubuntu-based WSL distros.
 
 #### Miscellaneous Tools
@@ -361,10 +358,9 @@ An X server running on Windows is required for running Linux GUI apps on Windows
 - Microsoft [Console Blog](https://blogs.msdn.microsoft.com/commandline/)
 - [WSL-Programs](https://github.com/ethanhs/WSL-Programs) - A community powered list of programs that work on the Windows Subsystem for Linux. ![github project][githublogo]
 - [/r/bashonubuntuonwindows](https://www.reddit.com/r/bashonubuntuonwindows/) - Reddit subreddit.
-- [##windows-wsl](https://irc-source.com/channel/freenode/%23%23windows-wsl) - IRC channel on Freenode.net. 
+- [##windows-wsl](https://netsplit.de/channels/details.php?room=%23windows-wsl&net=Libera.Chat) - IRC channel on Libera.Chat. 
 - [#debian-wsl](https://www.oftc.net) - IRC channel on OFTC.net.
 - [WSL on GitHub](https://github.com/Microsoft/WSL) - For reporting issues with WSL. ![github project][githublogo]
-- [Microsoft User Voice](https://wpdev.uservoice.com/forums/266908-command-prompt-console-bash-on-ubuntu-on-windo/category/161892-bash) - Send Microsoft feedback on WSL.
 - [Microsoft Developer Feedback](https://wpdev.uservoice.com/forums/266908-command-prompt-console-windows-subsystem-for-l) - For developers to send Microsoft feeback on WSL.
 - [Portable Node.js guide](https://github.com/ehmicky/portable-node-guide) - Practical guide on how to write portable/cross-platform Node.js code.
 - [Stack Overflow: WSL](https://stackoverflow.com/questions/tagged/wsl) - Programming question and answer site.
@@ -375,7 +371,7 @@ An X server running on Windows is required for running Linux GUI apps on Windows
 - [Cygwin](https://cygwin.com) - Cygwin is a Unix-like environment and command-line interface for Microsoft Windows.
 - [Cmder](https://cmder.net/) - A very nice console emulator built on ConEmu. ![github project][githublogo]
 - [PuTTY](https://www.putty.org) - PuTTY is an SSH and telnet client, developed originally by Simon Tatham for the Windows platform. ![github project][githublogo]
-- [PowerShell](https://docs.microsoft.com/en-us/powershell/scripting/powershell-scripting?view=powershell-6) - PowerShell is a task automation and configuration management framework from Microsoft, consisting of a command-line shell and associated scripting language.
+- [PowerShell](https://learn.microsoft.com/en-us/powershell/) - PowerShell is a task automation and configuration management framework from Microsoft, consisting of a command-line shell and associated scripting language.
 - [Visual Studio Code](https://code.visualstudio.com) - Visual Studio Code ("vscode") is a source code editor developed by Microsoft for Windows, Linux, and macOS. It includes support for debugging, embedded Git control, syntax highlighting, intelligent code completion, snippets, and code refactoring.
 - [Visual Studio 2017](https://www.visualstudio.com/vs/) - Visual Studio is an IDE from Microsoft. It is used to develop computer programs, as well as web sites, web apps, web services and mobile apps. Visual Studio uses Microsoft software development platforms such as Windows API, Windows Forms, Windows Presentation Foundation, Windows Store, and Microsoft Silverlight.
 - [Windows Services for UNIX](https://en.wikipedia.org/wiki/Windows_Services_for_UNIX) - SFU is a discontinued software package produced by Microsoft which provided a Unix environment on Windows NT and some of its immediate successor operating-systems. [TechNet](https://technet.microsoft.com/en-us/library/bb496506.aspx) documentation.
@@ -394,7 +390,7 @@ More [![Awesome][awesomelogo]](https://awesome.re) lists. ![github project][gith
 
 ## Thanks
 
-- The Windows 10, WSL, and kernel teams at Microsoft, including but not limited to [Tara Raj](https://twitter.com/tara_msft), [Rich Turner](https://twitter.com/richturn_ms), [Jessie Frazelle](https://twitter.com/jessfraz), [Jack Hammons](https://github.com/jackchammons), [Sarah Cooley](https://github.com/scooley), [Ben Hillis](https://github.com/benhillis), [Allen Sudbring](https://blogs.technet.microsoft.com/askpfeplat/tag/allen-sudbring/), [Brandon Wilson](https://social.technet.microsoft.com/profile/BrandonWilson), [John Starks](https://twitter.com/gigastarks), [Russ Alexander](https://www.linkedin.com/in/russalex), [Yosef Durr](https://twitter.com/yosefdurr), [Sven Groot](https://twitter.com/svengroot_ms), [Sunil Muthuswamy](https://twitter.com/SunilMut), [Palkesh Soni](https://twitter.com/sonipalkesh), [John Starks](https://twitter.com/gigastarks), [Craig Wilhite](https://twitter.com/CraigWilhite).
+- The Windows 10, WSL, and kernel teams at Microsoft, including but not limited to [Tara Raj](https://twitter.com/tara_msft), [Rich Turner](https://twitter.com/richturn_ms), [Jessie Frazelle](https://twitter.com/jessfraz), [Jack Hammons](https://github.com/jackchammons), [Sarah Cooley](https://github.com/scooley), [Ben Hillis](https://github.com/benhillis), [Allen Sudbring](https://github.com/asudbring), [Brandon Wilson](https://social.technet.microsoft.com/profile/BrandonWilson), [John Starks](https://twitter.com/gigastarks), [Russ Alexander](https://www.linkedin.com/in/russalex), [Yosef Durr](https://twitter.com/yosefdurr), [Sven Groot](https://twitter.com/svengroot_ms), [Sunil Muthuswamy](https://twitter.com/SunilMut), [Palkesh Soni](https://twitter.com/sonipalkesh), [John Starks](https://twitter.com/gigastarks), [Craig Wilhite](https://twitter.com/CraigWilhite).
 - [Canonical](https://www.ubuntu.com), [Debian](https://www.debian.org), [SUSE](https://www.suse.com), and [Offensive Software](https://www.offensive-security.com).
 - The [Awesome community](https://awesome.re) on GitHub.
 
@@ -409,7 +405,7 @@ More [![Awesome][awesomelogo]](https://awesome.re) lists. ![github project][gith
 - UNIX® is a trademark of The Open Group. Use of The Open Group trademarks are authorized by The Open Group Trademark Guidelines as "Editorial or Articles, but not Advertising" and/or permitted by trademark fair use under United States law. [*](http://www.unix.org/trademark.html)
 - Debian® is a registered trademark of Software in the Public Interest, Inc. in the United States and/or other countries. [*](https://www.debian.org/trademark)
 - Kali Linux® and Offensive Security® are registered trademarks of OffSec Services, Ltd. [*](https://www.offensive-security.com/trademark-policy/)
-- Docker® and Docker Hub® are registered trademarks of Docker, Inc. [*](https://www.docker.com/trademark-guidelines)
+- Docker® and Docker Hub® are registered trademarks of Docker, Inc. [*](https://www.docker.com/legal/trademark-guidelines/)
 - YouTube® is a registered trademark of Google, LLC. [*](https://www.google.com/permissions/trademark/our-trademarks.html)
 - macOS® is a registered trademark of Apple, Inc. [*](https://www.apple.com/legal/intellectual-property/guidelinesfor3rdparties.html)
 - GitHub® and [githublogo] are a registered trademarks of GitHub, Inc. [*](https://help.github.com/articles/github-terms-of-service/)
