@@ -111,6 +111,9 @@ Yes, a [suprising number](https://github.com/ethanhs/WSL-Programs) of Linux GUI 
 
 If you have an earlier release of Windows 10, then running a GUI app on WSL requires an operational X server on Windows. This must be downloaded, installed, and running for your GUI app to open from WSL; or it will complain that it cannot find a display. X servers for Windows include [X410](https://apps.microsoft.com/store/detail/x410/9NLP712ZMN9Q) 💰 (very highly recommended), [VcXsrv](https://sourceforge.net/projects/vcxsrv/), [GWSL](https://www.microsoft.com/store/apps/9NL6KD1H33V3), or [Xming](https://sourceforge.net/projects/xming/) on Windows 10.
 
+## 11. Systemd
+ On September 21st, 2022 microsoft release a [blog](https://devblogs.microsoft.com/commandline/systemd-support-is-now-available-in-wsl/) As of version 0.67.6 of WSL2, you can now enable booting with systemd in WSL, enabling support for services and applications like snap, to read more visit the blog [Here](https://devblogs.microsoft.com/commandline/systemd-support-is-now-available-in-wsl/)
+
 ## Using WSL
 
 #### The WSL Shell
@@ -174,8 +177,11 @@ Ubuntu is a Linux distribution based on Debian that is produced by [Canonical Lt
 - [Windows Store Link](https://www.microsoft.com/store/productId/9N9TNGVNDL3Q) for Ubuntu 18.04. Supported through April 2023. Very stable but some packages and libraries may be older.
 - [Windows Store Link](https://www.microsoft.com/en-gb/p/ubuntu-2004-lts/9n6svws3rx71?activetab=pivot:overviewtab) for Ubuntu 20.04. Supported through April 2025.
 - [Windows Store Link](https://www.microsoft.com/en-us/p/app/9pn20msr04dw#activetab=pivot:overviewtab) for Ubuntu 22.04. Most recent update. Newer packages but more likely to encounter bugs. Supported through April 2027.
-- [Installing Software](https://help.ubuntu.com/community/InstallingSoftware) guide to using apt from Ubuntu.
+- [Windows Store Link](https://apps.microsoft.com/store/detail/ubuntu-on-windows-community-preview/9P9Q5ZH1HRR0?hl=en-gb&gl=gb) for Ubuntu Community Preview. These builds are previews for testing new features and ideas, these are for early adopters ***May be Unstable, Will Have Bugs*** report issues and give feedback below.
+- - [Installing Software](https://help.ubuntu.com/community/InstallingSoftware) guide to using apt from Ubuntu.
 - [Ubuntu Server Guide](https://help.ubuntu.com/lts/serverguide/index.html) from Ubuntu.
+- [Ubuntu Community Previews](https://ubuntu.com/blog/explore-whats-in-store-ubuntu-preview-on-wsl) More Information About the Ubuntu Community Previews
+- - [Issues and Feedback](https://discourse.ubuntu.com/c/wsl2/27?_ga=2.263253898.784609326.1665083044-1177481074.1653602430) Report Issues and Give Feedback on the Community Previews Here.
 - Because Ubuntu is based on Debian, many Debian tutorials also apply to Ubuntu.
 
 #### Debian
