@@ -377,6 +377,7 @@ An X server running on Windows is required for running Linux GUI apps on Windows
 - [Cygwin](https://cygwin.com) - Cygwin is a Unix-like environment and command-line interface for Microsoft Windows.
 - [Cmder](https://cmder.net/) - A very nice console emulator built on ConEmu. ![github project][githublogo]
 - [PuTTY](https://www.putty.org) - PuTTY is an SSH and telnet client, developed originally by Simon Tatham for the Windows platform. ![github project][githublogo]
+- [Termius](https://termius.com) - Termius is a modern SSH client that works on Desktop and Mobile.
 - [PowerShell](https://learn.microsoft.com/en-us/powershell/) - PowerShell is a task automation and configuration management framework from Microsoft, consisting of a command-line shell and associated scripting language.
 - [Visual Studio Code](https://code.visualstudio.com) - Visual Studio Code ("vscode") is a source code editor developed by Microsoft for Windows, Linux, and macOS. It includes support for debugging, embedded Git control, syntax highlighting, intelligent code completion, snippets, and code refactoring.
 - [Visual Studio 2017](https://www.visualstudio.com/vs/) - Visual Studio is an IDE from Microsoft. It is used to develop computer programs, as well as web sites, web apps, web services and mobile apps. Visual Studio uses Microsoft software development platforms such as Windows API, Windows Forms, Windows Presentation Foundation, Windows Store, and Microsoft Silverlight.
