@@ -114,7 +114,7 @@ If you have an earlier release of Windows 10, then running a GUI app on WSL requ
 
 ## 11. Systemd
 
-On September 21st, 2022 microsoft release a [blog](https://devblogs.microsoft.com/commandline/systemd-support-is-now-available-in-wsl/) As of version 0.67.6 of WSL2, you can now enable booting with systemd in WSL, enabling support for services and applications like snap, to read more visit the blog [Here](https://devblogs.microsoft.com/commandline/systemd-support-is-now-available-in-wsl/)
+On September 21st, 2022 microsoft release a [blog](https://devblogs.microsoft.com/commandline/systemd-support-is-now-available-in-wsl/). As of version 0.67.6 of WSL2, you can now enable booting with systemd in WSL, enabling support for services and applications like snap, to read more visit the blog [here](https://devblogs.microsoft.com/commandline/systemd-support-is-now-available-in-wsl/).
 
 ## Using WSL
 
