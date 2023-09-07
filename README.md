@@ -331,6 +331,7 @@ An X server running on Windows is required for running Linux GUI apps on Windows
 - [community.wsl.sdk](https://github.com/Gitii/community.wsl.sdk) - SDK for Windows Subsystem for Linux for .NET 5, 6 and Standard 2.1 ![github project][githublogo]
 - [wslu](https://github.com/wslutilities/wslu) - A collection of utilities for Windows 10 Linux Subsystem, such as enabling sound in WSL and creating your favorite linux GUI application shortcuts on Windows 10. ![github project][githublogo]
 - [wslpy](https://github.com/wslutilities/wslpy) - A Python3 library for WSL specific tasks. ![github project][githublogo]
+- [xdg-open-wsl](https://github.com/cpbotha/xdg-open-wsl) - xdg-open replacement for WSL that opens files and links using Windows applications. ![github project][githublogo]
 
 #### WSL-Specific Development Tools
 
