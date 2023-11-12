@@ -323,6 +323,7 @@ An X server running on Windows is required for running Linux GUI apps on Windows
 - [OpenInWSL](https://github.com/Opticos/OpenInWSL-Source) - Easily Make WSL Linux Apps Windows File Handlers. ![github project][githublogo]
 - [is-wsl for Node](https://github.com/sindresorhus/is-wsl) - Check if the current process is running inside Windows Subsystem for Linux, useful for scripting. ![github project][githublogo]
 - [wsl-gui-bins](https://github.com/Konfekt/wsl-gui-bins) -  Start common GUI applications under WSL as under Linux. ![github project][githublogo]
+- [WSL-Hello-sudo](https://github.com/nullpo-head/WSL-Hello-sudo) - Use Windows Hello as your credential for `sudo`. ![github project][githublogo]
 - [xclip-xsel-WSL](https://github.com/Konfekt/xclip-xsel-WSL) -  Make `xclip` and `xsel` in `WSL` read and write on the Windows instead of the Linux clipboard.
 . ![github project][githublogo]
 - [vim-wsl-copy-paste](https://github.com/Konfekt/vim-wsl-copy-paste) -  Adds mappings in Vim to write and read on the Windows clipboard.
