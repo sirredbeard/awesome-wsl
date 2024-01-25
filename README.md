@@ -366,7 +366,7 @@ An X server running on Windows is required for running Linux GUI apps on Windows
 - Microsoft [Console Blog](https://blogs.msdn.microsoft.com/commandline/)
 - [WSL-Programs](https://github.com/ethanhs/WSL-Programs) - A community powered list of programs that work on the Windows Subsystem for Linux. ![github project][githublogo]
 - [/r/bashonubuntuonwindows](https://www.reddit.com/r/bashonubuntuonwindows/) - Reddit subreddit.
-- [##windows-wsl](https://netsplit.de/channels/details.php?room=%23windows-wsl&net=Libera.Chat) - IRC channel on Libera.Chat. 
+- [#windows-wsl](https://netsplit.de/channels/details.php?room=%23windows-wsl&net=Libera.Chat) - IRC channel on Libera.Chat. 
 - [#debian-wsl](https://www.oftc.net) - IRC channel on OFTC.net.
 - [WSL on GitHub](https://github.com/Microsoft/WSL) - For reporting issues with WSL. ![github project][githublogo]
 - [Microsoft Developer Feedback](https://wpdev.uservoice.com/forums/266908-command-prompt-console-windows-subsystem-for-l) - For developers to send Microsoft feeback on WSL.
