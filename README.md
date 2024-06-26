@@ -110,7 +110,17 @@ If you have an earlier release of Windows 10, then running a GUI app on WSL requ
 
 ## 11. Systemd
 
-On September 21st, 2022 microsoft release a [blog](https://devblogs.microsoft.com/commandline/systemd-support-is-now-available-in-wsl/). As of version 0.67.6 of WSL2, you can now enable booting with systemd in WSL, enabling support for services and applications like snap, to read more visit the blog [here](https://devblogs.microsoft.com/commandline/systemd-support-is-now-available-in-wsl/).
+On September 21<sup>st</sup> 2022, Microsoft announced<sup><strong>[1]</strong></sup> official support for `systemd` in WSL2 disributions. As of version 0.67.6 of WSL2, you can now enable booting with systemd in WSL, enabling support for services and applications like snap.
+<br>
+
+<blockquote>
+<sup>
+  <br>
+
+  <strong>[1]:</strong> The announcement was published in Microsoft's tech/dev blog _**Windows Command Line**_. You can view the article [here](https://devblogs.microsoft.com/commandline/systemd-support-is-now-available-in-wsl "Systemd support is now available in WSL!") for more details on `systemd` support in WSL 2.
+  
+ </sup>
+</blockquote>
 
 ## Using WSL
 
@@ -135,7 +145,7 @@ Every developer has a unique workflow. Windows and WSL enable developers to care
 - [ubuntu-win-boostrap](https://github.com/seapagan/ubuntu-win-bootstrap) - A very simple bootstrap script to install some development basic tools on Debian/Ubuntu on WSL. ![github project][githublogo]
 - [Badass Terminal](https://jessicadeen.com/badass-terminal-wsl-macos-and-ubuntu-dotfiles-update/)
 
-For more about learning programming generally, visit [curated-programming-resources](https://github.com/Michael0x2a/curated-programming-resources/blob/master/resources.md).
+To learn more about programming generally, visit [curated-programming-resources](https://github.com/Michael0x2a/curated-programming-resources/blob/master/resources.md).
 
 Microsoft makes [free development tools](https://code.visualstudio.com) available, publishes programming guides through [MSDN](https://msdn.microsoft.com/en-us/library/windows/desktop/ff381399(v=vs.85).aspx), and offers courses through [edX](https://www.edx.org/school/microsoft) and [Microsoft Virtual Academy](https://mva.microsoft.com).
 
