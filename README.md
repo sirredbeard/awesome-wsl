@@ -365,6 +365,7 @@ An X server running on Windows is required for running Linux GUI apps on Windows
 - [easyWSL](https://github.com/redcode-labs/easyWSL) - Use any Docker image as a WSL distro. ![github project][githublogo]
 - [setup-wsl](https://github.com/Vampire/setup-wsl) - A GitHub action to install and setup a Linux distribution for the Windows Subsystem for Linux (WSL). ![github project][githublogo]
 
+- [Gitstar](https://dev.gitstar.ai?utm_medium=github_readme&utm_source=awesome_list&utm_campaign=sirredbeard_awesome-wsl) - Follow developers on GitHub and get a feed of what they star and build.
 ## Books
 
 - [Learn Windows Subsystem for Linux](https://www.apress.com/gp/book/9781484260371) - A Practical Guide for Developers and IT Professionals
