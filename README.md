@@ -364,6 +364,7 @@ An X server running on Windows is required for running Linux GUI apps on Windows
 #### Miscellaneous Tools
 
 - [BootShellCredentialProvider](https://github.com/NathanCastle/BootShellCredentialProvider) - BSCP lets you boot Windows directly into a Linux desktop experience such as xfce4 using Windows native login and a combination of Xming & WSL upon login. ![github project][githublogo]
+- [teamviewer-on-wsl](https://github.com/ariel42/teamviewer-on-wsl) - Run TeamViewer on a WSL2 Linux desktop, reachable from anywhere with no port forwarding or VPN (unlike VNC), fully unattended. Includes the fix for a WSL-specific bug that otherwise blocks TeamViewer's screen sharing. ![github project][githublogo]
 - [wsl-dotfiles](https://github.com/Xyene/wsl-dotfiles) - Configuration files and scripts for creating an i3-based environment inside WSL. ![github project][githublogo]
 - [EnumWSL](https://github.com/therealkenc/EnumWSL) - Enumerates installed WSL packages. ![github project][githublogo]
 - [WSL-DistroLauncher](https://github.com/Microsoft/WSL-DistroLauncher) - Reference launcher app for developing your own WSL distribution Microsoft Store package. ![github project][githublogo]
