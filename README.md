@@ -360,6 +360,7 @@ An X server running on Windows is required for running Linux GUI apps on Windows
 
 - [ghc](https://launchpad.net/~hvr/+archive/ubuntu/ghc-wsl) - A version of the Glasgow Haskell Compiler built and optimized for WSL and hosted in a PPA for Debian and Ubuntu-based WSL distros.
 - [claude-code-wsl2-setup](https://github.com/congmnguyen/claude-code-wsl2-setup) - Claude Code setup for WSL2 + Windows Terminal: Codex delegation, screenshot paste as WSL paths, Windows notifications, LSP wiring, statusline, and safety/context hygiene hooks. ![github project][githublogo]
+- [pi-custom-packages](https://github.com/Blue-B/pi-custom-packages) - Extensions that let the pi coding agent, running in WSL, drive the Windows desktop over interop: occlusion-safe window capture with privacy masking, cursor and keyboard control, and screen recording, all in PowerShell and .NET with nothing to install on the Linux side. ![github project][githublogo]
 
 #### Miscellaneous Tools
 
