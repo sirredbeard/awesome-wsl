@@ -380,6 +380,7 @@ An X server running on Windows is required for running Linux GUI apps on Windows
 - [Files](https://github.com/files-community/Files) - A modern file explorer that supports WSL filesystem. ![github project][githublogo]
 - [easyWSL](https://github.com/redcode-labs/easyWSL) - Use any Docker image as a WSL distro. ![github project][githublogo]
 - [setup-wsl](https://github.com/Vampire/setup-wsl) - A GitHub action to install and setup a Linux distribution for the Windows Subsystem for Linux (WSL). ![github project][githublogo]
+- [agent-manager](https://github.com/YoanWai/agent-manager) - Terminal UI that runs coding-agent CLIs side by side, each in its own persistent tmux session. On Windows it runs inside WSL2. ![github project][githublogo]
 
 ## Books
 
