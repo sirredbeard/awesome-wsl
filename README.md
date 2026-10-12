@@ -356,6 +356,7 @@ An X server running on Windows is required for running Linux GUI apps on Windows
 - [gowinbridge](https://github.com/Sibikrish3000/gowinbridge) - A Go library and CLI for executing Windows binaries from WSL. ![github project][githublogo]
 - [Porthole](https://github.com/celloza/porthole) - A native Windows desktop dashboard for WSL Containers with tray-hosted backend operations. ![github project][githublogo]
 - [wip](https://github.com/slidict/wip) - A native CLI that brings dip-like development workflows to Microsoft WSL Containers (WSLC).
+- [Portable Linux in a Box](https://github.com/aivrar/portable-linux-in-a-box) - A ~252 KB C launcher that packages Linux web UIs, CLIs and dev servers as double-click Windows apps, auto-detecting WSL2 with QEMU/WHPX fallbacks. ![github project][githublogo]
 
 #### WSL-Specific Development Tools
 
