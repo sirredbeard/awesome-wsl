@@ -319,6 +319,7 @@ An X server running on Windows is required for running Linux GUI apps on Windows
 - [KKTerm](https://github.com/ryantsai/KKTerm) - A Windows-first, local-first terminal for managing connections, sessions, and workspaces.
 - [Yaw](https://yaw.sh) - A cross-platform terminal that auto-detects WSL along with PowerShell, CMD, and Git Bash on Windows.
 - [AbsoluteTelnet/SSH](https://www.celestialsoftware.net/absolutetelnet/) - Windows SSH, SFTP, Telnet, and serial terminal client with tabbed sessions, Unicode support, and smart-card/certificate authentication.
+- [Mullion](https://github.com/aylith-labs/mullion) - A Windows Terminal fork that resolves WSL paths, `~/` and `file://` links in the right distribution, previews those files on hover, and reattaches tmux or zellij sessions after a restart. ![github project][githublogo]
 
 #### For Managing WSL Installations
 
