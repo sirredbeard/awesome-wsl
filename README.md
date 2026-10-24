@@ -362,6 +362,7 @@ An X server running on Windows is required for running Linux GUI apps on Windows
 
 - [ghc](https://launchpad.net/~hvr/+archive/ubuntu/ghc-wsl) - A version of the Glasgow Haskell Compiler built and optimized for WSL and hosted in a PPA for Debian and Ubuntu-based WSL distros.
 - [claude-code-wsl2-setup](https://github.com/congmnguyen/claude-code-wsl2-setup) - Claude Code setup for WSL2 + Windows Terminal: Codex delegation, screenshot paste as WSL paths, Windows notifications, LSP wiring, statusline, and safety/context hygiene hooks. ![github project][githublogo]
+- [wsl-shadow](https://github.com/kanchingyg/wsl-shadow) - Shows whether `node`, `npm`, `bun` and other tools resolve to Linux or Windows builds in each way an agent launches a WSL command, and prints symlink or PATH fixes. ![github project][githublogo]
 
 #### Miscellaneous Tools
 
