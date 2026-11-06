@@ -357,6 +357,7 @@ An X server running on Windows is required for running Linux GUI apps on Windows
 - [Porthole](https://github.com/celloza/porthole) - A native Windows desktop dashboard for WSL Containers with tray-hosted backend operations. ![github project][githublogo]
 - [wip](https://github.com/slidict/wip) - A native CLI that brings dip-like development workflows to Microsoft WSL Containers (WSLC).
 - [Portable Linux in a Box](https://github.com/aivrar/portable-linux-in-a-box) - A ~252 KB C launcher that packages Linux web UIs, CLIs and dev servers as double-click Windows apps, auto-detecting WSL2 with QEMU/WHPX fallbacks. ![github project][githublogo]
+- [AI Meter](https://github.com/dichiara19/ai-meter) - Windows 11 taskbar app for AI usage that reads coding-agent sessions, local model servers and the WSL VM's video memory from running distributions, without ever starting WSL. ![github project][githublogo]
 
 #### WSL-Specific Development Tools
 
