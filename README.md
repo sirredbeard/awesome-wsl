@@ -319,6 +319,7 @@ An X server running on Windows is required for running Linux GUI apps on Windows
 - [KKTerm](https://github.com/ryantsai/KKTerm) - A Windows-first, local-first terminal for managing connections, sessions, and workspaces.
 - [Yaw](https://yaw.sh) - A cross-platform terminal that auto-detects WSL along with PowerShell, CMD, and Git Bash on Windows.
 - [AbsoluteTelnet/SSH](https://www.celestialsoftware.net/absolutetelnet/) - Windows SSH, SFTP, Telnet, and serial terminal client with tabbed sessions, Unicode support, and smart-card/certificate authentication.
+- [SoluTerminal](https://github.com/soluterminal/soluterminal) - Open-source Windows workspace with WSL and PowerShell terminal panes side by side, built for running Claude Code and Codex; sessions keep running when the window closes. ![github_project][githublogo]
 
 #### For Managing WSL Installations
 
@@ -450,6 +451,7 @@ More [![Awesome][awesomelogo]](https://awesome.re) lists. ![github project][gith
 - Oracle and Oracle Linux are trademarks or registered tracemarks of Oracle, Inc. [*](https://www.oracle.com/legal/trademarks.html)
 - Gentoo® is a trademark of the Gentoo Foundation, Inc. [*](https://www.gentoo.org/inside-gentoo/foundation/name-logo-guidelines.html)
 - The AlmaLinux OS Marks are trademarks of AlmaLinux OS Foundation. [*](https://almalinux.org/p/the-almalinux-os-trademark-usage-policy/)
+- Claude Code is a trademark of Anthropic, PBC. Codex is a trademark of OpenAI.
 
 All other trademarks mentioned herein are the property of their respective owners and may be registered in the United States and/or other countries.
 
