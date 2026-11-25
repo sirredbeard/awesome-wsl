@@ -22,7 +22,7 @@ An Awesome collection of Windows Subsystem for Linux (WSL) information, distribu
     - [The WSL Shell](#the-wsl-shell)
     - [Programming on WSL](#programming-on-wsl)
     - [Web Development on WSL](#web-development-on-wsl)
-    - [CUDA Development on WSL](#cuda-development-on-wsl)
+    - [CUDA Development on WSL2](#cuda-development-on-wsl)
     - [Other WSL Uses](#other-wsl-uses)
 - [Supported Distributions](#supported-distributions)
     - [Ubuntu](#ubuntu)
@@ -69,7 +69,7 @@ The original WSL is now known as WSL1. WSL1 is a compatibility layer for running
 
 ### 5. WSL2
 
-WSL2 was announced at Microsoft Build 2019. WSL2 features a Linux kernel running inside Windows and is built on the core technology of Hyper-V to provide better Linux application support and improved file system performance. Transitioning to WSL2 is seamless. WSL2 is set by default since Windows 11.
+WSL2 was announced at Microsoft Build 2019. WSL2 features a Linux kernel running inside Windows and is built on the core technology of Hyper-V to provide better Linux application support and improved file system performance. Transitioning to WSL2 is seamless. Tansitioning to WSL1 is also seemless. WSL2 is set by default since Windows 11.
 
 - [Announcing WSL2](https://devblogs.microsoft.com/commandline/announcing-wsl-2/) - Microsoft blog announcing WSL2
 - [The new Windows subsystem for Linux architecture: a deep dive](https://www.youtube.com/watch?v=lwhMThePdIo) - WSL2 presentation at Microsoft Build 2019
@@ -83,7 +83,9 @@ WSL Containers (WSLC) refers to container workflows and tooling built around WSL
 
 ### 7. Emulation
 
-Windows Subsystem for Linux is not an emulator or virtualizer like [VirtualBox](https://www.virtualbox.org). WSL1 is closer in its approach to [Wine](https://www.winehq.org) which is a compatibility layer to run Windows binaries on Linux by re-implementing Windows system and API calls in libraries.
+Windows Subsystem for Linux 1 is not an emulator or virtualizer like [VirtualBox](https://www.virtualbox.org). WSL1 is closer in its approach to [Wine](https://www.winehq.org) which is a compatibility layer to run Windows binaries on Linux by re-implementing Windows system and API calls in libraries.
+
+WSL2 is a virtualizer [WSL 2 FAQ (requires Virtual Machine Platform / Hyper-V virtualization)](https://learn.microsoft.com/en-us/windows/wsl/faq), requiring hardware virtualization
 
 ### 8. Details
 
@@ -111,7 +113,12 @@ WSL is undoubtedly a tool for power-users, developers, and *NIX/Linux geeks who 
 
 ### 11. GUI Apps
 
-Yes, a [suprising number](https://github.com/ethanhs/WSL-Programs) of Linux GUI apps can run on WSL. GUI applications are officially supported on WSL2 with Windows Insider Preview since Windows 10 Insider Preview build 21286. It will also be available in Windows 10's fall 2021 release, and Windows 11. The GUI capabilities of WSL2 are informally referred to as WSLg.
+Yes, a suprising number of Linux GUI apps can run on WSL1 and WSL2. GUI applications are officially supported on WSL2 with Windows Insider Preview since Windows 10 Insider Preview build 21286. It will also be available in Windows 10's fall 2021 release, and Windows 11. 
+
+The GUI capabilities of WSL1 is supoprted by
+- [xvfsvr](https://sourceforge.net/projects/vcxsrv/) allows remote UI to windows
+- [Wayland WebGPU Composer](https://github.com/tamusjroyce/wayland-webgpu-composer-wsl1) allows Wayland UI into WebGPU on Windows (2026-10-04, TamusJRoyce)
+The GUI capabilities of WSL2 are informally referred to as WSLg
 
 If you have an earlier release of Windows 10, then running a GUI app on WSL requires an operational X server on Windows. This must be downloaded, installed, and running for your GUI app to open from WSL; or it will complain that it cannot find a display. X servers for Windows include [X410](https://apps.microsoft.com/store/detail/x410/9NLP712ZMN9Q) 💰 (very highly recommended), [VcXsrv](https://sourceforge.net/projects/vcxsrv/), [GWSL](https://www.microsoft.com/store/apps/9NL6KD1H33V3), or [Xming](https://sourceforge.net/projects/xming/) on Windows 10.
 
@@ -164,8 +171,8 @@ Because WSL allows developers to run a variety of Linux server applications loca
 - [Setting Up Windows for Web Development](https://blog.cloudboost.io/setting-up-windows-for-web-development-28483d245a82).
 - [How to Install LAMP Stack Server on Windows Subsystem Linux](https://medium.com/@ssharizal/how-to-install-lamp-stack-server-on-windows-subsystem-linux-wsl-windows-10-133419c22473).
 
-#### CUDA Development on WSL
-WSL allows for CUDA usage in the Linux environment for machine learning, intense mathematics or related uses. In order to activate CUDA inside WSL, Windows 11 or Windows 10 with version 21H2 support is required. [WSL2](#5-wsl2) is required along with the 5.10 kernel which is available through `wsl --update` command.
+#### CUDA Development on WSL2
+WSL2 allows for CUDA usage in the Linux environment for machine learning, intense mathematics or related uses. In order to activate CUDA inside WSL2, Windows 11 or Windows 10 with version 21H2 support is required. [WSL2](#5-wsl2) is required along with the 5.10 kernel which is available through `wsl --update` command.
  - [CUDA drivers and toolkit](https://developer.nvidia.com/cuda-toolkit) are required to be installed on Windows. 11.7 is recommended.
  - [Section 3](https://docs.nvidia.com/cuda/wsl-user-guide/index.html) will instruct how to install the CUDA requirements inside WSL. **Do not install a driver inside WSL.** The Windows driver will be used through the 5.10 kernel.
   
