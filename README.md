@@ -384,6 +384,7 @@ An X server running on Windows is required for running Linux GUI apps on Windows
 - [Files](https://github.com/files-community/Files) - A modern file explorer that supports WSL filesystem. ![github project][githublogo]
 - [easyWSL](https://github.com/redcode-labs/easyWSL) - Use any Docker image as a WSL distro. ![github project][githublogo]
 - [setup-wsl](https://github.com/Vampire/setup-wsl) - A GitHub action to install and setup a Linux distribution for the Windows Subsystem for Linux (WSL). ![github project][githublogo]
+- [weaselway](https://github.com/weaselway/weaselway) - A GPU-accelerated Linux desktop (GNOME, Plasma, or another Wayland compositor) shown in a window on Windows. Released as NixOS-WSL images; also installs into Ubuntu and Arch Linux distros. ![github project][githublogo]
 
 ## Books
 
