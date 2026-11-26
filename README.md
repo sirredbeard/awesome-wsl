@@ -349,6 +349,7 @@ An X server running on Windows is required for running Linux GUI apps on Windows
 . ![github project][githublogo]
 - [WslShortcut](//github.com/HanabishiRecca/WslShortcut) - Run WSL commands directly in Windows. Also allows to use WSL `git`/`node`/etc. in **Visual Studio Code** or another software. Combines functionality of utilities like [`wslgit`](//github.com/andy-5/wslgit), [`wslnodejs`](//github.com/snooopcatt/wslnodejs), [`wslexec`](//github.com/int128/wslexec) etc. with simpler usage. ![github project][githublogo]
 - [community.wsl.sdk](https://github.com/Gitii/community.wsl.sdk) - SDK for Windows Subsystem for Linux for .NET 5, 6 and Standard 2.1 ![github project][githublogo]
+- [wslim](https://github.com/4riful/wslim) - Find what WSL can safely let go of (package and build caches, old tool versions, Docker leftovers), clean it with a preview, then compact the `ext4.vhdx` with diskpart so the space returns to Windows. Works on Windows Home. GUI and CLI. ![github project][githublogo]
 - [wslu](https://github.com/wslutilities/wslu) - A collection of utilities for Windows 10 Linux Subsystem, such as enabling sound in WSL and creating your favorite linux GUI application shortcuts on Windows 10. ![github project][githublogo]
 - [wslpy](https://github.com/wslutilities/wslpy) - A Python3 library for WSL specific tasks. ![github project][githublogo]
 - [wsl-vpnkit](https://github.com/sakai135/wsl-vpnkit) - Script providing network connectivity to WSL 2 when blocked by VPN. ![github project][githublogo]
